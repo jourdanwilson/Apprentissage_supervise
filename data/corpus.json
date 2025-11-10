@@ -1,0 +1,2235 @@
+[
+  {
+    "id": 7,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: s- je suis resté sur Saint-Marceau ça fait deux ans et demi que je suis à Saint-Marceau Locuteur 1: d'accord Locuteur 1: d'accord Locuteur 1: et euh là qu'est-ce qui vous a amené à vivre à Orléans en fait ? Locuteur 2: bah des soucis personnels on va dire et une formation professionnelle aussi qu'il fallait que je vienne faire ici Locuteur 1: d'accord Locuteur 2: donc c'est le principal truc euh Locuteur 1: da- Locuteur 2: qui fait que je suis venu ici Locuteur 1: d'accord d'accord Question: Locuteur 1: avant sur Blois et tout c'était vos parents toute votre famille et tout ça non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 8,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: d'accord Locuteur 2: donc c'est le principal truc euh Locuteur 1: da- Locuteur 2: qui fait que je suis venu ici Locuteur 1: d'accord d'accord Locuteur 1: avant sur Blois et tout c'était vos parents toute votre famille et tout ça non ? Locuteur 1: qui qui habitaient par là Locuteur 2: juste euh mes parents Locuteur 1: juste Locuteur 2: ouais Question: Locuteur 1: OK eux eux eux ils habitaient Blois depuis longtemps ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 12,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: y a aucun soucis mais ils faisaient quoi comme type de boulot ? Locuteur 1: euh Locuteur 2: mon père Locuteur 2: il est informaticien et ma mère euh elle travaille à EDF Locuteur 1: d'accord Locuteur 1: d'accord donc Blois Locuteur 1: puis vous euh vous vous ici euh euh Locuteur 1: et alors le quartier là ça vous plaît ? Locuteur 2: bah ouais ça me convient Locuteur 2: c'est provisoire mais Question: Locuteur 1: c'est provisoire ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 13,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: euh Locuteur 2: mon père Locuteur 2: il est informaticien et ma mère euh elle travaille à EDF Locuteur 1: d'accord Locuteur 1: d'accord donc Blois Locuteur 1: puis vous euh vous vous ici euh euh Locuteur 1: et alors le quartier là ça vous plaît ? Locuteur 2: bah ouais ça me convient Locuteur 2: c'est provisoire mais Locuteur 1: c'est provisoire ? Question: Locuteur 1: c'est pas un quartier où vous voulez rester euh si ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 24,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais ouais ouais Locuteur 1: non il en- il envoie pas sur un autre chantier ou un truc comme ça euh Locuteur 2: bah non parce que en général euh Locuteur 2: vu que on est six euh équipes de trois euh Locuteur 2: si on va sur un autre chantier on va être de trop on va se gêner ça va pas être utile Locuteur 2: autant rentrer chez soi bah tant pis on refera une heure plus tard et puis voilà Locuteur 1: ah ouais Locuteur 1: et il met que des jeunes ou il met euh Locuteur 1: des gars qui ont l'expérience avec des jeunes il mixe ou il Locuteur 2: non bah euh Question: Locuteur 1: et y a des anciens dans le truc ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 31,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: et puis euh voilà Locuteur 2: c'est tout c'est le seul truc qu'y a à faire après bah c'est paperasse pour euh Locuteur 2: création de société et puis bah Locuteur 2: à la personne de se débrouiller pour euh Locuteur 2: créer son truc Locuteur 1: et créer une société euh dans le bâtiment ça non ? Locuteur 1: pour être euh Locuteur 2: non du tout Locuteur 1: non Locuteur 2: hors de question Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 34,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais ouais ouais je vois Auchan Olivet ouais Locuteur 2: hm Locuteur 1: toujours Locuteur 1: et donc pour euh Locuteur 1: qu'est-ce qu'y a d'autres dans le quartier ouais non p- rien la petite boucherie machin et tout ça euh non Locuteur 2: si boucherie ouais de temps en temps Locuteur 2: sinon y a quoi bah y en a un il a fermé Locuteur 2: le tabac pour euh les Locuteur 2: timbres Locuteur 1: les merguez il faisait les merguez ici un temps Question: Locuteur 2: ouais la boucherie halal ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 38,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: je paye déjà assez cher de loyer pour le HLM alors euh je fais intervenir Locuteur 2: ah oui ici ils font tout ouais ouais ouais ah y a pas dec- non Locuteur 1: mais la peinture tout ça c'est fait euh Locuteur 1: là quand ils ont refait c'est eux qu'on qui refont tout ? Locuteur 2: ouais ça se voit hein Locuteur 2: c'est cloqué comme pas possible Locuteur 1: y a du euh Locuteur 1: de la fibre de et c'est de la fibre de verre ça Locuteur 2: y a du beau ouais Locuteur 2: ouais de la toile de verre Question: Locuteur 1: oh là l'oeil du pro c'est que c'est mal fait ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 43,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: c'est un décodeur HD ça Locuteur 1: c'est des trucs euh Locuteur 2: ouais bah c'est ce qui est marqué mais euh Locuteur 1: mais ouais ça donne euh Locuteur 2: HD je sais pas d'où il sort parce que Locuteur 2: pas terrible Locuteur 1: donc euh Locuteur 1: des films de temps en temps non des petits euh Locuteur 1: non Locuteur 2: mouais de temps en temps mais madame elle aime pas trop euh Question: Locuteur 1: non lo- location de DVD ou trucs comme ça ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 44,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: c'est des trucs euh Locuteur 2: ouais bah c'est ce qui est marqué mais euh Locuteur 1: mais ouais ça donne euh Locuteur 2: HD je sais pas d'où il sort parce que Locuteur 2: pas terrible Locuteur 1: donc euh Locuteur 1: des films de temps en temps non des petits euh Locuteur 1: non Locuteur 2: mouais de temps en temps mais madame elle aime pas trop euh Locuteur 1: non lo- location de DVD ou trucs comme ça ? Question: Locuteur 1: les films ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 45,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ouais bah c'est ce qui est marqué mais euh Locuteur 1: mais ouais ça donne euh Locuteur 2: HD je sais pas d'où il sort parce que Locuteur 2: pas terrible Locuteur 1: donc euh Locuteur 1: des films de temps en temps non des petits euh Locuteur 1: non Locuteur 2: mouais de temps en temps mais madame elle aime pas trop euh Locuteur 1: non lo- location de DVD ou trucs comme ça ? Locuteur 1: les films ? Question: Locuteur 1: donc euh elle elle autorise pas ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 53,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais ouais ouais Locuteur 1: d'accord Locuteur 1: et après euh d- bah oui le ty- le le type de sites et puis les euh Locuteur 1: des films et tout justement de en téléchargement et en en &streaming ? Locuteur 2: bah téléchargement bof Locuteur 2: parce que le PC il commence à se faire vieux et il a du mal mais Locuteur 1: non Locuteur 2: ouais &streaming de temps en temps Locuteur 1: d'accord Locuteur 1: ce type euh Question: Locuteur 1: pas de console de jeux non plus ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 58,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: enfin j'aime bien mais faut vraiment que ça que ça Locuteur 2: qu'il soit bien fait et que ça soit dans mon truc quoi Locuteur 1: ouais Locuteur 1: et dans mon truc c'est quoi ? Locuteur 1: c'est plutôt voiture Locuteur 2: voitures quads motos ouais Locuteur 1: et voiture euh qu- euh émissions de télé euh Locuteur 1: émissions de tuning Locuteur 1: et tout ça non non s- des vrais Locuteur 2: ah non alors ça hors de questions non voitures des vraies pas des trucs de Jacky là Question: Locuteur 1: d'accord c'est quoi les vrais alors ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 75,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ah ouais ouais y en a un là ? Locuteur 2: hm Locuteur 1: qui est où juste y a y a une brasserie après un truc euh Locuteur 2: ça va il est pas mal Locuteur 1: non ? Locuteur 1: ouais Locuteur 2: euh mais la brasserie elle est route d'Olivet Locuteur 2: dans et à l'angle il est sur le parking Locuteur 1: ouais et le Croc' machin il est où ? Locuteur 2: y a y a deux trois trucs et il est là Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 76,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: hm Locuteur 1: qui est où juste y a y a une brasserie après un truc euh Locuteur 2: ça va il est pas mal Locuteur 1: non ? Locuteur 1: ouais Locuteur 2: euh mais la brasserie elle est route d'Olivet Locuteur 2: dans et à l'angle il est sur le parking Locuteur 1: ouais et le Croc' machin il est où ? Locuteur 2: y a y a deux trois trucs et il est là Locuteur 1: ah bon ? Question: Locuteur 1: &shawarma frites ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 86,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: non dans Orléans y a pas grand chose d'autre à faire si ? Locuteur 2: bah si y a plein de choses si bowling de temps à autres Locuteur 2: j'aime bien Locuteur 1: ah ouais Locuteur 2: pareil faut trouver le monde qui est &opé- pour suivre ou Locuteur 1: hm Locuteur 2: sinon bah Locuteur 2: je sais pas y a quoi ? Locuteur 1: bowling euh Olivet ou Saran ? Locuteur 2: hm hm pff Question: Locuteur 1: n'importe ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 92,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: euh Locuteur 1: oh les trucs après style euh Locuteur 1: Jardin des Plantes Parc Pasteur machin c'est un truc euh Locuteur 1: faut avoir des enfants pour ça Locuteur 2: non Locuteur 2: si l'île Charlemagne Locuteur 2: l'été Locuteur 1: l'île Charlemagne ouais Locuteur 2: l'été hein Locuteur 1: ouais ouais Question: Locuteur 1: p- y compris pour la baignade ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 99,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: hm Locuteur 1: j'adore moi ça aller en Corse Locuteur 2: ouais c'est bien hein Locuteur 1: moi je connaissais pas mais ça fait euh deux trois ans qu'on y va Locuteur 1: moi j'y vais avec mes enfants Locuteur 2: où ça ? Locuteur 1: en Corse bah ça dépend là là cet été on était où cet été ? Locuteur 1: cet été on fait vers le le Cap Corse vers le haut Locuteur 1: vers les montagnes là vers Corte Locuteur 1: et puis euh vers Calvi Question: Locuteur 2: vous avez pas fait Porticcio tout ça ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 101,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: cet été on fait vers le le Cap Corse vers le haut Locuteur 1: vers les montagnes là vers Corte Locuteur 1: et puis euh vers Calvi Locuteur 2: vous avez pas fait Porticcio tout ça ? Locuteur 1: Porticcio c'est où ? Locuteur 1: ça c'est en Locuteur 2: dans le Golfe d'Ajaccio Locuteur 1: c'est vers Ajaccio non ça c'est non j'ai Locuteur 1: j'ai pas fait Locuteur 2: oh faut faire Question: Locuteur 1: c'est vrai ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 109,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: d'accord et là sur Orléans sur les euh Locuteur 1: les euh Locuteur 1: télés locales euh trucs comme ça c'est euh Locuteur 1: y avait là Locuteur 1: mais je crois qu'ils ont Locuteur 1: je sais plus où ils en sont Orléans Télé Locuteur 2: Orléans Télé Locuteur 1: je suis Locuteur 2: ouais l'antenne elle est à Saran Locuteur 1: ah ouais Question: Locuteur 1: mais j- ils ont pas arrêté là non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 119,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: euh un plat en plutôt un plat hyper simple Locuteur 1: avec leur idée c'est de demander à chaque personne comment il faisait une omelette Locuteur 1: d'où d'où ma question là Locuteur 1: est-ce que Locuteur 1: est-ce que vous faites des omelettes des fois Locuteur 1: et et si oui ou même si non est-ce que vous pouvez me raconter la recette de l'omelette Locuteur 2: très rarement parce que Locuteur 2: j'aime les oeufs mais pas en omelette en fait tout sauf les omelettes Locuteur 2: sinon bah je sais pas bah on casse des oeufs on bat et puis voilà Locuteur 2: ça fait une omelette un peu de beurre sel poivre Question: Locuteur 2: c'est ça ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 126,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: si on trouve un nom on le retire et on met un bip à la place Locuteur 2: euh Locuteur 1: donc là après je sais pas s- Locuteur 1: je sais plus ce qu'y a marqué sur le truc Locuteur 2: je mets l'adresse ? Locuteur 1: après euh ouais là l'adresse c'est pour qu'on puisse envoyer le CD et des trucs comme ça Locuteur 1: c'est pas une obligation hein Locuteur 1: n'importe Locuteur 2: ouais mais je vous fais confiance Locuteur 1: d'accord n'importe Question: Locuteur 2: tu veux tu veux tu veux te marrer non ou ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 127,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: euh Locuteur 1: donc là après je sais pas s- Locuteur 1: je sais plus ce qu'y a marqué sur le truc Locuteur 2: je mets l'adresse ? Locuteur 1: après euh ouais là l'adresse c'est pour qu'on puisse envoyer le CD et des trucs comme ça Locuteur 1: c'est pas une obligation hein Locuteur 1: n'importe Locuteur 2: ouais mais je vous fais confiance Locuteur 1: d'accord n'importe Locuteur 2: tu veux tu veux tu veux te marrer non ou ? Question: Locuteur 2: tu veux rigoler non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 130,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: donc euh Locuteur 1: peut-être pour commencer une euh Locuteur 1: vous pourriez euh Locuteur 1: me parler un petit peu de votre parcours euh personnel et enfin Locuteur 2: hm Question: Locuteur 1: depuis combien de temps est-ce que vous êtes originaire d'Orléans ou de sa région ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 132,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: donc à Paris j'en avais pas forcément besoin bon Locuteur 2: nous on habitait Locuteur 1: non Locuteur 2: alors ensuite on s'était rapproché de Paris on habitait Villemont Locuteur 2: c'est une banlieue un peu plus Locuteur 2: plus chic quand même Locuteur 1: oui Locuteur 2: et puis on avait des ambitions oui de d'autres choses en fait Locuteur 2: donc euh on est arrivé ici euh ouh là moi ça a été le choc Locuteur 2: pour moi ouais Question: Locuteur 1: parce que vous vous aviez toujours vécu euh ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 133,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: et puis on avait des ambitions oui de d'autres choses en fait Locuteur 2: donc euh on est arrivé ici euh ouh là moi ça a été le choc Locuteur 2: pour moi ouais Locuteur 1: parce que vous vous aviez toujours vécu euh ? Locuteur 2: bah j'avais pas besoin de voiture enfin j'utilisais beaucoup les transports en commun euh Locuteur 1: en ban- enfin dans la ville ou euh oui oui Locuteur 2: j'avais tout réseau amical là-bas euh bah lui aussi mais bon euh Locuteur 2: d'un seul coup moi je suis arrivée ici sans travail Locuteur 1: oui en plus Locuteur 2: je me suis retrouvée dans une maison en pleine campagne on l'avait choisie hein je Question: Locuteur 2: mais je me suis dit ouh là est-ce que tu as bien réfléchi ? et puis voilà et puis",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 134,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: donc euh on est arrivé ici euh ouh là moi ça a été le choc Locuteur 2: pour moi ouais Locuteur 1: parce que vous vous aviez toujours vécu euh ? Locuteur 2: bah j'avais pas besoin de voiture enfin j'utilisais beaucoup les transports en commun euh Locuteur 1: en ban- enfin dans la ville ou euh oui oui Locuteur 2: j'avais tout réseau amical là-bas euh bah lui aussi mais bon euh Locuteur 2: d'un seul coup moi je suis arrivée ici sans travail Locuteur 1: oui en plus Locuteur 2: je me suis retrouvée dans une maison en pleine campagne on l'avait choisie hein je Locuteur 2: mais je me suis dit ouh là est-ce que tu as bien réfléchi ? et puis voilà et puis Question: Locuteur 2: est-ce une bonne idée ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 144,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: travail en même temps ? d'accord Locuteur 2: bah ouais bah ouais Locuteur 2: donc j'ai des jours de dégagés pour aller en formation Locuteur 2: mais tout ce qui est euh travail euh sur les écrits mes lectures Locuteur 2: bah c'est sur mon temps perso Locuteur 1: et ouais ouais ouais ouais Locuteur 2: donc Locuteur 2: euh des fois euh Locuteur 1: oui c'est lourd quoi Locuteur 2: ouais à force j'ai envie de faire autre chose ouais je suis en deuxième année Question: Locuteur 1: hm et c'est deux ans la formation ? ouais d'accord donc à la fin de l'année c'est",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 149,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: on prend une journée on part le matin Locuteur 2: en train euh Locuteur 1: d'accord d'accord Locuteur 2: on visite euh Locuteur 2: là on est proche de ouais proche Locuteur 1: bah ça c'est c'est vrai que c'est un avantage euh d'Orléans hein c'est euh Locuteur 2: mais bon euh le train ou moi la voiture je suis beaucoup voiture Locuteur 1: d'accord Locuteur 2: non moi je suis Locuteur 2: pas transports du tout Question: Locuteur 1: même pour aller à Paris ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 1,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: alors Locuteur 2: marche bien au moins votre truc euh Question: Locuteur 1: là ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 2,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: tout simplement sur euh Locuteur 1: sur une question sur euh bah depuis quand vous habitez euh là dans l- dans le quartier par exemple Locuteur 2: ici ça fait euh Locuteur 2: un an un peu plus d- entre un an et un an et demi Locuteur 2: avant j'étais euh un peu plus bas Locuteur 1: oui Locuteur 1: et euh et à Orléans c'est v- Locuteur 2: Orléans ça fait deux ans et demi un truc comme ça Locuteur 2: ouais deux ans et demi Locuteur 1: d'accord Question: Locuteur 1: et avant Orléans ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 3,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ouais deux ans et demi Locuteur 1: d'accord Locuteur 1: et avant Orléans ? Locuteur 2: Blois enfin à côté de Blois Locuteur 1: ah ouais Locuteur 1: Blois euh là c'est euh Locuteur 1: et avant Blois c'est que vous êtes né de Locuteur 1: né à Blois ou Locuteur 2: non je suis natif de Blois Locuteur 1: ah de Blois Question: Locuteur 1: ou de Blois ou de près de Blois ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 4,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: à Blois euh enfin Locuteur 2: s- à dix minutes de Blois sud quoi Locuteur 1: ouais Locuteur 2: voilà Locuteur 1: d'accord vers Locuteur 1: quand j- qu'est-ce que je connais par là Locuteur 1: euh Locuteur 2: après Chambord Locuteur 1: euh Locuteur 2: Vineuil Question: Locuteur 1: Villerbon non ? tout ça non",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 5,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: bah Cléry après c'est Saint-Laurent Locuteur 1: ouais Locuteur 1: après Locuteur 2: après c'est Locuteur 1: euh Locuteur 2: Muides Locuteur 1: parce que j'ai des copains de ma fille qui qui habitaient par là j'étais pas Locuteur 1: j'étais souvent par là Locuteur 1: euh donc Orléans bon peu importe Locuteur 1: Orléans euh deux ans deux ans et demi Question: Locuteur 1: c'est ça ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 6,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: euh donc Orléans bon peu importe Locuteur 1: Orléans euh deux ans deux ans et demi Locuteur 1: c'est ça ? Locuteur 2: ouais Locuteur 1: et puis euh hm Locuteur 1: ici depuis euh de- depuis un an dans Locuteur 2: bah ouais avant euh j'étais quatre cents mètres plus bas mais Locuteur 2: s- je suis resté sur Saint-Marceau ça fait deux ans et demi que je suis à Saint-Marceau Locuteur 1: d'accord Locuteur 1: d'accord Question: Locuteur 1: et euh là qu'est-ce qui vous a amené à vivre à Orléans en fait ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 9,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: avant sur Blois et tout c'était vos parents toute votre famille et tout ça non ? Locuteur 1: qui qui habitaient par là Locuteur 2: juste euh mes parents Locuteur 1: juste Locuteur 2: ouais Locuteur 1: OK eux eux eux ils habitaient Blois depuis longtemps ? Locuteur 2: bah ça faisait Locuteur 2: euh Locuteur 2: je sais pas à l'époque ça faisait Locuteur 2: plus d'une vingtaine ouais une vingtaine d'années on va dire Question: Locuteur 1: donc ils sont pas ils sont pas nés là-bas ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 10,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: OK eux eux eux ils habitaient Blois depuis longtemps ? Locuteur 2: bah ça faisait Locuteur 2: euh Locuteur 2: je sais pas à l'époque ça faisait Locuteur 2: plus d'une vingtaine ouais une vingtaine d'années on va dire Locuteur 1: donc ils sont pas ils sont pas nés là-bas ? Locuteur 2: non Locuteur 1: non non Locuteur 1: ah ils sont Locuteur 1: et euh juste com- s- enfin vous me répondez que si vous voulez euh Question: Locuteur 1: y a aucun soucis mais ils faisaient quoi comme type de boulot ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 11,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: non non Locuteur 1: ah ils sont Locuteur 1: et euh juste com- s- enfin vous me répondez que si vous voulez euh Locuteur 1: y a aucun soucis mais ils faisaient quoi comme type de boulot ? Locuteur 1: euh Locuteur 2: mon père Locuteur 2: il est informaticien et ma mère euh elle travaille à EDF Locuteur 1: d'accord Locuteur 1: d'accord donc Blois Locuteur 1: puis vous euh vous vous ici euh euh Question: Locuteur 1: et alors le quartier là ça vous plaît ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 14,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais Locuteur 2: l'opportunité d'aller ailleurs bah je le ferai Locuteur 1: d'accord Locuteur 1: et dans ce cas-là une maison c'est plutôt une maison euh Locuteur 1: en ville ou euh Locuteur 2: bah pas pas centre ville mais pas isolée à la campagne non plus Locuteur 1: ouais pas isolée à la campagne Locuteur 1: non plus non Locuteur 2: non Locuteur 1: mais avec de quoi avoir un peu de terrain un truc comme ça Question: Locuteur 1: non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 15,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: et puis pour nous c'est pas donné Locuteur 1: faut pas Locuteur 1: bah pour tout le monde hein faut pas les payer c'est Locuteur 1: c'est Locuteur 2: hm Locuteur 1: c'est chaud hein ouais Locuteur 1: ça serait plutôt un truc à construire ou plutôt euh Locuteur 2: moi moi si je fais je fais Locuteur 2: euh vu que je suis de la partie euh Locuteur 2: je ferais faire le gros oeuvre et je ferais le reste Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 16,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: bah pour tout le monde hein faut pas les payer c'est Locuteur 1: c'est Locuteur 2: hm Locuteur 1: c'est chaud hein ouais Locuteur 1: ça serait plutôt un truc à construire ou plutôt euh Locuteur 2: moi moi si je fais je fais Locuteur 2: euh vu que je suis de la partie euh Locuteur 2: je ferais faire le gros oeuvre et je ferais le reste Locuteur 1: ah ouais ? Locuteur 2: ouais Question: Locuteur 1: hm parce que donc votre boulot votre boulot c'est quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 17,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: tout Locuteur 2: bah j'ai enchaîné divers euh Locuteur 2: divers euh types d'emplois donc euh Locuteur 1: d'accord Locuteur 2: j- j'ai fait Locuteur 2: une formation où je suis amené en fait à Locuteur 2: à être capable de poser tout ce qui est de l'aménagement intérieur en Locuteur 2: en finitions Locuteur 1: et la formation c'est c'est Locuteur 1: c'est quoi ce qui permet de faire ça Question: Locuteur 1: comme formation ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 18,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: à être capable de poser tout ce qui est de l'aménagement intérieur en Locuteur 2: en finitions Locuteur 1: et la formation c'est c'est Locuteur 1: c'est quoi ce qui permet de faire ça Locuteur 1: comme formation ? Locuteur 2: s- c'était un Locuteur 2: l'équivalent d'un CAP en fait ça s'appelle PMAI c'est Poseur de Menuiseries et d'Aménagements Intérieurs Locuteur 2: à l'Afpa Locuteur 1: d'accord Locuteur 2: à Olivet Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 19,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: et la formation c'est c'est Locuteur 1: c'est quoi ce qui permet de faire ça Locuteur 1: comme formation ? Locuteur 2: s- c'était un Locuteur 2: l'équivalent d'un CAP en fait ça s'appelle PMAI c'est Poseur de Menuiseries et d'Aménagements Intérieurs Locuteur 2: à l'Afpa Locuteur 1: d'accord Locuteur 2: à Olivet Locuteur 1: ah ouais ? Locuteur 2: hm Question: Locuteur 1: d'accord ça c'est fait à l'Afpa ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 20,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: quoi alors Locuteur 2: non Locuteur 2: sur du neuf par contre pas de réno- Locuteur 2: pas de rénovation Locuteur 1: non Locuteur 1: euh Locuteur 1: ça sera Locuteur 1: y en a plein des euh Locuteur 1: enfin y en a plein d- des entreprises de rénovation et tout sur Orléans Locuteur 1: justement qui qui bossent beaucoup ça sur le Question: Locuteur 1: sur les vieilles maisons dans dans la ville non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 21,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: après je peux pas vous dire Locuteur 1: d'accord ouais ouais ouais ouais ouais non d'accord Locuteur 1: donc là euh Locuteur 1: là vous là vous bossez dans une boîte qui fait euh Locuteur 2: là c'est une boîte de finitions dans laquelle je suis en ce moment c'est tout ce qui est Locuteur 2: tout ce qui est des des murs euh Locuteur 2: euh pose de pose de toile pose de papier peint peinture Locuteur 2: et euh tout ce qui est des sols finitions donc euh parquet strat- Locuteur 2: carrelage lino- Locuteur 2: et euh Question: Locuteur 2: y a quoi d'autre ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 22,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: là c'est une boîte de finitions dans laquelle je suis en ce moment c'est tout ce qui est Locuteur 2: tout ce qui est des des murs euh Locuteur 2: euh pose de pose de toile pose de papier peint peinture Locuteur 2: et euh tout ce qui est des sols finitions donc euh parquet strat- Locuteur 2: carrelage lino- Locuteur 2: et euh Locuteur 2: y a quoi d'autre ? Locuteur 2: faïence des bandes euh de temps en temps si derrière un chantier de placo y a de la bande à faire Locuteur 2: éventuellement on va sous-traiter un chantier de placo Locuteur 2: donc voilà Question: Locuteur 1: et euh c'est une grosse boîte ça ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 23,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: qui font confiance qui sont sur le terrain aussi eux qui font le truc ou Locuteur 2: bah moi mon patron euh Locuteur 2: ouais je sais qu'avant il Locuteur 2: quand il a démarré sa société il travaillait maintenant il est Locuteur 2: il essaie de gérer plus les chantiers parce que l'effectif il augmente et Locuteur 2: bah normal au bout d'un moment il veut se poser quoi c'est un peu le but aussi quand on a une société Locuteur 2: donc voilà Locuteur 1: et Locuteur 1: p- pou- pour voir un peu comment Locuteur 1: comment comment ça se passe euh je peux vous demander d- Question: Locuteur 1: u- une journée de travail quoi en gros ça se passe comment ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 26,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais ah bon ? Locuteur 2: sinon ce travail-là me plaît et cette entreprise me convient jusqu'à présent donc euh Locuteur 2: on verra Locuteur 1: alors c'est quoi le projet professionnel Locuteur 1: si je peux Locuteur 2: j'aimerais bien Locuteur 2: faire euh camion-pizza Locuteur 1: ah oui Locuteur 2: hm Locuteur 1: d'accord Question: Locuteur 1: et euh ça ça passe par une autre euh ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 27,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: on verra Locuteur 1: alors c'est quoi le projet professionnel Locuteur 1: si je peux Locuteur 2: j'aimerais bien Locuteur 2: faire euh camion-pizza Locuteur 1: ah oui Locuteur 2: hm Locuteur 1: d'accord Locuteur 1: et euh ça ça passe par une autre euh ? Locuteur 2: non bah y a une forma- Question: Locuteur 1: non non faut une formation ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 28,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: faire euh camion-pizza Locuteur 1: ah oui Locuteur 2: hm Locuteur 1: d'accord Locuteur 1: et euh ça ça passe par une autre euh ? Locuteur 2: non bah y a une forma- Locuteur 1: non non faut une formation ? Locuteur 2: y a une formation euh obligatoire euh pour le fait que euh on a pas le droit en France d'exercer un métier euh Locuteur 2: dans lequel on a aucune aptitude mais Locuteur 2: euh Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 29,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais y a des saisons euh Locuteur 2: dans leur coin euh huit mois de l'année Locuteur 2: puis les quatre mois l'été ils partent euh Locuteur 2: sur la côte Locuteur 2: ou ailleurs et ils font mais j'ai aucune expérience Locuteur 1: ouais au au bout d'un camping ou un truc comme ça Locuteur 2: dans le domaine pour le moment c'est un projet donc euh Locuteur 2: on verra Locuteur 1: d'accord Locuteur 1: il se passe ouais ouais y- y a une formation Afpa non justement Question: Locuteur 1: là-dessus non du tout ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 30,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: non du tout c'est Locuteur 1: non Locuteur 2: je sais pas c'est une formation Locuteur 2: de quinze jours euh Locuteur 2: faut s'inscrire en fait c'est une sorte de stage obligatoire Locuteur 2: et puis euh voilà Locuteur 2: c'est tout c'est le seul truc qu'y a à faire après bah c'est paperasse pour euh Locuteur 2: création de société et puis bah Locuteur 2: à la personne de se débrouiller pour euh Locuteur 2: créer son truc Question: Locuteur 1: et créer une société euh dans le bâtiment ça non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 32,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: et puis faut de l'argent donc on va faire autre chose Locuteur 1: ouais ouais ouais ouais ouais c'est Locuteur 1: ça se fait comme ça Locuteur 1: ça c'est Locuteur 1: non mais c'est vrai que c'est euh Locuteur 1: c'est souvent lié aux parents aussi le enfin y a des moments comme ça Locuteur 2: c'était ouais c'était pas une histoire d'influence Locuteur 2: c'était pour euh surtout pas décevoir et redécevoir donc euh Locuteur 2: je me suis dit ça fait carré de faire ça je vais y aller et puis au final ça m'a pas plu du tout Locuteur 2: puis voilà Question: Locuteur 1: et si un jour vous avez des enfants vous avez envie qu'ils fassent quoi comme type de boulot ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 33,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: je dis que ça a toujours des in- ça a toujours des influences Locuteur 1: ce que disent les parents sur euh Locuteur 1: sur les enfants quoi Locuteur 2: ouais c'est sûr bah Locuteur 2: ce qui Locuteur 2: la mère ou le père euh pas ê- était nul à l'école qui a pas de diplôme il va vous dire va travailler à l'école Locuteur 2: mais c'est pas forcément Locuteur 2: bénéfique enfin Locuteur 1: ouais ouais ouais s- s- enfin c'est pas toujours comme ça Locuteur 1: ouais non ça hm Question: Locuteur 1: ça l'école l'école c'est des bons souvenirs ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 35,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: hm Locuteur 1: toujours Locuteur 1: et donc pour euh Locuteur 1: qu'est-ce qu'y a d'autres dans le quartier ouais non p- rien la petite boucherie machin et tout ça euh non Locuteur 2: si boucherie ouais de temps en temps Locuteur 2: sinon y a quoi bah y en a un il a fermé Locuteur 2: le tabac pour euh les Locuteur 2: timbres Locuteur 1: les merguez il faisait les merguez ici un temps Locuteur 2: ouais la boucherie halal ? Question: Locuteur 1: non il fait pas les merguez ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 36,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: timbres Locuteur 1: les merguez il faisait les merguez ici un temps Locuteur 2: ouais la boucherie halal ? Locuteur 1: non il fait pas les merguez ? Locuteur 2: bah ouais il fait toujours Locuteur 1: ouais Locuteur 1: ouais Locuteur 1: ouais ça Locuteur 2: de temps en temps on y va Locuteur 2: sinon y a quoi je sais pas le toilettage de chien Question: Locuteur 1: ah ouais vous avez pas de chien si ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 37,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: donc euh et dans le quart- ba- k- y a pas grand chose d'autre dans l- n- dans le quartier Locuteur 1: après si on regarde euh plutôt euh Locuteur 1: euh Locuteur 1: o- Locuteur 1: ouais plutôt l- plutôt loisirs parce que j'avais des questions aussi sur bah euh Locuteur 1: artisan enfin d- quand quand y a des fuites ou y a des machins à faire ici tout ça vous faites tout vous toute façon Locuteur 2: bah non moi je fais rien Locuteur 2: je paye déjà assez cher de loyer pour le HLM alors euh je fais intervenir Locuteur 2: ah oui ici ils font tout ouais ouais ouais ah y a pas dec- non Locuteur 1: mais la peinture tout ça c'est fait euh Question: Locuteur 1: là quand ils ont refait c'est eux qu'on qui refont tout ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 39,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: et maintenant c'est tout ça ouais Locuteur 2: sinon t- tout ce qui est re- retaper les apparts c'est Locuteur 2: ils ont deux ils ont deux trois mecs euh service technique qui font ça quoi Locuteur 1: hm hm hm Locuteur 2: ils font ce qu'ils peuvent c'est déjà pas mal Locuteur 1: d'accord Locuteur 1: d'accord Locuteur 1: donc après quand quand c'est pas le boulot Locuteur 1: parce qu'on va passer aux choses plus sympas k- quand quand c'est pas le boulot euh Locuteur 1: donc quand vous êtes pas en Question: Locuteur 1: en en travail euh le type de loisirs c'est quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 40,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ça m'arrive à l'occasion mais Locuteur 1: ouais ouais Locuteur 2: je sais pas Locuteur 1: rien c'est euh si ah c'est la télé Locuteur 1: par exemple hein Locuteur 2: non même pas Locuteur 2: ouais j'aime bien regarder des films mais même pas je me séquestre pas chez moi pour ça Locuteur 2: non je sais pas je vais traîner je vais voir des gars et Locuteur 2: voilà quoi Locuteur 2: sans plus Question: Locuteur 1: sport non pas de sport ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 41,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: hm ouais vite fait salle de sport histoire de me remuer Locuteur 1: salle de sport ouais Locuteur 1: euh Locuteur 1: non bah si quand même je reviens sur la télé bè- belle télé quand même Locuteur 1: c'est pas Locuteur 2: bah oui faut investir Locuteur 1: ça rigole pas hein Locuteur 1: ça rigole pas Locuteur 1: télé plus euh DVD euh Locuteur 2: ouais Question: Locuteur 1: non Internet c'est quoi c'est c'est la Neuf box ça ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 42,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: c'est pas Locuteur 2: bah oui faut investir Locuteur 1: ça rigole pas hein Locuteur 1: ça rigole pas Locuteur 1: télé plus euh DVD euh Locuteur 2: ouais Locuteur 1: non Internet c'est quoi c'est c'est la Neuf box ça ? Locuteur 2: ouais Locuteur 1: donc douze mille chaînes et tout ça quand même Locuteur 2: ouais mais il est pourri leur décodeur Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 46,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: nous on a hm #spk3: &streaming Locuteur 1: en &streaming #spk3: hm Locuteur 1: d'accord ah ouais ouais Locuteur 1: donc ça Locuteur 1: donc là euh pas de film pas de machin Locuteur 1: euh b- Locuteur 2: non sans plus Locuteur 2: c'est histoire d'avoir une télé correcte mais Question: Locuteur 1: des petites émissions non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 47,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "#spk3: si c'est possible y a y a de tout hein Locuteur 2: sept ans il habitait au dix-huitième il descend tout seul là s- y prend l'ascenseur #spk3: quoi Locuteur 2: tu sais le gamin-là Locuteur 2: le petit-là qui voulait taper sa tante là Locuteur 2: il était après manger il était sorti de chez l- #spk3: ah mais ça c'est pas Confessions Intimes c'est Pascal le Grand Frère Locuteur 2: mais non non c'était Super ma- Nanny là Locuteur 1: ah ah ouais Locuteur 2: ah ouais y a ça aussi bah elle est m- elle est morte Question: Locuteur 1: qui qu'est morte ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 48,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: le petit-là qui voulait taper sa tante là Locuteur 2: il était après manger il était sorti de chez l- #spk3: ah mais ça c'est pas Confessions Intimes c'est Pascal le Grand Frère Locuteur 2: mais non non c'était Super ma- Nanny là Locuteur 1: ah ah ouais Locuteur 2: ah ouais y a ça aussi bah elle est m- elle est morte Locuteur 1: qui qu'est morte ? Locuteur 2: aujourd'hui #spk3: Super Nanny Locuteur 2: cancer du poumon Question: Locuteur 1: elle est morte cette nuit ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 49,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: aujourd'hui #spk3: Super Nanny Locuteur 2: cancer du poumon Locuteur 1: elle est morte cette nuit ? Locuteur 2: hm #spk3: elle est morte Locuteur 1: ou c'est pas une vengeance d'un enfant Locuteur 1: qui euh #spk3: non Locuteur 2: non c'est vrai elle est morte Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 50,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ouais Locuteur 1: j'ai pas j'ai pas eu cette information-là moi Locuteur 1: bah ça Locuteur 1: ça va être dur pour ah bon Locuteur 1: non Confessions Intimes c'est euh des couples de jeunes euh Locuteur 1: elle qui est hyper jalouse euh Locuteur 1: le machin truc comme ça c'est ça Locuteur 1: ouais c'est ça Locuteur 2: ouais c'est ça Locuteur 1: c'est ça bon truc com- Question: Locuteur 1: donc ce type d'émissions-là à la télé les infos les trucs comme ça euh non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 51,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ah ouais Locuteur 2: bah je passe ouais je pense Locuteur 2: deux petites heures par jour quand même Locuteur 1: donc pour les mails Locuteur 2: mails et puis euh Locuteur 1: après des trucs euh Facebook euh Locuteur 1: non Twitter non rien du tout non contre Locuteur 2: ah non Facebook je suis non Facebook je s- ah ouais moi les sectes comme ça je peux pas Locuteur 2: mais ouais je sais pas non c'est je navigue quoi Locuteur 1: ah ouais après les messages c'est avec des copains des trucs euh Question: Locuteur 1: les mails non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 52,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ah ouais après les messages c'est avec des copains des trucs euh Locuteur 1: les mails non ? Locuteur 1: non mais bah non c'est surtout euh Locuteur 2: je sais pas c'est #spk3: le bon coin aussi Locuteur 2: ouais voilà les trucs comme ça Locuteur 1: ah ouais Locuteur 1: ouais ouais ouais Locuteur 1: d'accord Locuteur 1: et après euh d- bah oui le ty- le le type de sites et puis les euh Question: Locuteur 1: des films et tout justement de en téléchargement et en en &streaming ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 55,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: j'ai Locuteur 1: avec les jeux et tout ? Locuteur 2: je regrette Locuteur 2: mais je regrette que euh un jour sur dix alors euh Locuteur 1: ah ouais Locuteur 2: au final c'est pas bien grave elle est pas là elle est pas là Locuteur 1: ça prenait du temps ça non quand on Locuteur 1: commence à jouer et Locuteur 2: ouais j'avais un jeu de code il déchirait Locuteur 2: mais quand je l'ai fini après ça m'agaçais je jouais plus donc euh Question: Locuteur 1: et pas et sur Internet pas de jeux ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 56,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: mais je regrette que euh un jour sur dix alors euh Locuteur 1: ah ouais Locuteur 2: au final c'est pas bien grave elle est pas là elle est pas là Locuteur 1: ça prenait du temps ça non quand on Locuteur 1: commence à jouer et Locuteur 2: ouais j'avais un jeu de code il déchirait Locuteur 2: mais quand je l'ai fini après ça m'agaçais je jouais plus donc euh Locuteur 1: et pas et sur Internet pas de jeux ? Locuteur 2: euh non parce que bah j'ai pas le PC adéquat Locuteur 2: et puis je suis pas trop je suis pas trop jeux vidéo en fait Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 57,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: mais quand je l'ai fini après ça m'agaçais je jouais plus donc euh Locuteur 1: et pas et sur Internet pas de jeux ? Locuteur 2: euh non parce que bah j'ai pas le PC adéquat Locuteur 2: et puis je suis pas trop je suis pas trop jeux vidéo en fait Locuteur 1: ah ouais ? Locuteur 2: non Locuteur 1: b- Locuteur 2: enfin j'aime bien mais faut vraiment que ça que ça Locuteur 2: qu'il soit bien fait et que ça soit dans mon truc quoi Locuteur 1: ouais Question: Locuteur 1: et dans mon truc c'est quoi ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 60,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ça m'arrive de admettons regarder Turbo Locuteur 2: des trucs comme ça des Locuteur 1: ouais c'est ça ouais Locuteur 1: ouais ouais Locuteur 2: sinon jeux bah des jeux de voitures euh normaux mais Locuteur 1: ouais ouais ouais ouais ouais Locuteur 2: tuning bah non tuning c'est Confessions Intimes Locuteur 1: c'est pareil Locuteur 2: vous avez pas vu l'autre fois Locuteur 1: non j'ai pas vu ça ah bon ? Question: Locuteur 2: Pris c'était Confessions Intimes ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 62,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ah bon ? Locuteur 2: et lui il obéissait il y allait et tout Locuteur 1: ah non j'ai pas vu ça Locuteur 2: je crois que c'était Confessions Intimes mais je suis pas sûr #spk3: si si c'était Confessions Intimes Locuteur 2: ouais Locuteur 1: j'ai vu un reportage comme ça euh sur Internet euh dans le nord là qui était sympa aussi mais euh Locuteur 1: pas ça Locuteur 1: le mec il expliquait à sa femme que tout façon euh Locuteur 1: sa bagnole c'était largement au-dessus d'elle Question: Locuteur 2: ah c'était pas un jeune vingt-sept ans rasé ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 64,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: et alors euh sinon en dehors de euh de l'appart euh non du cinéma non Locuteur 2: ouais j'aime bien mais faut que Locuteur 1: c'est cher quoi Locuteur 2: non c'est même bah ouais non l'UGC ça va Locuteur 2: encore Locuteur 1: ah ouais ? Locuteur 2: mais c'est Locuteur 1: ouais Locuteur 2: faut qu'on m'accompagne et c'est pas tout le temps facile Locuteur 2: faut que ça plaise en fait Question: Locuteur 1: ah sur le choix des films ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 65,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: euh ouais on va dire que c'est le cliché action contre films d'amour Locuteur 1: ouais Locuteur 1: bah faut prendre euh les euh Locuteur 1: James Bond non Locuteur 2: non Locuteur 1: non ça marche pas non Locuteur 1: quoi y a non hm ah Locuteur 1: euh Locuteur 1: donc Locuteur 1: mais quand même plutôt films euh Question: Locuteur 1: et donc UGC ici ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 67,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: euh Locuteur 1: donc Locuteur 1: mais quand même plutôt films euh Locuteur 1: et donc UGC ici ? Locuteur 2: ouais UGC Locuteur 1: UGC Locuteur 2: bah moins cher hein Locuteur 2: ouais c'est moins cher hein ? Locuteur 1: puis rapide aussi et puis pou- Locuteur 2: pour se garer même le soir c'est bon Question: Locuteur 1: à l'UGC ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 68,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: mais quand même plutôt films euh Locuteur 1: et donc UGC ici ? Locuteur 2: ouais UGC Locuteur 1: UGC Locuteur 2: bah moins cher hein Locuteur 2: ouais c'est moins cher hein ? Locuteur 1: puis rapide aussi et puis pou- Locuteur 2: pour se garer même le soir c'est bon Locuteur 1: à l'UGC ? Locuteur 2: hm Question: Locuteur 1: vers où où ça euh Place d'Arc là en dessous non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 69,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: UGC Locuteur 2: bah moins cher hein Locuteur 2: ouais c'est moins cher hein ? Locuteur 1: puis rapide aussi et puis pou- Locuteur 2: pour se garer même le soir c'est bon Locuteur 1: à l'UGC ? Locuteur 2: hm Locuteur 1: vers où où ça euh Place d'Arc là en dessous non ? Locuteur 2: non c'est fermé à Locuteur 1: ah ouais j'ai fait une perd- Question: Locuteur 2: c'est quoi la rue où y a ma mutuelle là ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 70,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: dans la rue de la caserne et tout là Locuteur 2: on se gare dans cette rue-là ouais Locuteur 1: c'est ça ouais Locuteur 2: rue Marcel Proust Locuteur 1: d'accord ouais ça doit être ça ouais Locuteur 2: c'est ça Locuteur 1: ouais ouais ouais ouais ouais ça doit être ça Locuteur 1: et d'autres trucs sinon euh restau- euh Locuteur 2: ouais j'aime ouais bah de temps en temps ouais Locuteur 2: quand on peut on fait Question: Locuteur 1: et dans la plutôt quoi Orléans ou ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 71,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: on se gare dans cette rue-là ouais Locuteur 1: c'est ça ouais Locuteur 2: rue Marcel Proust Locuteur 1: d'accord ouais ça doit être ça ouais Locuteur 2: c'est ça Locuteur 1: ouais ouais ouais ouais ouais ça doit être ça Locuteur 1: et d'autres trucs sinon euh restau- euh Locuteur 2: ouais j'aime ouais bah de temps en temps ouais Locuteur 2: quand on peut on fait Locuteur 1: et dans la plutôt quoi Orléans ou ? Question: Locuteur 1: ou quel type ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 72,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: et d'habitude non n'importe lequel Locuteur 2: ouais n'importe lequel par contre ç- Locuteur 2: ouais Locuteur 1: non parce que moi avec mes enfants on fait des études sur les &shawarmas hein Locuteur 2: ah Croc'express au quartier là à Carrefour Market il est pas mal Locuteur 1: Croc'expess à Carrefour Market ah Carrefour Market euh près de euh Locuteur 1: euh ouais ouais Locuteur 2: bah là là ju- euh en sortant à gauche en face la poste Locuteur 1: ouais ouais ouais c'est que moi je vais souvent plus à l'autre Locuteur 2: y en a un Question: Locuteur 1: ah ouais ouais y en a un là ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 74,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais ouais ouais c'est que moi je vais souvent plus à l'autre Locuteur 2: y en a un Locuteur 1: ah ouais ouais y en a un là ? Locuteur 2: hm Locuteur 1: qui est où juste y a y a une brasserie après un truc euh Locuteur 2: ça va il est pas mal Locuteur 1: non ? Locuteur 1: ouais Locuteur 2: euh mais la brasserie elle est route d'Olivet Locuteur 2: dans et à l'angle il est sur le parking Question: Locuteur 1: ouais et le Croc' machin il est où ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 77,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: non ? Locuteur 1: ouais Locuteur 2: euh mais la brasserie elle est route d'Olivet Locuteur 2: dans et à l'angle il est sur le parking Locuteur 1: ouais et le Croc' machin il est où ? Locuteur 2: y a y a deux trois trucs et il est là Locuteur 1: ah bon ? Locuteur 1: &shawarma frites ? Locuteur 2: bah normal quoi enfin tout Locuteur 1: tout ouais Question: Locuteur 1: parce après avec les pains comment ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 78,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: des pains pita et tout ah ouais Locuteur 2: tout pita euh baguette tout Locuteur 1: bon bah on testera si on Locuteur 2: il faut il faut Locuteur 1: avec mon fils on teste et euh Locuteur 1: on c'est quasi si on met des notes sur toutes les trucs euh Locuteur 1: il cherche Locuteur 1: pour l'instant son préféré c'est celui qu'y a qu'y a près de la fac Locuteur 1: alors euh Locuteur 1: ouais comment il s'appelle celui euh à la Source Question: Locuteur 1: connais pas non ? Bennys",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 79,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ou Bennyz Locuteur 2: euh je sais ah euh où y a le tram là Locuteur 1: ouais où y a le tram ouais Locuteur 2: euh non je connais pas Locuteur 1: où y a le tram euh en montant un peu #spk3: à la Madeleine vous y êtes allez à celui euh rue de Madeleine là moi mon préféré Locuteur 2: hm Locuteur 2: Faubourg Madeleine #spk3: Faubourg Madeleine Locuteur 1: Faubourg Madeleine Question: Locuteur 1: tout au début du Faubourg Madeleine ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 80,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais où y a le tram ouais Locuteur 2: euh non je connais pas Locuteur 1: où y a le tram euh en montant un peu #spk3: à la Madeleine vous y êtes allez à celui euh rue de Madeleine là moi mon préféré Locuteur 2: hm Locuteur 2: Faubourg Madeleine #spk3: Faubourg Madeleine Locuteur 1: Faubourg Madeleine Locuteur 1: tout au début du Faubourg Madeleine ? Locuteur 2: ouais ouais ouais Question: Locuteur 1: tout au début sur la gauche là ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 81,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: hm Locuteur 1: ah ouais Locuteur 2: c'est turc Locuteur 1: ah ouais Locuteur 1: non j'ai pas été là encore Locuteur 2: bah il est trop bon lui Locuteur 1: ah ouais ah ouais #spk3: ouais c'est bon c'est servi chaud et tout #spk3: moi c'est mon préféré Locuteur 2: hm Question: Locuteur 1: et rue des Carmes ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 82,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: juste après Locuteur 1: New New Antalya #spk3: moi j'ose pas aller rue des Carmes Locuteur 2: euh ant- Antal- Locuteur 2: Antalya Locuteur 2: ouais ça doit être ça je crois que c'est ça Locuteur 1: ouais ouais celui-là il est bon oui Locuteur 1: il est bon Locuteur 1: oh enfin c'est comme ça Locuteur 1: c'est pour récupérer des in- c'est k- c'est pour récupérer des infos- euh hm Question: Locuteur 1: boire des coups aussi non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 83,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: il est bon Locuteur 1: oh enfin c'est comme ça Locuteur 1: c'est pour récupérer des in- c'est k- c'est pour récupérer des infos- euh hm Locuteur 1: boire des coups aussi non ? Locuteur 2: ouais mais à domicile ou chez les autres Locuteur 1: ouais Locuteur 1: d'accord ouais Locuteur 1: plutôt plutôt l'apéro euh Locuteur 2: ouais f- f- ouais Locuteur 1: euh et puis à part ça euh Question: Locuteur 1: non dans Orléans y a pas grand chose d'autre à faire si ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 84,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: plutôt plutôt l'apéro euh Locuteur 2: ouais f- f- ouais Locuteur 1: euh et puis à part ça euh Locuteur 1: non dans Orléans y a pas grand chose d'autre à faire si ? Locuteur 2: bah si y a plein de choses si bowling de temps à autres Locuteur 2: j'aime bien Locuteur 1: ah ouais Locuteur 2: pareil faut trouver le monde qui est &opé- pour suivre ou Locuteur 1: hm Locuteur 2: sinon bah Question: Locuteur 2: je sais pas y a quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 87,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: pareil faut trouver le monde qui est &opé- pour suivre ou Locuteur 1: hm Locuteur 2: sinon bah Locuteur 2: je sais pas y a quoi ? Locuteur 1: bowling euh Olivet ou Saran ? Locuteur 2: hm hm pff Locuteur 1: n'importe ? Locuteur 2: Saran j'y été qu'une fois Locuteur 1: ou ouais Locuteur 2: mais plus Olivet parce que c'est à côté quoi Question: Locuteur 1: et euh ou sortie en boîte truc euh non ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 88,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ou ouais Locuteur 2: mais plus Olivet parce que c'est à côté quoi Locuteur 1: et euh ou sortie en boîte truc euh non ? Locuteur 2: euh non bah à l'occasion mais c'est pas Locuteur 2: non c'est pas mon truc Locuteur 1: comme ça Locuteur 1: pas tous pas tous les week-end et tout euh Locuteur 2: ah non loin de là non Locuteur 1: non Locuteur 2: peut-être pas tous les ans non plus Question: Locuteur 1: des soir- ah ouais des soi- soirées avec copains ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 89,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: et euh ou sortie en boîte truc euh non ? Locuteur 2: euh non bah à l'occasion mais c'est pas Locuteur 2: non c'est pas mon truc Locuteur 1: comme ça Locuteur 1: pas tous pas tous les week-end et tout euh Locuteur 2: ah non loin de là non Locuteur 1: non Locuteur 2: peut-être pas tous les ans non plus Locuteur 1: des soir- ah ouais des soi- soirées avec copains ? Locuteur 2: ouais voilà c'est ça Question: Locuteur 1: non ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 90,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: peut-être pas tous les ans non plus Locuteur 1: des soir- ah ouais des soi- soirées avec copains ? Locuteur 2: ouais voilà c'est ça Locuteur 1: non ? Locuteur 1: ouais Locuteur 1: euh Locuteur 1: qu'est-ce qu'il y a à Orléans d'autre sinon je cherche euh Locuteur 1: peut-être on a essayé de voir par exemple aussi si y a des des euh Locuteur 1: si y a plus de choses maintenant qu'il y a quarante ans pour faire de Locuteur 1: euh la médiathèque Question: Locuteur 1: non ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 91,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: des soir- ah ouais des soi- soirées avec copains ? Locuteur 2: ouais voilà c'est ça Locuteur 1: non ? Locuteur 1: ouais Locuteur 1: euh Locuteur 1: qu'est-ce qu'il y a à Orléans d'autre sinon je cherche euh Locuteur 1: peut-être on a essayé de voir par exemple aussi si y a des des euh Locuteur 1: si y a plus de choses maintenant qu'il y a quarante ans pour faire de Locuteur 1: euh la médiathèque Locuteur 1: non ? Question: Locuteur 1: non ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 93,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: si l'île Charlemagne Locuteur 2: l'été Locuteur 1: l'île Charlemagne ouais Locuteur 2: l'été hein Locuteur 1: ouais ouais Locuteur 1: p- y compris pour la baignade ? Locuteur 2: bah surtout pour Locuteur 1: surtout la baignade ouais Locuteur 2: ouais Locuteur 1: mais cet été ça a été euh quasi fermé tout le temps Question: Locuteur 1: non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 94,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: c'était bon encore Locuteur 1: ah ouais ouais Locuteur 1: parce que là y a moins ouais y a du- ouais Locuteur 1: y a deux plages maintenant hein Locuteur 1: ouais Locuteur 2: hm Locuteur 1: donc ça Locuteur 1: donc euh Locuteur 1: dans bah dans la ville aussi euh ouais euh euh sport c'est plutôt euh un peu de salle euh Locuteur 1: en salle Question: Locuteur 1: euh le sport local tous les euh basket machin et tout ça vous suivez non pas du tout ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 95,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: donc Locuteur 1: ah ouais Locuteur 2: ouais Locuteur 1: et euh sinon hors Orléans euh je sais pas les les vacances comme ça c'est euh Locuteur 2: bah les vacances c'est Locuteur 2: enfin on va dire maintenant qu'on est deux on s'est fixé un un an sur deux quoi pour euh Locuteur 1: ouais Locuteur 2: se faire des bonnes vacances pas partir euh Locuteur 2: quatre jours euh enfin pas partir euh une semaine à Royan quoi Locuteur 1: alors si je donne allez deux mille deux mille euros pour passer des vacances Question: Locuteur 1: pa- vous faites vous partez où ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 96,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: bah les vacances c'est Locuteur 2: enfin on va dire maintenant qu'on est deux on s'est fixé un un an sur deux quoi pour euh Locuteur 1: ouais Locuteur 2: se faire des bonnes vacances pas partir euh Locuteur 2: quatre jours euh enfin pas partir euh une semaine à Royan quoi Locuteur 1: alors si je donne allez deux mille deux mille euros pour passer des vacances Locuteur 1: pa- vous faites vous partez où ? Locuteur 2: mouais c'est ça ouais Locuteur 1: si je fais ça Locuteur 2: bah cet été Corse Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 97,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: pa- vous faites vous partez où ? Locuteur 2: mouais c'est ça ouais Locuteur 1: si je fais ça Locuteur 2: bah cet été Corse Locuteur 1: ah ouais ? Locuteur 2: hm Locuteur 1: j'adore moi ça aller en Corse Locuteur 2: ouais c'est bien hein Locuteur 1: moi je connaissais pas mais ça fait euh deux trois ans qu'on y va Locuteur 1: moi j'y vais avec mes enfants Question: Locuteur 2: où ça ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 98,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: mouais c'est ça ouais Locuteur 1: si je fais ça Locuteur 2: bah cet été Corse Locuteur 1: ah ouais ? Locuteur 2: hm Locuteur 1: j'adore moi ça aller en Corse Locuteur 2: ouais c'est bien hein Locuteur 1: moi je connaissais pas mais ça fait euh deux trois ans qu'on y va Locuteur 1: moi j'y vais avec mes enfants Locuteur 2: où ça ? Question: Locuteur 1: en Corse bah ça dépend là là cet été on était où cet été ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 100,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: j'adore moi ça aller en Corse Locuteur 2: ouais c'est bien hein Locuteur 1: moi je connaissais pas mais ça fait euh deux trois ans qu'on y va Locuteur 1: moi j'y vais avec mes enfants Locuteur 2: où ça ? Locuteur 1: en Corse bah ça dépend là là cet été on était où cet été ? Locuteur 1: cet été on fait vers le le Cap Corse vers le haut Locuteur 1: vers les montagnes là vers Corte Locuteur 1: et puis euh vers Calvi Locuteur 2: vous avez pas fait Porticcio tout ça ? Question: Locuteur 1: Porticcio c'est où ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 102,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: euh Locuteur 2: ou de trucs comme ça bah c'est pas trop le bon coin mais Locuteur 2: là-bas je sais pas y a y a vraiment Locuteur 2: plein de choses à faire quoi Locuteur 1: non Locuteur 1: euh Ajaccio c'est ça près d'Ajaccio c'est le Golfe d'Ajaccio Locuteur 2: ouais c'est à dix bornes Locuteur 2: Ajaccio s- Locuteur 1: Ajaccio c'est Locuteur 1: c'est à gauche-là en bas Question: Locuteur 2: je sais pas Pris c'est où Ajaccio ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 104,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: non enfin Locuteur 2: ça un une espèce de petite lune vite fait Locuteur 2: et Porticcio c'est un petit peu plus en contrebas Locuteur 1: moi j'étais pas loin je crois plus bas peut-être Propriano et des trucs comme ça Locuteur 1: ouais je crois que c'est ça Locuteur 2: ouais c'est toi qui a été ? #spk3: c'est beau aussi Propriano Locuteur 1: en dessous le après euh comment ça s'appelle après euh Locuteur 2: je crois que j'y ai déjà été mais je suis pas sûr Locuteur 2: Favone tout ça là Question: Locuteur 2: non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 105,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: moi j'aime bien la montagne mais euh Locuteur 2: c'était terrible Locuteur 1: là c'est c'est t- c'est trop sympa Locuteur 1: c'est de la vraie montagne quand même aussi et puis alors là en bas euh Locuteur 1: masque euh non masque Locuteur 1: palmes tube s- s- Locuteur 2: bah ouais Locuteur 2: ouais Locuteur 2: on a fait plongée mais c'était on était déçu Locuteur 1: hm Question: Locuteur 1: ah euh pour un baptême de plongée ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 107,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: sinon si y a pas le choix bah Locuteur 2: camping toile de tente et puis voilà Locuteur 1: hm hm Locuteur 1: Ok Ok Ok Locuteur 1: bon bah ça c'était pour Locuteur 1: pour les vacances Locuteur 1: euh Locuteur 1: j'avais quelques questions comme ça juste sur Orléans euh Locuteur 1: justement sur le type loisirs euh Locuteur 1: fête de Jeanne d'Arc euh festival de Loire les machins comme ça c'est des trucs euh Question: Locuteur 1: où vous allez des fois ou pas du tout non ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 108,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ouais Locuteur 1: fête de la musique c'est un truc euh ouais Locuteur 2: mais tous ces trucs-là je m'intéresse sans plus quoi Locuteur 1: et sur le reste euh dans la ville euh sur euh l'opinion en gr- en gros sur l- sur la ville c'est plutôt une ville euh Locuteur 2: bah c'est une bah quand on sort de Blois on peut que trouver que c'est bien Locuteur 2: toute façon Orléans Locuteur 1: ah ouais Locuteur 2: mais Locuteur 2: ouais si j'aime bien Locuteur 1: oh ça dépend pour quoi hein Blois euh Question: Locuteur 1: c'est symp- non c'est pas bien ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 110,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ouais l'antenne elle est à Saran Locuteur 1: ah ouais Locuteur 1: mais j- ils ont pas arrêté là non ? Locuteur 1: je croyais qu'ils en Locuteur 2: ah je sais pas Locuteur 1: je- Locuteur 2: je sais même pas si on l'a nous Locuteur 1: hm Locuteur 1: donc euh Locuteur 1: l'opinion global sur la ville c'est euh Question: Locuteur 1: mieux que mieux que Blois ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 111,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: l'opinion global sur la ville c'est euh Locuteur 1: mieux que mieux que Blois ? Locuteur 2: bah moi j- Locuteur 2: bah ouais dix fois mieux Locuteur 1: ouais Locuteur 2: hm ouais c'est moi j'aime bien c'est une bonne ville Locuteur 2: les gens ils se prennent un peu trop pour des Parisiens mais Locuteur 1: ah ouais c'est ça ouais ils Locuteur 2: bah je pense que Locuteur 2: c'est Question: Locuteur 1: l'image des Orléanais c'est quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 113,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: y a pas y a pas des mots qui ont Locuteur 2: c'est j- Locuteur 2: bah à à notre âge si on a des expressions Locuteur 2: je sais qu'y a des trucs d'ici je les ai pas entendu chez moi et y a des trucs de chez moi ils connaissent pas ici mais Locuteur 1: ah ouais voilà Locuteur 2: pourtant c'est Locuteur 2: sinon le Locuteur 1: ça ça vous avez des exemples de ça de de de truc euh Locuteur 2: bah des expressions comme chez pas trop &bibz des des trucs comme ça Locuteur 2: ou Question: Locuteur 1: trop &bibz c'est pas d'ici ça hein si ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 114,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: bah à à notre âge si on a des expressions Locuteur 2: je sais qu'y a des trucs d'ici je les ai pas entendu chez moi et y a des trucs de chez moi ils connaissent pas ici mais Locuteur 1: ah ouais voilà Locuteur 2: pourtant c'est Locuteur 2: sinon le Locuteur 1: ça ça vous avez des exemples de ça de de de truc euh Locuteur 2: bah des expressions comme chez pas trop &bibz des des trucs comme ça Locuteur 2: ou Locuteur 1: trop &bibz c'est pas d'ici ça hein si ? Locuteur 2: bah si moi je fais pas mais à Blois y a pas ça ou Question: Locuteur 1: et ici y a ça ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 115,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: bah des expressions comme chez pas trop &bibz des des trucs comme ça Locuteur 2: ou Locuteur 1: trop &bibz c'est pas d'ici ça hein si ? Locuteur 2: bah si moi je fais pas mais à Blois y a pas ça ou Locuteur 1: et ici y a ça ? Locuteur 2: y a &bitch pour dire y a rien à faire des trucs comme ça euh Locuteur 1: ça je c- o- ouais s- Locuteur 2: je sais pas c'est des trucs d'ici quoi euh j'avais pas entendu avant Locuteur 2: chez moi Locuteur 1: c'est des trucs d'ici Question: Locuteur 1: ou c'est des trucs qui d- qui sont différents selon l'âge peut-être non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 116,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: c'est quoi plutôt euh langues africaines après je connais pas y a trop de y a trop de variantes quoi Locuteur 1: s- ouais ouais ouais ouais Locuteur 1: mais ici euh pas mal pas mal de variantes ici ouais Locuteur 2: ouais Locuteur 1: ouais Locuteur 1: vous vous parlez d'autres choses que le français ou Locuteur 1: en langue anglais Locuteur 2: bah anglais je me débrouille Locuteur 1: angl- Locuteur 2: espagnol euh vite fait parce que Question: Locuteur 1: c'est les langues de l'école ça anglais espagnol ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 117,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: c'est les langues de l'école ça anglais espagnol ? Locuteur 2: ouais mais espagnol je savais plus c'est juste que là j'ai un un collègue il est espagnol donc euh Locuteur 2: lui il parle trop mal français donc j'ai pas le choix faut que je parle en espagnol Locuteur 2: sinon ouais anglais ça va je me débrouille Locuteur 1: puis après j'avais juste une Locuteur 1: une dernière question Locuteur 1: la y la l- Locuteur 1: la Locuteur 1: la question la plus drôle de Locuteur 1: euh c'est pas Question: Locuteur 2: pourquoi tu tu te marres tu sais le truc non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 120,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais ouais non y a pas de euh Locuteur 1: euh Locuteur 1: y y a pas la bonne façon de de faire l'o- l'omelette hein Locuteur 1: je sais pas des si y a une différence par exemple entre Blois et Orléans euh Locuteur 1: pour faire l'omelette je suis pas sûr Locuteur 2: je sais pas Locuteur 1: hein à mon avis Locuteur 1: voilà Locuteur 1: sinon u- euh en en en goût comme ça en Locuteur 1: en en alimentation et tout c'est euh Question: Locuteur 1: vous préférez plutôt quoi comme type de bouffe ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 121,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: la viande Locuteur 2: des vrais plats enfin j'aime bien les vrais plats mais après faut le temps pour les faire et Locuteur 2: et je suis pas trop euh adepte des cuisines toutes prêtes Locuteur 1: donc Locuteur 1: l'idéal Locuteur 1: maintenant si je résume l'idéal c'est euh faire construire une grande maison Locuteur 1: avec une grande piscine Locuteur 1: sur le Golfe de machin a- en Corse Locuteur 1: un peu d'argent Locuteur 2: ah non pas en Corse Question: Locuteur 1: non pas en Corse ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 122,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: Ok Locuteur 1: bon bah pour moi c'est bon Locuteur 2: d'accord Locuteur 1: si euh merci bien Locuteur 2: bah y a pas de soucis Locuteur 1: merci bien bah j'ai Locuteur 1: tout Locuteur 1: une superbe interview Locuteur 1: en fait Locuteur 1: i- euh ben voilà on peu terminer là euh merci beaucoup je vais arrêter euh l'enregistrement Question: Locuteur 2: ça a fait une heure là ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 123,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: quand on écoute moi j'écoute Locuteur 2: après Locuteur 1: c'est s- bon c'est Locuteur 1: c'est un peu ma ma passion Locuteur 1: c'est un peu bizarre comme ça mais les les documents que j'ai retrouvé là enfin qu'on a retrouvé y a quarante ans Locuteur 1: d'Orléans euh moi ça me fascine Locuteur 1: n- n- Locuteur 1: et donc j'écoute plein de gens comme ça qui racontent euh Locuteur 1: leur vie mais c'est s- Locuteur 1: c'est vraiment intéressant quoi Question: Locuteur 2: et le but c'est quoi c'est c'est d'étudier le la façon de parler des gens ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 124,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: il faut juste me signer ça Locuteur 1: que moi je mets dans les archives avec Locuteur 2: euh ouais tu me passes un stylo s'il te plait Locuteur 1: j'avais j'ai un crayon Locuteur 2: mais c'est pas Locuteur 2: s- Locuteur 2: franchement s- y a pas de mauvais coup derrière ça engage à rien hein Locuteur 2: ça engage à rien Locuteur 2: ouais ouais bien sûr y a pas de problème Locuteur 1: c'est juste une question de protection euh Question: Locuteur 2: là j- par contre j- je mets mon nom ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 125,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ah ouais hm Locuteur 1: et euh dans l'audio c'est bipé Locuteur 1: la face euh Locuteur 1: de toute façon y a pas le nom là Locuteur 2: bah tout façon j- bah ouais je l'ai pas dit ouais Locuteur 1: non non non non mais si on trouve un nom Locuteur 1: si on trouve un nom on le retire et on met un bip à la place Locuteur 2: euh Locuteur 1: donc là après je sais pas s- Locuteur 1: je sais plus ce qu'y a marqué sur le truc Question: Locuteur 2: je mets l'adresse ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 129,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: tu veux tu veux tu veux te marrer non ou ? Locuteur 2: tu veux rigoler non ? #spk3: de quoi ? #spk3: non c'est bon Locuteur 1: toute façon je peux le transmettre donc euh et puis euh hm Locuteur 2: j'autorise Locuteur 1: ouais s- alors on on a mis deux choses Locuteur 1: j'autorise l'enregistrement Locuteur 2: ouais Locuteur 1: réalisé bah aujourd'hui on est le le vingt janvier je crois Question: Locuteur 1: c'est ça ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 131,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: puis en même temps il a eu un poste on lui a proposé un poste plus élevé Locuteur 2: plus intéressant donc euh on Locuteur 2: moi j'avais déjà euh on avait déjà Marine a un grand frère Locuteur 2: qui a aujourd'hui vingt-six ans et demi Locuteur 1: ouais Locuteur 2: donc euh Locuteur 2: on est venu avec Nicolas donc qui avait deux ans Locuteur 2: et puis bah ça correspondait tout à fait bah c'était la campagne euh Locuteur 2: le petit village euh Locuteur 1: et donc vous viviez là-bas Question: Locuteur 1: ou déjà à Orléans ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 136,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: bah ma famille hein n'y croyait enfin bah voilà Locuteur 2: et puis là Locuteur 1: ouais Locuteur 2: je me suis dit bah de toute façon tu as tout entre les mains hein c'est à toi de euh Locuteur 1: hm hm hm Locuteur 2: de d'y aller de faire les choses Locuteur 1: d'y aller Locuteur 2: et donc je je suis allée dans une école de travail social et puis euh Locuteur 2: et j'ai Locuteur 1: et là c'est euh Question: Locuteur 1: comment ça se passe ? il y a un conc- ça y avait un",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 137,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: ouais Locuteur 2: qui avaient Locuteur 2: qui ont qui ont représenté un petit peu un modèle qui revenait en moi qui résonnait en moi Locuteur 1: quelque chose hm hm hm hm Locuteur 2: donc voilà moi je me suis construite un peu comme ça hein c'était Locuteur 1: en observant Locuteur 1: ouais hm hm Locuteur 2: ouais j'ai beaucoup observé je continue quand même encore aussi c'est un peu la base de notre métier aussi Locuteur 2: mais euh donc voilà donc euh Locuteur 1: et maintenant euh Question: Locuteur 2: et maintenant donc ? Vous",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 142,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: oui Locuteur 2: et puis elle aussi apparemment la directrice Locuteur 1: ouais Locuteur 2: et puis ce qui m'a plu en fait dans cette idée c'était bah construire un service où on partait de rien Locuteur 1: d'accord Locuteur 2: on avait rien on avait juste euh le budget Locuteur 2: euh des locaux Locuteur 2: et puis euh bah fallait y aller construire tous les outils euh Locuteur 2: l'équipe était jeune Locuteur 2: ils sortaient tous de l'école là on est sept Question: Locuteur 1: hm hm et vous êtes combien dans cette é- dans cette équipe ? d'accord",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 143,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: de les leurrer et de leur non Locuteur 2: non donc euh j'ai refusé Locuteur 2: donc je continue à me former Locuteur 2: et après j'arrête là Locuteur 1: d'accord Locuteur 2: enfin bon oh non ça me prend un temps fou Locuteur 2: là je rentre de cours j'ai pas mal d'écrits à faire Locuteur 2: donc j'ai mon travail et puis Locuteur 1: et là donc euh Locuteur 1: vous donc c'est formation plus Question: Locuteur 1: travail en même temps ? d'accord",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 145,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: ouais on est arrivé à Meung-sur-Loire y a Locuteur 1: d'accord hm hm hm ouais Locuteur 2: bah en quatre-vingt-cinq Nicolas avait deux ans Locuteur 2: et puis euh bah j'en suis partie là en Locuteur 2: quatre-vingt en deux mille neuf Locuteur 1: d'accord hm hm Locuteur 1: oui Locuteur 2: ouais Locuteur 2: voilà Locuteur 1: et ici alors Question: Locuteur 1: vous vous y plaisez ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 146,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: ouais Locuteur 2: donc euh faut dire quoi sur le le c- Locuteur 2: le le la ville euh Locuteur 2: non de Fleury de la ville d'Orléans euh je sais Locuteur 2: pas sur le Locuteur 1: euh Locuteur 1: oui non je sais pas qu'est-ce que Locuteur 1: j'ai pas suivi Locuteur 1: donc euh Locuteur 1: bah comme vous venez juste d'arriver dans ce quartier c'est que vrai que peut-être vous connaissez pas Question: Locuteur 1: vous vous vous utilisez pas les commerces les les choses d'ici ou ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 147,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: non c'est vraiment pas le truc que je regarde Locuteur 1: oui hm ouais Locuteur 2: on a beau m'expliquer les règles puis je fais aucun effort Locuteur 1: ouais Locuteur 2: pour comprendre en plus donc euh Locuteur 2: euh par contre euh ce que j'apprécie le fait d'être dans l'&agglo c'est Locuteur 2: euh oh c'est plus facile de sortir ou de se dire ah bah tiens euh Locuteur 2: tiens y a un truc pas mal là euh Locuteur 2: par exemple à la Passerelle là à Fleury y a des Locuteur 2: y a des s- Question: Locuteur 1: c'est c'est quoi la Passerelle ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 148,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: on a beau m'expliquer les règles puis je fais aucun effort Locuteur 1: ouais Locuteur 2: pour comprendre en plus donc euh Locuteur 2: euh par contre euh ce que j'apprécie le fait d'être dans l'&agglo c'est Locuteur 2: euh oh c'est plus facile de sortir ou de se dire ah bah tiens euh Locuteur 2: tiens y a un truc pas mal là euh Locuteur 2: par exemple à la Passerelle là à Fleury y a des Locuteur 2: y a des s- Locuteur 1: c'est c'est quoi la Passerelle ? Locuteur 2: c'est un grand centre oui Question: Locuteur 2: c'est une salle ? non ah",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 150,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: y a pas si longtemps que ça Locuteur 2: et euh Locuteur 2: je lui ai dit on va y aller en train oh elle me dit en train Locuteur 2: c'est vrai que c'est drôle Locuteur 1: ah ouais ouais ouais Locuteur 2: je lui dis oh bah oui on va y aller en train parce que ça va être compliqué Locuteur 2: pour se garer et tout et franchement enfin Locuteur 2: au moment de rentrer j'ai dit oh là là la prochaine fois on reprend la voiture hein Locuteur 2: j'ai du mal quand même Locuteur 1: mais même pour aller Question: Locuteur 1: dans Paris c'est pas ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 151,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: c'est le portable Locuteur 1: ah Locuteur 1: ben allez-y hein Locuteur 2: ouh là là Locuteur 1: bah vous vous l'enlevez Locuteur 1: je mets pause Locuteur 1: bientôt terminé Locuteur 1: euh hm Locuteur 1: et hm Locuteur 1: et au niveau toujours de la ville d'Orléans qu'est-ce que ou ouais de d'Orléans Question: Locuteur 1: qu'est-ce que qu'est-ce que il vous plaît ou qu'est-ce qui vous déplaît dans la ville ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 152,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: beaucoup de monde et puis euh Locuteur 2: je m'y retrouve pas trop dans ces trucs j'ai l'impression qu'y a un peu un décalage euh Locuteur 2: franchement euh non mais Locuteur 2: euh Locuteur 2: quand y a eu la caravane de Loire là Locuteur 2: aussi et puis Locuteur 1: oui Locuteur 2: les spectacles un peu farfelus avec euh Locuteur 2: moi j'appelle ça farfelus mais Locuteur 2: mais y avait un peu des des spectacles de rue là Question: Locuteur 1: avec la caravane ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 153,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: euh Locuteur 2: quand y a eu la caravane de Loire là Locuteur 2: aussi et puis Locuteur 1: oui Locuteur 2: les spectacles un peu farfelus avec euh Locuteur 2: moi j'appelle ça farfelus mais Locuteur 2: mais y avait un peu des des spectacles de rue là Locuteur 1: avec la caravane ? Locuteur 1: ou euh Locuteur 2: oui oui Question: Locuteur 1: ça ça c'est c- ça c'est l'été non c'est quand ça ? oui",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 154,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: des spectacles un peu oui c'est l'été ça Locuteur 1: c'est è- Locuteur 2: c'est euh non c'est septembre Locuteur 1: oui qui se balade dans les différentes villes euh Locuteur 2: ouais ouais ouais voilà hm hm Locuteur 1: hm hm Locuteur 1: j'ai pas vu j'y étais pas d'accord d'accord hm hm Locuteur 2: voilà avec des un peu des troubadours des moi j'adhère pas trop à ce genre de choses ça me Locuteur 2: je sais pas Locuteur 2: je sais pas pourquoi Question: Locuteur 1: les déguisements ? les euh",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 59,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: non je sais pas des j'aime bien les belles voitures normales enfin Locuteur 2: ça m'arrive de admettons regarder Turbo Locuteur 2: des trucs comme ça des Locuteur 1: ouais c'est ça ouais Locuteur 1: ouais ouais Locuteur 2: sinon jeux bah des jeux de voitures euh normaux mais Locuteur 1: ouais ouais ouais ouais ouais Locuteur 2: tuning bah non tuning c'est Confessions Intimes Locuteur 1: c'est pareil Locuteur 2: vous avez pas vu l'autre fois Question: Locuteur 1: non j'ai pas vu ça ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 25,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: qui faisaient pas mal d'histoires chez eux et qui faisaient des trucs assez drôles i- Locuteur 1: y avait une ambiance quoi des fois y a des ambiances comme ça euh Locuteur 2: ouais des fois y a des trucs marrants mais Locuteur 1: mais euh Locuteur 1: d'accord Locuteur 1: euh Locuteur 1: ouais sinon s- donc Locuteur 1: p- par la suite vous allez conserver le ce ce boulot-là ou euh Locuteur 2: bah euh je sais pas pour le moment je me tâte parce que j'ai un projet professionnel Locuteur 2: qui a rien à voir avec ça mais Question: Locuteur 1: ouais ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 54,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ce type euh Locuteur 1: pas de console de jeux non plus ? Locuteur 2: euh je l'ai vendue Locuteur 1: Xbox Locuteur 2: ouais Locuteur 2: et j'aurai pas dû Locuteur 1: faut faut la racheter Locuteur 1: faut d'occase ça se trouve Locuteur 2: ouais mais Locuteur 2: j'ai Question: Locuteur 1: avec les jeux et tout ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 61,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: tuning bah non tuning c'est Confessions Intimes Locuteur 1: c'est pareil Locuteur 2: vous avez pas vu l'autre fois Locuteur 1: non j'ai pas vu ça ah bon ? Locuteur 2: Pris c'était Confessions Intimes ? Locuteur 1: ah je crois que j'ai vu ça Locuteur 1: non j'ai pas vu Locuteur 2: c'est sa gonzesse elle demandait qui- que le monsieur il sorte Locuteur 2: et Locuteur 2: qu'il soulève le euh la voiture quand elle elle passait les dos d'ânes sinon ça râpait Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 63,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: ouais Locuteur 2: c'est pas je sais même pas si c'est une histoire que j'ai pas le temps ou quoi mais Locuteur 2: je suis plus là-dedans en fait Locuteur 2: si y a le truc il est là bah j'y joue mais si il y est pas bah tant pis Locuteur 1: d'ac- Locuteur 1: et alors euh sinon en dehors de euh de l'appart euh non du cinéma non Locuteur 2: ouais j'aime bien mais faut que Locuteur 1: c'est cher quoi Locuteur 2: non c'est même bah ouais non l'UGC ça va Locuteur 2: encore Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 66,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: non Locuteur 1: non ça marche pas non Locuteur 1: quoi y a non hm ah Locuteur 1: euh Locuteur 1: donc Locuteur 1: mais quand même plutôt films euh Locuteur 1: et donc UGC ici ? Locuteur 2: ouais UGC Locuteur 1: UGC Locuteur 2: bah moins cher hein Question: Locuteur 2: ouais c'est moins cher hein ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 103,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: s- Locuteur 2: Ajaccio je crois que c'est en bas à gauche Locuteur 2: non c'est Porto-Vec- ça Locuteur 2: non Porto-Vecchio c'est au-dessus Locuteur 2: Ajaccio c'est en bas à gauche Locuteur 1: non enfin Locuteur 2: ça un une espèce de petite lune vite fait Locuteur 2: et Porticcio c'est un petit peu plus en contrebas Locuteur 1: moi j'étais pas loin je crois plus bas peut-être Propriano et des trucs comme ça Locuteur 1: ouais je crois que c'est ça Question: Locuteur 2: ouais c'est toi qui a été ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 106,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: c'est de la vraie montagne quand même aussi et puis alors là en bas euh Locuteur 1: masque euh non masque Locuteur 1: palmes tube s- s- Locuteur 2: bah ouais Locuteur 2: ouais Locuteur 2: on a fait plongée mais c'était on était déçu Locuteur 1: hm Locuteur 1: ah euh pour un baptême de plongée ? Locuteur 2: ouais Locuteur 2: bah en même temps on a fait le tarif euh Question: Locuteur 1: avec bouteille ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 112,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: y a besoin de rien de plus quoi Locuteur 1: d'accord Locuteur 1: le tram Locuteur 1: euh Locuteur 2: ouais euh Locuteur 1: ouais le tram ouais ouais ici c'est pour ça i- c'est bien le Locuteur 1: le tram Locuteur 2: bah ouais c'est Locuteur 2: bah c'est pour ça qu'on est dans ce quartier-là Locuteur 2: parce que Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 118,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: sinon ouais anglais ça va je me débrouille Locuteur 1: puis après j'avais juste une Locuteur 1: une dernière question Locuteur 1: la y la l- Locuteur 1: la Locuteur 1: la question la plus drôle de Locuteur 1: euh c'est pas Locuteur 2: pourquoi tu tu te marres tu sais le truc non ? Locuteur 1: ah non non mais de toute façon #spk3: non je sais rien moi Question: Locuteur 1: c'est vrai ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 128,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 1: donc là après je sais pas s- Locuteur 1: je sais plus ce qu'y a marqué sur le truc Locuteur 2: je mets l'adresse ? Locuteur 1: après euh ouais là l'adresse c'est pour qu'on puisse envoyer le CD et des trucs comme ça Locuteur 1: c'est pas une obligation hein Locuteur 1: n'importe Locuteur 2: ouais mais je vous fais confiance Locuteur 1: d'accord n'importe Locuteur 2: tu veux tu veux tu veux te marrer non ou ? Locuteur 2: tu veux rigoler non ? Question: #spk3: de quoi ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 135,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: de faire autre chose quand même oui hm hm Locuteur 2: je me donnerai les moyens d'y arriver Locuteur 2: donc euh je cheminais tranquillement Locuteur 2: ensuite euh bah euh Marine est arrivée Locuteur 2: et euh en fait euh j'ai travaillé je faisais des petits boulots hein toujours dans le secrétariat dans la comptabilité mais je m'éclatais Locuteur 2: pas vraiment mais bon ça m'occupait quelque part Nicolas était à l'école donc ça m'occupait Locuteur 1: hm hm hm oui oui oui Locuteur 2: et puis je voyais des gens j'échangeais Locuteur 2: bah pas je dis pas que c'était pas très profond Locuteur 2: mais bon bah je voyais des gens ça me ça me permettait de pas Question: Locuteur 2: voilà comment dire euh ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 85,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ouais f- f- ouais Locuteur 1: euh et puis à part ça euh Locuteur 1: non dans Orléans y a pas grand chose d'autre à faire si ? Locuteur 2: bah si y a plein de choses si bowling de temps à autres Locuteur 2: j'aime bien Locuteur 1: ah ouais Locuteur 2: pareil faut trouver le monde qui est &opé- pour suivre ou Locuteur 1: hm Locuteur 2: sinon bah Locuteur 2: je sais pas y a quoi ? Question: Locuteur 1: bowling euh Olivet ou Saran ?",
+    "label": "alternative",
+    "intention": "non-question"
+  },
+  {
+    "id": 73,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "input_text": "Locuteur 2: ah Croc'express au quartier là à Carrefour Market il est pas mal Locuteur 1: Croc'expess à Carrefour Market ah Carrefour Market euh près de euh Locuteur 1: euh ouais ouais Locuteur 2: bah là là ju- euh en sortant à gauche en face la poste Locuteur 1: ouais ouais ouais c'est que moi je vais souvent plus à l'autre Locuteur 2: y en a un Locuteur 1: ah ouais ouais y en a un là ? Locuteur 2: hm Locuteur 1: qui est où juste y a y a une brasserie après un truc euh Locuteur 2: ça va il est pas mal Question: Locuteur 1: non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 155,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: voilà avec des un peu des troubadours des moi j'adhère pas trop à ce genre de choses ça me Locuteur 2: je sais pas Locuteur 2: je sais pas pourquoi Locuteur 1: les déguisements ? les euh Locuteur 1: ouais non Locuteur 2: ouais je sais pas je trouve que Locuteur 2: ça me fait pas rire Locuteur 1: ouais Locuteur 2: franchement y a alors y a des fois y a Locuteur 2: puis alors plus on est un peu euh Question: Locuteur 2: comment dire euh ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 156,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: je sais pas Locuteur 2: je sais pas pourquoi Locuteur 1: les déguisements ? les euh Locuteur 1: ouais non Locuteur 2: ouais je sais pas je trouve que Locuteur 2: ça me fait pas rire Locuteur 1: ouais Locuteur 2: franchement y a alors y a des fois y a Locuteur 2: puis alors plus on est un peu euh Locuteur 2: comment dire euh ? Question: Locuteur 1: critique non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 157,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 2: ouais ça lui faisait plaisir aussi de Locuteur 2: ouais ouais Locuteur 1: ouais Locuteur 2: de elle me disait de participer à ça euh Locuteur 2: puis ah bah là elle est à fond hein ça lui plaît Locuteur 2: vachement ce qu'elle fait donc euh Locuteur 1: hm hm hm Locuteur 1: et justement pour faire un lien un peu avec euh Locuteur 1: avec ce qu'elle fait et ce qu'on fait est-ce que vous pensez qu'ici y a une façon de parler à Orléans Locuteur 2: hm Question: Locuteur 1: particulière ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 158,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: avec ce qu'elle fait et ce qu'on fait est-ce que vous pensez qu'ici y a une façon de parler à Orléans Locuteur 2: hm Locuteur 1: particulière ? Locuteur 1: euh que ce soit euh des mots que vous ayez entendus ou un accent ou Locuteur 1: je sais pas Locuteur 2: pas une façon de parler mais Locuteur 2: des mots que j'ai appris ici Locuteur 2: que j'utilisais pas avant Locuteur 1: ouais Locuteur 2: alors euh par exemple euh Question: Locuteur 1: vous é- comme quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 159,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: ah Locuteur 2: c'est une canche Locuteur 1: d'accord Locuteur 2: après y a eu euh Locuteur 2: les nourrices quand ils étaient petits euh ça Locuteur 2: fais-moi un mignon Locuteur 2: alors les enfants ils regardaient la nourrice comme ça Locuteur 2: ils me regardaient bah je disais je peux pas vous aider Locuteur 2: un mignon on ne sait pas ce que c'est Locuteur 2: un bisou Question: Locuteur 2: un bisou ah oui ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 160,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: dans l'enquête qui a été qui avait été faite y a quarante ans y avait ils posaient une question culinaire Locuteur 1: sur l'omelette Locuteur 1: en fait Locuteur 1: et du ah non elle vous l'a pas dit Locuteur 2: non non elle me l'a pas dit Locuteur 1: et euh hm Locuteur 1: et donc euh donc ils avaient un certain nombre de questions c'était beaucoup plus fermé en fait Locuteur 1: que ce qu'on essaye de faire là Locuteur 2: avec Marine oui Locuteur 1: et y avait une question qui était euh Question: Locuteur 1: comment est-ce qu'on fait une omelette chez vous ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 161,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "input_text": "Locuteur 1: comment est-ce qu'on fait une omelette chez vous ? Locuteur 1: et donc pour eux Locuteur 1: qu'on pour qu'on est un point de comparaison un peu avec l'enquête de soixante-huit Locuteur 1: si vous voulez bien Locuteur 2: oui Locuteur 1: m'expliquer comment vous faites une omelette Locuteur 2: alors je vais vous donner deux réponses Locuteur 2: déjà Locuteur 1: ah Locuteur 2: j'en fait pas parce que je n'aime pas les oeufs Question: Locuteur 1: oh ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 162,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: par rapport Locuteur 1: ok Locuteur 2: à Orléans Locuteur 1: d'accord Locuteur 2: donc est-ce que vous êtes Locuteur 2: euh enfin Orléans ou Ingré la région quoi Locuteur 1: hm hm Locuteur 2: donc on va on va Locuteur 1: ok Locuteur 2: aborder ça Question: Locuteur 2: donc est-ce que vous êtes euh originaire d'ici ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 163,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: à Ingré Locuteur 1: et ensuite euh Locuteur 1: j'aime le théâtre euh Locuteur 1: et y a une option théâtre au lycée Voltaire à la Source à Orléans la Locuteur 2: d'accord Locuteur 1: Source Locuteur 1: donc bah j'ai immigré là bas Locuteur 2: d'accord d'accord Locuteur 1: et euh je faisais les allers et retours euh Ingré Orléans la Source euh Locuteur 1: j'ai redoublé ma seconde donc j'ai fait ça pendant quatre ans Question: Locuteur 2: quand vous étiez au lycée ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 164,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: en fait donc la Source Locuteur 1: hm Locuteur 2: euh et Orléans Locuteur 2: et Orléans donc vous y alliez euh Locuteur 2: vous passiez plus de temps à Locuteur 2: à Orléans ou à la Source que Locuteur 1: à Orléans oui carrément Locuteur 2: qu'à Ingré ouais ouais ouais Locuteur 1: hm hm ouais ouais ouais Locuteur 2: donc et vos parents ont toujours euh Question: Locuteur 2: été d'ic- enfin sont d'ici aussi ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 165,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: comment vous le voyez ou comment vous le Locuteur 1: moi je enfin après je sais pas hein c'est peut-être euh je me trompe peut-être Locuteur 1: totalement mais euh Locuteur 2: non non c'est votre avis enfin Locuteur 1: j'ai l'impression que l'esprit des gens est plus étroit en fait euh Locuteur 1: parce que c'est Locuteur 2: ici Locuteur 1: ouais un village euh Locuteur 1: que ouais Locuteur 1: y a plus j'ai l'impression que les gens ils sont plus superficiels aussi euh Question: Locuteur 2: c'est plutôt âgé ou plutôt jeune comme euh population ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 166,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ouais ouais ouais Locuteur 1: c'était beaucoup de boulot en plus plus qu'une euh une simple option lourde Locuteur 1: de je sais pas d'espagnol ou euh quelque chose comme ça Locuteur 2: hm hm hm hm hm hm hm hm Locuteur 1: hm Locuteur 2: mais sans regret Locuteur 1: ah ouais non carrément Locuteur 1: ah ouais Locuteur 1: j'ai vécu franchement en plus y avait des voyages euh Locuteur 1: donc je suis allée euh en Allemagne Question: Locuteur 2: c'était sur trois ans ou ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 167,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: trois fois par m- par mois Locuteur 1: peut-être deux trois Locuteur 2: ah oui Locuteur 1: fois par mois euh Locuteur 1: on faisait des stages euh Locuteur 1: on y avait des intervenants on faisait enfin c'était vraiment c'était génial quoi hein Locuteur 1: et puis il y avait une un escri- Locuteur 1: un esprit de groupe Locuteur 2: ouais Locuteur 1: et ça c'était euh Question: Locuteur 2: vous étiez combien une vingtaine ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 168,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: un esprit de groupe Locuteur 2: ouais Locuteur 1: et ça c'était euh Locuteur 2: vous étiez combien une vingtaine ? Locuteur 1: oui voilà Locuteur 2: ouais Locuteur 1: ouais Locuteur 2: ouais ouais ouais Locuteur 1: et ça c'était vraiment chouette quoi ouais hm Locuteur 2: ouais ça devait être sympa hm hm hm hm hm Question: Locuteur 2: et vous en faites toujours ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 169,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: et puis après j'irai ailleurs donc euh ouais hm hm hm Locuteur 2: d'accord donc vous vouliez pas commencer quelque chose qui allait s'arrêter euh d'accord Locuteur 1: et puis maintenant je suis partie sur de la danse ou je sais pas donc euh Locuteur 1: je vais peut-être changer de truc je sais pas ouais Locuteur 2: d'accord Locuteur 1: hm Locuteur 2: bon bah c'est chouette Locuteur 1: ouais ouais ouais ouais bah là l'année prochaine je vais à Tours Locuteur 1: donc je vais essayer de trouver sur Tours euh Locuteur 1: si y a euh Question: Locuteur 2: et vous allez faire quoi alors à Tours ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 170,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: et vous allez faire quoi alors à Tours ? Locuteur 1: je vais en fait je vais dans une école euh Locuteur 1: qui prépare au concours d'éducatrice de jeunes enfants Locuteur 2: hm Locuteur 1: donc c'est de septembre à février Locuteur 2: ouais Locuteur 1: en février y a les écrits Locuteur 1: et euh Locuteur 1: pour passer Locuteur 2: bonjour Question: #spk5: ça enregistre ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 171,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: hm Locuteur 1: raté mais bon j'ai pas eu de préparation euh là je vais dans une école pour me préparer donc euh Locuteur 2: hm hm Locuteur 1: normalement ça Locuteur 1: va marcher je croise les doigts Locuteur 2: ouais ouais ouais ça va faciliter ouais bah ouais ouais Locuteur 2: ouais Locuteur 1: et euh Locuteur 1: voilà Locuteur 1: ouais Question: Locuteur 2: et après l'école se serait à Tours aussi ou ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 172,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: j'aimerais être Locuteur 1: à Tours parce que bon c'est pas loin de Locuteur 1: d'Orléans ma soeur est déjà à Tours Locuteur 2: d'accord Locuteur 1: donc on va habiter ensemble euh Locuteur 1: et puis euh Locuteur 1: bon après y a plein d'autres écoles sur Paris euh Locuteur 1: après bon après c'est plus loin c'est Angers euh Locuteur 1: Limoges euh tout ça Locuteur 2: hm hm hm hm Question: Locuteur 2: et Orléans y a pas ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 173,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: moniteur euh Locuteur 1: je sais plus comment ça s'appelle Locuteur 2: mais éducateur Locuteur 2: de jeunes enfants c'est pas la même chose que éducateur Locuteur 2: spécialisé Locuteur 1: non Locuteur 2: d'accord Locuteur 1: non non parce c'est Locuteur 1: vraiment les enfants de zéro à six ans quoi Locuteur 2: d'accord Question: Locuteur 2: et donc après ça mène à faire quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 174,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: m'occuper d'enfants euh hospitalisés les accompagner et cetera Locuteur 2: d'accord Locuteur 1: euh dans les foyers Locuteur 2: ouais Locuteur 1: et puis en crèche euh aussi Locuteur 2: d'accord Locuteur 1: ouais ça peut être euh divers Locuteur 2: d'accord Locuteur 2: d'accord Locuteur 1: hm Question: Locuteur 2: et vous vous préféreriez euh ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 175,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: y a beaucoup de cas difficiles donc euh Locuteur 1: toute une vie ça fait beaucoup peut-être mais euh Locuteur 2: oui c'est oui ça doit être difficile Locuteur 2: enfin y a des choses qui doivent être difficile à gérer Locuteur 2: et ouais Locuteur 1: hm hm mais bon après Locuteur 1: je peux être euh directrice de crèche Locuteur 1: je peux évoluer donc euh Locuteur 2: d'accord d'accord d'accord Locuteur 1: donc ouais Question: Locuteur 2: et l'école c'est combien de temps après ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 176,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: hm Locuteur 2: hm c'est chouette Locuteur 1: ouais je Locuteur 1: ça me tarde d'y être quoi parce que bah Locuteur 1: à la fac euh Locuteur 1: je faisais sciences du langage pour me préparer aux concours d'orthophonie Locuteur 2: oui Locuteur 1: et euh Locuteur 1: et puis bah je me suis aperçue que Locuteur 1: ça allait pas me convenir du tout en fait Question: Locuteur 2: l'orthophonie ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 177,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: l'orthophonie ? Locuteur 1: ouais Locuteur 2: ouais Locuteur 1: ouais Locuteur 1: et euh Locuteur 1: et puis les sciences du langage je m'attendais pas à ça non plus Locuteur 2: ouais Locuteur 1: j'ai enfin ouais Locuteur 1: ça m'a pas non ça m'a pas vraiment plu en fait Locuteur 1: et donc bah j'ai eu une période où je me suis dit qu'est-ce que je fais Question: Locuteur 1: ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 178,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: dans une euh garderie du soir Locuteur 1: quoi Locuteur 2: d'accord Locuteur 1: et euh donc j'étais quand même en contact avec des enfants et puis au conservatoire je m- Locuteur 1: je m'occupais des plus jeunes élèves Locuteur 1: donc euh à partir de cinq six ans ouais Locuteur 2: ouais Locuteur 1: donc bon j'étais quand même en relation avec Locuteur 1: des enfants Locuteur 2: ouais ouais ouais ouais Question: Locuteur 2: pour leur faire quoi vous faisiez quoi du théâtre ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 179,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: au lycée j'ai été beaucoup prise par le théâtre Locuteur 2: tout ça donc euh Locuteur 1: ouais Locuteur 1: j'avais je pouvais pas tout gérer quoi Locuteur 1: enfin bon Locuteur 2: bah oui c'est sûr Locuteur 1: ouais Locuteur 1: c'est déjà bien Locuteur 2: d'accord Locuteur 2: euh Question: Locuteur 2: sur quoi pourrions-nous partir maintenant ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 180,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: hm Locuteur 2: euh à Tours vous disiez avec votre soeur Locuteur 1: ouais Locuteur 2: voilà Locuteur 1: ouais ouais Locuteur 2: bon ouais ça y est Locuteur 2: ouais Locuteur 1: on a trouvé un beau petit appartement comme il faut ouais Locuteur 1: ça me tarde d'y être Locuteur 2: et Tours vous connaissez ou euh Question: Locuteur 2: qu- la ville ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 181,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: bah Locuteur 2: ouais Locuteur 1: j'y suis allée l'année dernière euh deux trois fois parce que j'ai des amis là-bas Locuteur 2: ouais Locuteur 1: donc euh bon c'était surtout pour faire la fête Locuteur 1: mais euh Locuteur 1: ou- non je connais pas plus que ça Locuteur 2: ouais Locuteur 1: bon je saurais pas me repérer ouais oui Locuteur 2: et vous avez l'impression que ça voi- va vous plaire ou ouais Question: Locuteur 2: c'est plus grand qu'Orléans ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 182,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ouais ouais ouais Locuteur 2: qui vont essayer Locuteur 2: de vous faire pleurer Locuteur 1: si je craque ce sera avant voilà Locuteur 1: je saurais sur quoi euh Locuteur 2: les sujets sensibles hop je dévirais Locuteur 2: bah voilà Locuteur 2: ouais Locuteur 2: hm hm hm hm Locuteur 1: ou je ferais une réponse toute faite toute carrée et puis euh fuit- Question: Locuteur 2: et c'est c'est euh combien de temps l'oral ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 183,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: que pensent euh Locuteur 1: que pensent les les autres euh Locuteur 1: de vous euh Locuteur 2: d'accord ouais hm hm hm Locuteur 1: ouais Locuteur 2: ou quelles sont vos qualités Locuteur 1: hm Locuteur 2: qu- quels sont vos des choses Locuteur 2: comme ça ouais ouais Locuteur 1: comment vous perçoivent les autres c'était ça la question ouais Question: Locuteur 1: comment vous perçoivent les autres ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 184,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ouais Locuteur 1: ouais Locuteur 1: ouais ouais Locuteur 1: c'est plein de sentiments mais euh Locuteur 2: ouais Locuteur 1: mais c'est du bon quoi Locuteur 1: c'est pas Locuteur 2: ouais Locuteur 2: ouais ouais ouais ouais Locuteur 1: hm Question: Locuteur 2: y a pas trop de stress ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 185,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: hm hm hm hm Locuteur 1: c'est quand même c'est c'est Locuteur 1: c'est pas facile hein Locuteur 2: ah ouais non Locuteur 1: je respecte mais euh Locuteur 1: toute une vie quoi c'est Locuteur 2: hm hm hm hm hm Locuteur 1: c'est dur quand même hein Locuteur 1: hm Locuteur 2: donc et là vous faites ça pour euh Question: Locuteur 2: pour l'été ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 186,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: c'est quand même c'est c'est Locuteur 1: c'est pas facile hein Locuteur 2: ah ouais non Locuteur 1: je respecte mais euh Locuteur 1: toute une vie quoi c'est Locuteur 2: hm hm hm hm hm Locuteur 1: c'est dur quand même hein Locuteur 1: hm Locuteur 2: donc et là vous faites ça pour euh Locuteur 2: pour l'été ? Question: Locuteur 2: pendant tout l'été ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 187,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: hm hm hm hm hm Locuteur 1: je fais ma petite vie euh je nettoie ce qu'il faut et puis euh Locuteur 1: voilà Locuteur 1: hm Locuteur 2: bien c'est courageux Locuteur 2: bon et pour parler d'autre chose que du travail Locuteur 1: oui Locuteur 1: en dehors du travail Locuteur 1: oh là Locuteur 1: en dehors du travail Question: Locuteur 1: qu'est-ce que vous faites ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 188,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: qu'une ou deux fois Locuteur 2: ouais Locuteur 1: hm Locuteur 1: donc euh voilà théâtre cinéma et puis euh je vois mes amis Locuteur 2: et cinéma vous a- Locuteur 2: vous allez voir quel type de enfin vous aimez quoi comme type de films Locuteur 1: j'aime bien la science-fiction Locuteur 2: ouais Locuteur 1: ouais Locuteur 1: donc euh Question: Locuteur 2: le dernier film que vous avez vu ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 189,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: après j'aime bien lire aussi euh Locuteur 2: oui Locuteur 1: des policiers Locuteur 2: des policiers ouais Locuteur 1: hm Locuteur 1: j'aime bien lire ça Locuteur 1: euh ouais voilà quoi Locuteur 2: hm hm hm Locuteur 2: hm Locuteur 1: hm Question: Locuteur 2: et euh Internet l'ordinateur tout ça non ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 190,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ouais ouais ouais Locuteur 1: mêmes les jeux vidéos ou Locuteur 1: des trucs Locuteur 2: oui Locuteur 1: comme ça euh non Locuteur 2: hm Locuteur 1: playstation machin gameboy euh Locuteur 2: hm hm non Locuteur 1: j'ai jamais non Locuteur 1: jamais voilà Question: Locuteur 1: et la télé ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 191,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: enfin Locuteur 2: ouais de Locuteur 2: prendre l'air euh Locuteur 1: hm Locuteur 1: hm hm hm Locuteur 2: d'accord à co- Locuteur 1: à coté Locuteur 2: sans prendre la voiture euh Locuteur 2: voilà Locuteur 2: ouais Question: Locuteur 2: et du sport ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 192,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: et vous pratiquez ah Locuteur 1: mais bon ça j'avais parce que mon père il est judoka Locuteur 1: euh donc euh Locuteur 2: d'accord Locuteur 2: d'accord Locuteur 1: il est prof de judo aussi Locuteur 2: d'accord Locuteur 1: il en fait depuis qu'il a sept ans donc euh Locuteur 1: j'ai baigné là dedans hein Locuteur 2: d'accord Question: Locuteur 2: et vous en faites ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 193,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: mais bon ça j'avais parce que mon père il est judoka Locuteur 1: euh donc euh Locuteur 2: d'accord Locuteur 2: d'accord Locuteur 1: il est prof de judo aussi Locuteur 2: d'accord Locuteur 1: il en fait depuis qu'il a sept ans donc euh Locuteur 1: j'ai baigné là dedans hein Locuteur 2: d'accord Locuteur 2: et vous en faites ? Question: Locuteur 2: ou vous en avait fait ? hm",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 194,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: c'est pas mal Locuteur 1: ouais Locuteur 2: ok Locuteur 2: donc euh Locuteur 2: ensuite euh y a Locuteur 2: toute une partie plus euh évaluative sur Orléans en fait Locuteur 2: qu'est-ce que vous pensez euh Locuteur 1: hm hm Locuteur 2: ou ouais qu'est-ce que vous trouvez de bien Locuteur 1: hm hm Question: Locuteur 2: à Orléans ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 195,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ensuite euh y a Locuteur 2: toute une partie plus euh évaluative sur Orléans en fait Locuteur 2: qu'est-ce que vous pensez euh Locuteur 1: hm hm Locuteur 2: ou ouais qu'est-ce que vous trouvez de bien Locuteur 1: hm hm Locuteur 2: à Orléans ? Locuteur 2: et qu'est-ce que vous trouvez Locuteur 1: d'accord Locuteur 2: de moins bien Question: Locuteur 2: à Orléans ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 196,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: qu'est-ce que vous pensez euh Locuteur 1: hm hm Locuteur 2: ou ouais qu'est-ce que vous trouvez de bien Locuteur 1: hm hm Locuteur 2: à Orléans ? Locuteur 2: et qu'est-ce que vous trouvez Locuteur 1: d'accord Locuteur 2: de moins bien Locuteur 2: à Orléans ? Locuteur 1: ok Question: Locuteur 2: donc qu'est-ce qu- ouais qu'est-ce qui vous plaît à Orléans ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 197,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ouais ouais ouais ouais Locuteur 1: alors j- après je sais Locuteur 1: où ils veulent euh Locuteur 1: vers Saint-Jean-le-Blanc je crois ils veulent euh Locuteur 1: Saint-Jean-de-Braye Locuteur 2: ah bon Locuteur 1: non Saint-Jean-de-Braye je crois ils veulent euh Locuteur 2: je sais pas Locuteur 1: mais euh Locuteur 1: ouais non Question: Locuteur 2: et vous quand vous allez à Orléans vous y allez en voiture ou y a des bus ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 198,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: pas de stress Locuteur 2: et euh Locuteur 2: donc ouais vous allez partir à Tours et euh Locuteur 2: euh Locuteur 2: pour sur la région Centre on parle toujours d'Orléans Tours est-ce que Locuteur 2: comment vous voyez cette euh dualité ou cette euh Locuteur 2: cette proximité des deux villes dans la région est-ce que vous pensez qu'il y a Locuteur 2: qu'il y en a une qui prend le dessus sur Locuteur 2: l'autre Locuteur 1: ah Question: Locuteur 2: qui doit prendre le dessus ? qui représenterait plus la région Centre ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 199,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: ouais Locuteur 2: ouais ouais ouais Locuteur 1: plus gros avec plus de de personnes mais euh Locuteur 1: hm Locuteur 2: d'accord Locuteur 1: ouais Locuteur 2: ok Locuteur 2: euh Locuteur 2: et est-ce que vous vous parlez euh Locuteur 2: d'autres langues que le français Question: Locuteur 2: ou ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 200,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: hm hm Locuteur 1: pas grand chose Locuteur 1: et c'est mais c'est vrai que ça m'aurais euh Locuteur 1: vraiment plu de qu'elle m'apprenne cette langue euh Locuteur 1: parce que ouais Locuteur 1: ça fait quarante ans qu'elle est en France mais Locuteur 1: son pays c'est l'Algérie Locuteur 1: quoi et euh Locuteur 2: ouais ouais ouais ouais Locuteur 1: ma mère est née là-bas tout ça donc Question: Locuteur 2: et votre mère le parle ou ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 201,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: ma mère est née là-bas tout ça donc Locuteur 2: et votre mère le parle ou ? Locuteur 1: pas du tout ouais Locuteur 1: non plus Locuteur 2: non Locuteur 1: non plus Locuteur 1: donc ouais j'aurais bien aimé parler cette langue en plus j'aime bien tous tous les pays d'Afrique du Locuteur 1: nord tout ça Locuteur 2: hm hm hm Locuteur 1: et euh Question: Locuteur 2: et votre grand-mère elle vit pas ici ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 202,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 1: ça fait bizarre quoi parce que Locuteur 1: mais tant mieux quoi si Locuteur 1: euh Locuteur 2: bah oui Locuteur 1: si ils s'en sortent mieux que que nous Locuteur 2: si ça se vé- hm hm hm hm Locuteur 1: que nous Locuteur 2: et euh Locuteur 2: et quand vous vous balader dans Orléans ou dans l'Agglo est-ce Locuteur 2: est-ce que vous avez repéré des langues euh Question: Locuteur 2: autre le que le français qui sont parlées euh ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 203,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "input_text": "Locuteur 2: pour voir Locuteur 1: d'accord Locuteur 2: si y a des Locuteur 2: différences par rapport à soixante huit Locuteur 2: des choses comme ça Locuteur 1: hein hein Locuteur 2: donc voilà Locuteur 2: donc est-ce que vous pourriez m'expliquer Locuteur 1: c'est marrant Locuteur 2: d'accord Question: Locuteur 2: comment vous faites une omelette avec toutes les étapes euh ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 204,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: donc Question: Locuteur 1: je peux commencer ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 205,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: on peut commencer de de Locuteur 1: d'ici qu'est-ce qui Locuteur 1: de de cette maison Locuteur 1: en même temps et je Locuteur 2: oui Locuteur 1: je vous cache pas qu'elle est Locuteur 2: orléanaise Locuteur 1: elle m'a beaucoup impressionné en arrivant Locuteur 1: elle est très belle hein Locuteur 2: oui Question: Locuteur 1: euh donc depuis quand vous êtes euh dans cette maison ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 206,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: non parce qu'encore euh Locuteur 2: et encore avant Locuteur 2: a- euh Locuteur 2: je n'étais pas à Orléans Locuteur 2: j'étais euh Locuteur 2: à la campagne Locuteur 2: à hm Locuteur 2: alors euh Locuteur 2: euh Locuteur 2: quand est-ce que je suis venue euh Question: Locuteur 2: rue de Limare euh ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 207,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh Locuteur 2: ici il y avait Locuteur 2: d- Locuteur 2: il habitait dans la maison qui était là Locuteur 2: derrière il y a sa bibliothèque Locuteur 2: il y avait des écuries Locuteur 2: devant Locuteur 2: ce que vous ce que vous avez traversé Locuteur 2: la cour ba- la cour pavée Locuteur 2: et ici c'est la salle du hm Question: Locuteur 2: comment ça s'appelle Marion ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 208,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: il habitait dans la maison qui était là Locuteur 2: derrière il y a sa bibliothèque Locuteur 2: il y avait des écuries Locuteur 2: devant Locuteur 2: ce que vous ce que vous avez traversé Locuteur 2: la cour ba- la cour pavée Locuteur 2: et ici c'est la salle du hm Locuteur 2: comment ça s'appelle Marion ? Locuteur 2: euh la salle euh Locuteur 2: vous savez où ils Question: #spk3: des domestiques ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 209,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: un joli jardin derrière Locuteur 2: donc on est très bien Locuteur 2: on adore cette maison Locuteur 2: et euh Locuteur 2: malgré tout Locuteur 2: ça fait douze ans qu'on est là Locuteur 2: et les autres ne sont encore pas habitués à nous Locuteur 2: c'est une caractéristique des gens d'Orléans Locuteur 2: ils ont du mal s'ha- Locuteur 2: ils ont du mal à s'habituer aux autres Question: Locuteur 1: ah ouais ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 210,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: ça fait douze ans qu'on est là Locuteur 2: et les autres ne sont encore pas habitués à nous Locuteur 2: c'est une caractéristique des gens d'Orléans Locuteur 2: ils ont du mal s'ha- Locuteur 2: ils ont du mal à s'habituer aux autres Locuteur 1: ah ouais ? Locuteur 2: voilà Locuteur 1: d'accord Locuteur 1: et et alors c'était un choix vraiment pour la maison au début Locuteur 1: et pas pour le quartier spécialement Question: Locuteur 1: ou ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 211,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: mais en même temps euh j'ai la chance de voir Gabriel Locuteur 2: qui est à la fac et Pierre NPERS son frère Locuteur 2: que je lis Locuteur 2: quelquefois tous les deux sur le trottoir en train de discuter Locuteur 2: c'est bien Locuteur 2: euh qui est qui est-ce qu'il y a alors madame NPERS Locuteur 2: donc s'occupe de la paroisse euh Locuteur 2: d'une manière absolument enragée Locuteur 2: mais elle est sympathique quand même Locuteur 2: euh hm Question: Locuteur 2: elle est quand même sympathique hein Marion ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 212,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: quelquefois tous les deux sur le trottoir en train de discuter Locuteur 2: c'est bien Locuteur 2: euh qui est qui est-ce qu'il y a alors madame NPERS Locuteur 2: donc s'occupe de la paroisse euh Locuteur 2: d'une manière absolument enragée Locuteur 2: mais elle est sympathique quand même Locuteur 2: euh hm Locuteur 2: elle est quand même sympathique hein Marion ? Locuteur 2: oui oui c'est vrai Locuteur 2: elle a elle a Question: Locuteur 1: c'est vrai ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 213,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: et donc on a une mini vie de quartier Locuteur 2: sans jamais euh Locuteur 2: c'est-à-dire que ça pourrait être mieux si je m'entendais mieux euh Locuteur 2: si on s'entendait mieux avec les gens de Locuteur 2: de la copropriété Locuteur 2: c'est un peu Locuteur 2: on peut pas Locuteur 2: on peut pas s'entendre avec eux Locuteur 2: on peut pas Locuteur 2: euh je crois que ça vient de l'amour extrême qu'on porte à cette maison Question: Locuteur 2: vous voyez ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 214,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: y a quelque chose et les Locuteur 2: les réunions de copropriété peuvent se terminer euh Locuteur 2: dans les sanglots et les réconciliations Locuteur 2: enfin bon Locuteur 2: c'est fort Locuteur 1: ça donne des moments très forts Locuteur 2: voilà c'est fort Locuteur 1: hm Locuteur 1: hm Locuteur 1: est-ce que vous utilisez aussi le le quartier je sais pas pour un Question: Locuteur 1: pour une maison justement pour des artisans ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 215,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: dans les sanglots et les réconciliations Locuteur 2: enfin bon Locuteur 2: c'est fort Locuteur 1: ça donne des moments très forts Locuteur 2: voilà c'est fort Locuteur 1: hm Locuteur 1: hm Locuteur 1: est-ce que vous utilisez aussi le le quartier je sais pas pour un Locuteur 1: pour une maison justement pour des artisans ? Locuteur 1: pour euh Question: Locuteur 1: faire des réparations euh ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 216,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: pas souvent Locuteur 1: oui culturel Locuteur 2: parce que j'ai un f- j'ai un fi- Locuteur 2: je vais à l'Astrolabe parce que j'ai un fils qui est musicien Locuteur 2: que qu- si jamais il se produit là-bas j'y vais Locuteur 2: Marion sûrement plus hein Locuteur 2: euh #spk3: oui Locuteur 2: euh Locuteur 2: la patinoire non Question: Locuteur 2: euh qu'est-ce qu'il y a dans le coin ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 217,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: ah ça c'est curieux oui Locuteur 2: et d'ailleurs Locuteur 2: c'est très curieux Locuteur 2: mais enfin c'est pas désagréable parce qu'à la gare Locuteur 2: euh en ce moment y a des jeunes qui font euh Locuteur 2: euh du du hip-hop Locuteur 2: et j'adore Locuteur 2: et donc je regarde voilà Locuteur 2: voilà Locuteur 1: alors Question: Locuteur 1: la gare c'était important vous m'avez dit aussi pour aller à Paris ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 218,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh en ce moment y a des jeunes qui font euh Locuteur 2: euh du du hip-hop Locuteur 2: et j'adore Locuteur 2: et donc je regarde voilà Locuteur 2: voilà Locuteur 1: alors Locuteur 1: la gare c'était important vous m'avez dit aussi pour aller à Paris ? Locuteur 2: alors Locuteur 1: parce que vous m'aviez dit que vous étiez parisienne Locuteur 2: voilà Question: Locuteur 1: s- ça veut dire que vous êtes née à Paris ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 219,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: enfin moi moi je suis à la retraite Locuteur 2: mon mari est est instituteur Locuteur 2: euh Locuteur 2: on Locuteur 2: le le Locuteur 2: on reste le samedi pour faire nos bagages et on part le dimanche Locuteur 2: on part tout le temps Locuteur 1: hm Locuteur 2: on a une maison en Bretagne Locuteur 1: et donc c'est le métier qui vous a ramenée vers euh Question: Locuteur 1: vers Orléans non ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 220,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: hm Locuteur 2: euh par ailleurs c'était euh notre périmètre euh parental Locuteur 2: mes parents étant de Meung-sur-Loire et ses parents étant de Beaugency Locuteur 1: oui Locuteur 2: et euh Locuteur 2: à cause de ça sans doute et d- Locuteur 2: et d'aut- d'autres choses nous avons divorcé Locuteur 2: voilà Locuteur 1: d'accord et et donc euh Locuteur 1: av- votre métier c'était d'être institutrice Question: Locuteur 1: puis directrice d'école ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 221,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh par ailleurs c'était euh notre périmètre euh parental Locuteur 2: mes parents étant de Meung-sur-Loire et ses parents étant de Beaugency Locuteur 1: oui Locuteur 2: et euh Locuteur 2: à cause de ça sans doute et d- Locuteur 2: et d'aut- d'autres choses nous avons divorcé Locuteur 2: voilà Locuteur 1: d'accord et et donc euh Locuteur 1: av- votre métier c'était d'être institutrice Locuteur 1: puis directrice d'école ? Question: Locuteur 1: c'est ça ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 222,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: puisque euh j'étais suppléante éventuelle Locuteur 2: étant donné que j'étais arrivée comme ça c- euh Locuteur 2: et très vite je Locuteur 2: j'ai été de nouveau directrice Locuteur 2: j'étais directrice des Chaussées à hm Locuteur 2: à Beaugency Locuteur 2: qui est une école euh Locuteur 2: très belle très agréable et Locuteur 1: et alors vous êtes toujours directrice est-ce que ça vous Locuteur 1: c'est ça vous plaît d'être euh Question: Locuteur 1: directrice ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 223,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: vous savez tout ça maintenant hein Locuteur 2: je le sais Locuteur 1: c'est c'est c'est Locuteur 2: je le sais c'est bien j'ai pris ma retraite Locuteur 1: ah oui oui Locuteur 2: c'est pour ça Locuteur 2: mon mari est toujours instituteur donc je sais que c'est terminé Locuteur 1: hm hein je dis ça Locuteur 2: alors euh Locuteur 2: en c'est moins ça se sent moins en primaire hein Question: Locuteur 1: vous croyez ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 224,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: alors euh Locuteur 2: en c'est moins ça se sent moins en primaire hein Locuteur 1: vous croyez ? Locuteur 2: oui Locuteur 2: parce qu'en primaire y a jamais eu ce lien euh im- hyper important Locuteur 2: avec l'enfant la famille les parents Locuteur 2: qu'il y a euh Locuteur 2: il y a Locuteur 2: oui &wa &Ot elle va Locuteur 2: &Ot Question: Locuteur 2: tu v- tu veux a mettre dehors ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 225,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: bah oui Locuteur 2: oui je suis pas quelqu'un euh Locuteur 2: qui a pris sa retraite euh Locuteur 2: en disant c'est super la retraite Locuteur 2: maintenant oui Locuteur 2: euh depuis un ou deux ans je trouve ça pas mal Locuteur 1: hm Locuteur 1: et et avant avant la retraite justement vous Locuteur 1: vous z- vous voyez une évolution dans dans votre métier justement ou Locuteur 1: dans l- dans dans l'ambiance dans le rôle de l'école Question: Locuteur 1: dans la société ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 226,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: non Locuteur 2: non Locuteur 1: c'est vrai que moi je suis à l'Université Locuteur 1: qu'on a eu un Locuteur 1: un mouvement un peu long l'année dernière euh Locuteur 2: oui Locuteur 1: sans grande réussite hein Locuteur 2: c'était un petit peu Locuteur 1: ah ouais Locuteur 2: alors là est-ce qu'ils ont compris que les z- Question: Locuteur 2: qu'ils avaient perdu aux élections ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 227,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: oui Locuteur 1: sans grande réussite hein Locuteur 2: c'était un petit peu Locuteur 1: ah ouais Locuteur 2: alors là est-ce qu'ils ont compris que les z- Locuteur 2: qu'ils avaient perdu aux élections ? Locuteur 2: on se le demande Locuteur 2: voilà Locuteur 1: mais qu- qu dans qu- Locuteur 1: vous voyez p- euh hm Question: Locuteur 1: quoi comme différence aussi entre le métier d'institutrice et le métier de directrice ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 228,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: oui ou Locuteur 2: ou de d'installer un climat dans une école Locuteur 1: d'installer un climat Locuteur 2: euh Locuteur 1: quoique concrètement installer un climat Locuteur 2: ah c'est-à-dire que institutrice c'est plus facile Locuteur 1: en tant qu'institutrice Locuteur 2: c'est c'est c'est s- Locuteur 2: d'installer un climat quand on est directrice Locuteur 2: par exemple on peut dire euh Question: Locuteur 2: on peut faire écrire dans le hm comment ça s'appelle ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 229,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: d'installer un climat Locuteur 2: euh Locuteur 1: quoique concrètement installer un climat Locuteur 2: ah c'est-à-dire que institutrice c'est plus facile Locuteur 1: en tant qu'institutrice Locuteur 2: c'est c'est c'est s- Locuteur 2: d'installer un climat quand on est directrice Locuteur 2: par exemple on peut dire euh Locuteur 2: on peut faire écrire dans le hm comment ça s'appelle ? Locuteur 2: le hm Question: Locuteur 2: ah comment ça s'appelle ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 230,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: c'était pas pesant Locuteur 2: puis et puis euh au cours Freinet on savait Locuteur 2: ce que ce que c'était que l'institution et comment se défendre Locuteur 1: ça ça le oui Locuteur 2: voilà Locuteur 1: le euh la la pédagogie Freinet Locuteur 2: on Locuteur 1: s- hm Locuteur 2: on pouvait des fois Locuteur 1: c'était vraiment important pour euh pour vous à m- à mettre en place Question: Locuteur 1: ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 231,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: j'avais pas envie de rester et Locuteur 2: et d'av- et de hm Locuteur 2: de refaire tout ce boulot avec euh de nouvelles personnes et puis j'étais fatiguée Locuteur 2: voilà Locuteur 1: hm Locuteur 2: voilà Locuteur 2: donc j'étais au centre d'Orléans à ce moment-là Locuteur 2: je connais euh tous les gens du centre d'Orléans Locuteur 1: oui oui Locuteur 1: et v- et vous avez des souvenirs très marquants particuliers Question: Locuteur 1: de profession ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 232,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: hm Locuteur 2: voilà Locuteur 2: donc j'étais au centre d'Orléans à ce moment-là Locuteur 2: je connais euh tous les gens du centre d'Orléans Locuteur 1: oui oui Locuteur 1: et v- et vous avez des souvenirs très marquants particuliers Locuteur 1: de profession ? Locuteur 2: j'ai beaucoup de souvenirs je suis Locuteur 2: je suis hypermnésique #spk3: non c'est pas vrai Question: Locuteur 2: je suis pas hypermnésique ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 233,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: oui Locuteur 2: hyper Locuteur 2: pas hypo #spk3: ouais Locuteur 2: je c- sais plein de choses oui #spk3: ah oui Locuteur 2: oui beaucoup de souvenirs Locuteur 1: hm Locuteur 2: beaucoup de souvenirs heureux Locuteur 2: je me rappelle de tout le monde Question: Locuteur 1: c'est vrai ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 234,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: c'est là que mon fils Bertrand est né mon ainé Locuteur 2: et euh hm Locuteur 2: non Locuteur 2: ils avaient perdu personne Locuteur 2: bon Locuteur 2: on a appelé l'hôpital en gériatrie Locuteur 2: ils n'avaient perdu personne non plus Locuteur 2: bon on a appelé les flics Locuteur 2: euh Locuteur 2: et puis Question: Locuteur 2: qu'est-ce qui s'est passé ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 235,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: mais on avait quand même un petit noyau euh de Locuteur 2: de blacks et de Locuteur 2: maghrébins Locuteur 2: quelques portugais alors ces f- les familles euh les plus difficiles Locuteur 2: les familles portugaises Locuteur 2: s'intègrent pas surtout avec des enfants en bas âge euh c'était compliqué Locuteur 2: mais euh sinon Locuteur 2: tout ça ça marche bien ensemble Locuteur 1: vous avez l'impression que c'est c'est hm Locuteur 1: c'est l'école qui permet ça ou Question: Locuteur 1: ou particulièrement la pédagogie Freinet par exemple ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 236,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: bon euh Locuteur 2: je profitais du moment où Locuteur 2: c'était pas moi qui avais mes Locuteur 2: mes enfants Locuteur 2: parce que c'était mon ex-mari Locuteur 2: pour venir à Orléans ça faisait vingt-cinq kilomètres Locuteur 2: ça a aussi euh pesé dans ma Locuteur 2: dans mon idée de venir euh Locuteur 2: m'installer à Orléans Locuteur 2: et puis le rue de Limare et ben y avait les les cinémas Question: Locuteur 2: comment s'appelait-il euh rue d'Illiers le Martroi ou je sais pas quoi ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 237,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh Locuteur 2: et moi je l'ai- j'ai eu ses élèves euh ses z- ses enfants à l'école donc on est Locuteur 2: alors euh je lui dis euh Locuteur 2: ce qui est très bien monsieur NPERS c'est d'a- c'est d'aller voir euh le le film de Polanski Locuteur 2: il me dit mais c'est au Pathé Locuteur 2: j'ai dit mais nous on mange à tous les râteliers Locuteur 2: j'ai vu que bon Locuteur 2: c'est quelque chose qu'il faut pas faire Locuteur 1: oui Locuteur 1: pour vous y a vraiment une répartition selon Question: Locuteur 1: selon les cinémas à Orléans ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 238,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: non Locuteur 2: je suis pas comme ça Locuteur 2: donc euh Locuteur 2: euh ici c'est bien Locuteur 2: on n'est pas loin des cinés Locuteur 2: le Pathé c'est un peu loin Locuteur 2: on y va le moins possible Locuteur 2: euh hm Locuteur 2: les Carmes c'est pas loin Locuteur 2: c'est bien Question: Locuteur 1: et le théâtre par exemple ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 239,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh on aime euh Locuteur 2: c'est mon mari Emmanuel qui aime le théâtre Locuteur 2: euh Locuteur 2: j'y vais parce qu'il aime ça Locuteur 2: et quelques fois Locuteur 2: ça me plait Locuteur 2: et euh et euh Locuteur 2: moi j'aime beaucoup la musique Locuteur 2: mais pas plus d'un opéra par an parce que ça coûte cher Locuteur 2: voilà Question: Locuteur 2: euh qu'est-ce qu'on fait d'autre euh ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 240,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh l'un le p- l'aîné est saxophoniste Locuteur 2: le deuxième est pianiste Locuteur 2: euh ben moi je suis groupie Locuteur 2: euh donc euh Locuteur 2: je vais partout où ils jouent Locuteur 2: au Moulin de la Vapeur Locuteur 2: à la Fabrique à Meung-sur-Loire euh Locuteur 2: euh hm Locuteur 1: mais quand vous dites qu'ils s- Locuteur 2: à l'Astrolabe Question: Locuteur 1: ils sont musiciens de de d- de métiers ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 241,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: au Moulin de la Vapeur Locuteur 2: à la Fabrique à Meung-sur-Loire euh Locuteur 2: euh hm Locuteur 1: mais quand vous dites qu'ils s- Locuteur 2: à l'Astrolabe Locuteur 1: ils sont musiciens de de d- de métiers ? Locuteur 2: oui Locuteur 1: hm Locuteur 1: vous avez vous avez c- Locuteur 2: ce qui veut d- ce qui veut dire qu'ils crèvent la faim Question: Locuteur 1: ça vous avez combien d'enfants ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 242,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: donc euh Locuteur 2: euh l'aîné a quarante-cinq ans le deuxième trente-cinq ans et le troisième vingt-cinq ans Locuteur 2: et le le troisième donc euh c'est celui qui vit avec Marion et c- il est prof de Maths Locuteur 2: voilà Locuteur 2: à Jean Zay Locuteur 2: je suis allée à Jean Zay quand j'étais jeune Locuteur 2: voilà Locuteur 2: s- et y a plus la mère NPERS euh Locuteur 2: n'est pas là Locuteur 2: euh elle ne hante pas les murs Question: Locuteur 1: donc lui il est pas musicien professionnel ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 243,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh mon fils Baptiste accompagnait Hugo Zermati Locuteur 2: qui est un Locuteur 2: un Locuteur 2: une sorte de clown magique et Locuteur 2: dans un spectacle où Locuteur 2: qui s'appelait Reprises de Renaud Locuteur 2: où il y avait trois re- Locuteur 2: trois reprises hein Locuteur 2: c'est-à-dire euh une assez sobre Locuteur 2: par euh quelqu'un qui est très connu à Orléans qui s'appelle euh Question: Locuteur 2: mince comment il s'appelle ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 244,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: et puis après y avait euh Locuteur 2: euh celui qui joue dans les Vendeurs d'enclumes euh Locuteur 2: qui fait guitariste dans j- Vendeurs d'enclumes je ne me rappelle plus son nom Locuteur 2: qui jouait euh Locuteur 2: qui p- qui p- reprenait Renaud de toute manière Locuteur 2: et puis Baptiste et Hugo euh Locuteur 2: d'une troisième manière euh Locuteur 2: je les avais déjà vus à l'Astrolabe Locuteur 2: voilà Locuteur 2: je je vais euh souvent euh Question: Locuteur 2: dans le café euh comment s'appelle ce café le ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 245,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh rue de Bourgogne Locuteur 2: parce que Baptiste y joue très souvent Locuteur 2: en fait je s- je c'est mon fils Baptiste euh que je suis le plus Locuteur 2: celui qui est hm Locuteur 2: donc tous ces a- tous ces g- c- tous ces musiciens euh Locuteur 2: viennent des fois en Bretagne et donc euh je connais euh beaucoup de musiciens Locuteur 2: voilà Locuteur 2: beaucoup de jeunes musiciens enfin jeunes euh Locuteur 1: hm hm Locuteur 2: jeunes et moins jeunes quarante-cinq ans c'est moins jeune Question: Locuteur 1: et vous trouvez qu'il y a qu'on fait assez de choses à Orléans pour la vie culturelle ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 246,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: c'est sympa Locuteur 2: c'est très sympa Locuteur 1: et et les autres euh grand moments de la vie culturelle orléanaise et Locuteur 1: professionn- Locuteur 2: oh y a eu Locuteur 2: y a eu des grands moments Locuteur 2: mais c'est fini Locuteur 2: y avait les journées cinématographiques Locuteur 1: s- Locuteur 2: c'est fini Question: Locuteur 2: qu'est-ce qu'on peut trouver comme grands moment ben ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 247,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: que j'appelle la Saint Grouard Locuteur 2: j'ai adoré aussi euh dans le temps le jazz Locuteur 2: quand c'était à Saint-Aignan Locuteur 2: après c'était bien aussi à Saint-Aignan l'histoire du cochon là Locuteur 2: bon mais maintenant ces gens-là ils savent se débrouiller Locuteur 2: i- ils font quand même même si c'est des petites choses Locuteur 1: hm hm Locuteur 2: j'aime beaucoup f- le festival euh Parcours et jardins Locuteur 2: c'est bien Locuteur 2: mais y a pas Question: Locuteur 2: qu'est-ce qu'il y a d'autre ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 248,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: quand c'était à Saint-Aignan Locuteur 2: après c'était bien aussi à Saint-Aignan l'histoire du cochon là Locuteur 2: bon mais maintenant ces gens-là ils savent se débrouiller Locuteur 2: i- ils font quand même même si c'est des petites choses Locuteur 1: hm hm Locuteur 2: j'aime beaucoup f- le festival euh Parcours et jardins Locuteur 2: c'est bien Locuteur 2: mais y a pas Locuteur 2: qu'est-ce qu'il y a d'autre ? Locuteur 2: ce qu'il y a d'autre Question: Locuteur 1: les fêtes de Jeanne d'Arc ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 249,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: après c'était bien aussi à Saint-Aignan l'histoire du cochon là Locuteur 2: bon mais maintenant ces gens-là ils savent se débrouiller Locuteur 2: i- ils font quand même même si c'est des petites choses Locuteur 1: hm hm Locuteur 2: j'aime beaucoup f- le festival euh Parcours et jardins Locuteur 2: c'est bien Locuteur 2: mais y a pas Locuteur 2: qu'est-ce qu'il y a d'autre ? Locuteur 2: ce qu'il y a d'autre Locuteur 1: les fêtes de Jeanne d'Arc ? Question: Locuteur 1: vous avez déjà euh été aux fêtes de Jeanne d'Arc ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 250,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: on m- Locuteur 1: même pas d'émissions euh Locuteur 2: non Locuteur 1: de non Locuteur 2: alors il m'arrive Locuteur 2: m'arrive de regarder mais pas souvent parce que ça fout le moral à zéro Locuteur 2: euh hm Locuteur 2: je regarde même pas d'émissions littéraires Locuteur 2: alors que y a que la littérature qui m'intéresse Locuteur 2: euh hm Question: Locuteur 2: qu'est-ce que c'est cette émission euh ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 251,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: ça s'épuise un peu Locuteur 2: je peux pas vous dire le nom Locuteur 1: la la radio vous é- Locuteur 2: alors oui Locuteur 2: euh France Musique euh Locuteur 1: la radio Locuteur 2: dès le matin Locuteur 2: je cause pas Locuteur 2: voilà Locuteur 1: pas Question: Locuteur 1: pas de télés ou de radios locales ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 252,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: je me sers beaucoup d'Internet Locuteur 1: hm hm Locuteur 2: ils mettent des Locuteur 2: des sites Locuteur 2: qu'on peut appeler Locuteur 2: qu'on peut taper pour euh en savoir plus je je le fais Locuteur 1: hm hm hm hm Locuteur 2: je pétitionne Locuteur 2: d'ailleurs je dev- je devrais tenir un un cahier de pétitions Locuteur 2: parce que je ne sais plus après pourquoi pour qui pourquoi j'ai pétitionné voilà Question: Locuteur 1: et ça fonctionne ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 253,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: ils l'ont cachée euh Locuteur 2: à un moment on la trouvait même plus Locuteur 2: là elle a pris un petit peu euh des couleurs mais Locuteur 2: toutefois elle ne Locuteur 2: elle ne Locuteur 2: elle n'est raccrochée à rien Locuteur 2: ce qui fait qu'on passe dans z- z- des espèces de labyrinthes absolument incroyables Locuteur 2: pour euh remonter Place d'Arc Locuteur 2: et à chaque fois je me demande toujours où je où je suis par où je vais passer Locuteur 1: et vous et vous trouvez qu'il y a une euh Question: Locuteur 1: je sais pas une identité orléanaise euh ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 254,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: à un moment on la trouvait même plus Locuteur 2: là elle a pris un petit peu euh des couleurs mais Locuteur 2: toutefois elle ne Locuteur 2: elle ne Locuteur 2: elle n'est raccrochée à rien Locuteur 2: ce qui fait qu'on passe dans z- z- des espèces de labyrinthes absolument incroyables Locuteur 2: pour euh remonter Place d'Arc Locuteur 2: et à chaque fois je me demande toujours où je où je suis par où je vais passer Locuteur 1: et vous et vous trouvez qu'il y a une euh Locuteur 1: je sais pas une identité orléanaise euh ? Question: Locuteur 2: une identité orléanaise ? alors",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 255,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: elle est arrivée parce que son mari a été muté à Orléans Locuteur 2: euh elle a eu un ma- un mal fou à se faire des amis Locuteur 2: en fait on fonctionne par groupes euh nous on est euh Locuteur 1: hm Locuteur 2: on est euh y a y a le petit groupe euh y a le euh le le plus grand goup- groupe et puis euh Locuteur 2: ce qu'on appelle toujours les mêmes c'est-à-dire euh Locuteur 2: tous ceux qu'on connait quoi Locuteur 1: oui on dit que c'est une euh ville à rumeurs aussi Locuteur 1: et puis la rumeur d'Orléans c'est Locuteur 2: c'est sûr euh alors euh c'est sûr à l'école euh taisez-vous Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 256,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: un grand ami Locuteur 2: nous z- nous sommes tous les deux montagnards du même village de montagne Locuteur 2: et euh je le vois toujours Locuteur 2: et euh Locuteur 2: il est insupportable parce qu'il a viré euh juif intégriste Locuteur 2: et euh hm Locuteur 2: et c'est lui qui a écrit sur la rumeur Locuteur 2: et il avait donc l- rue de Limare une librairie qui s'appelait la Rumeur Locuteur 1: hm hm hm Locuteur 2: voilà Question: Locuteur 1: et m- m- montagnard c'est que vous êtes née à la montagne ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 257,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: et euh Locuteur 2: il est insupportable parce qu'il a viré euh juif intégriste Locuteur 2: et euh hm Locuteur 2: et c'est lui qui a écrit sur la rumeur Locuteur 2: et il avait donc l- rue de Limare une librairie qui s'appelait la Rumeur Locuteur 1: hm hm hm Locuteur 2: voilà Locuteur 1: et m- m- montagnard c'est que vous êtes née à la montagne ? Locuteur 2: non Locuteur 1: non non plus Question: Locuteur 1: c'est c'est une passion ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 258,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: on savait rien d'autre euh Locuteur 2: ils s- mes mes parents alla- allaient un peu à à l'aveuglette Locuteur 2: voilà Locuteur 2: c'est comme ça que Locuteur 1: oui Locuteur 2: a- Locuteur 1: et Locuteur 1: et vous avez vu une différence dans la la la façon de parler des des des orléanais par exemple Locuteur 1: vous trouvez qu'il y a une euh Locuteur 1: une langue particulière à Orléans Question: Locuteur 1: une façon de parler ou au contraire c'est très standard ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 259,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: alors Locuteur 2: quand on est arrivé Locuteur 2: c'est-à-dire il y a très longtemps Locuteur 2: comme on avait vécu Locuteur 2: à Paris dans le Cher à Nice et en Creuse Locuteur 2: on était capable de faire un des différences Locuteur 2: déjà à Meung c'était tout un problème pour le prononcer Locuteur 2: c'était euh Locuteur 2: Saint-Ay bon Locuteur 2: tout ça c'était euh Question: Locuteur 2: pour mes parents bon euh qu'est-ce où est-ce qu'on est tombé ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 260,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: oui vous avez l'impression qu'il y a une langue des jeunes Locuteur 1: comme ça Locuteur 2: oui Locuteur 2: il y avait une langue des jeunes Locuteur 2: et et même un accent Locuteur 2: moi j'interdisais à mon fils de parler avec cet accent Locuteur 2: ne parle pas beur Locuteur 1: ah bon Locuteur 2: je lui disais Locuteur 2: tu ne parles pas beur Question: Locuteur 1: et pourquoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 261,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: comme ça Locuteur 2: oui Locuteur 2: il y avait une langue des jeunes Locuteur 2: et et même un accent Locuteur 2: moi j'interdisais à mon fils de parler avec cet accent Locuteur 2: ne parle pas beur Locuteur 1: ah bon Locuteur 2: je lui disais Locuteur 2: tu ne parles pas beur Locuteur 1: et pourquoi ? Question: Locuteur 1: enfin pourquoi vous lui interdisiez ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 262,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: moi j'interdisais à mon fils de parler avec cet accent Locuteur 2: ne parle pas beur Locuteur 1: ah bon Locuteur 2: je lui disais Locuteur 2: tu ne parles pas beur Locuteur 1: et pourquoi ? Locuteur 1: enfin pourquoi vous lui interdisiez ? Locuteur 2: et bien parce que euh pareil Locuteur 2: parce que moi euh j'ai bé- vécu à Nice Locuteur 2: ma mère me disait euh Question: Locuteur 2: mais tu n- tu ne prends pas l'accent ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 263,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: elle voulait qu'on parle sans accent Locuteur 2: elle me disait on habite au centre de la France Locuteur 2: au centre de la France y a pas d'accent Locuteur 2: il parait que s- Locuteur 2: ma mère disait c'est le meilleur euh Locuteur 2: c'est le meilleur euh Locuteur 2: Français Locuteur 2: celui qui est parlé ici Locuteur 2: tu dois parler comme les gens d'ici Locuteur 2: voilà Question: Locuteur 1: et vous vous transmettez ça à vos enfants aussi alors ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 264,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 1: oui Locuteur 2: sans faire exprès Locuteur 2: enfin euh Locuteur 2: sans f- Locuteur 2: je veux dire euh faut bien qu'on transmette quelque chose Locuteur 2: alors bon euh Locuteur 2: moi je voulais pas qu- Locuteur 2: je voulais pas que Tristan Locuteur 2: et j'av- euh j'ai raison il a pas besoin de parler comme ça euh Locuteur 2: maintenant qu'il est prof surtout Question: Locuteur 1: et et vous entendez euh dans le quartier par exemple vous entendez d'autres langues euh que que le Français ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 265,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: et de la place Saint-Aignan on pouvait aller à la piscine Locuteur 2: parce qu'y avait une piscine là Locuteur 1: oui Locuteur 2: et euh Locuteur 2: moi quand j'étais lycéenne euh j'allais à la piscine euh Locuteur 2: régulièrement l'été Locuteur 2: j'ai fait c- j'ai fait khâgne aussi à Pothier Locuteur 2: donc euh j'étais un j'étais un peu plus vieille Locuteur 2: j'habitais Locuteur 2: rue Etienne Dolet Question: Locuteur 2: mais pourquoi est-ce que je n'aime pas le rue de Bourgogne ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 266,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: on allait vers euh trois heures et demie Locuteur 2: on shuntait la récré et on allait jusque là Locuteur 2: y a un gros mur Locuteur 2: é- j'ai d- j'avais des CM2 ils étaient adorables Locuteur 2: ils s'asseyaient Locuteur 2: on emmenait un livre Locuteur 2: un papier un crayon et ils dessinaient la Loire Locuteur 2: c'était Locuteur 2: c'était bien Locuteur 2: je sais pas si c'était pédagogique je veux pas le savoir Question: Locuteur 1: et alors la la vue qui représente le plus orléans pour vous c'est c'est quoi ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 267,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: ils s'asseyaient Locuteur 2: on emmenait un livre Locuteur 2: un papier un crayon et ils dessinaient la Loire Locuteur 2: c'était Locuteur 2: c'était bien Locuteur 2: je sais pas si c'était pédagogique je veux pas le savoir Locuteur 1: et alors la la vue qui représente le plus orléans pour vous c'est c'est quoi ? Locuteur 2: ah bah moi Locuteur 1: c'est Locuteur 2: c- euh bah je vais vous dire s- euh la carte postale de Question: Locuteur 1: c'est une carte postale une photo ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 268,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "input_text": "Locuteur 2: euh qui qui on euh Locuteur 2: on n'en porte pas la responsabilité hein c'est une Locuteur 2: c'est une Locuteur 2: euh une une question qui a été utilisée dans l'enquête y a y a quarante ans Locuteur 1: là Locuteur 2: c'est une question anglaise Locuteur 1: c'est une question anglaise Locuteur 1: et on demandait à à tous les orléanais euh interrogés comment ils faisaient euh l'omelette Locuteur 1: si on voulait avoir la recette de l'omelette Locuteur 1: donc j'aurais une double question Question: Locuteur 1: c'est d'une part est-ce que vous faites des omelettes des fois ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 269,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: donc ma ma première question est très simple c'est Locuteur 1: depuis quand vous habitez euh Question: Locuteur 1: à Orléans ou dans l'agglomération ici à Olivet ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 270,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: depuis quand vous habitez euh Locuteur 1: à Orléans ou dans l'agglomération ici à Olivet ? Locuteur 2: alors nous sommes arrivés à Orléans en Locuteur 2: août quatre-vingt-treize et à Olivet en mai quatre-vingt-quatorze Locuteur 2: voilà Locuteur 1: d'accord Locuteur 2: donc ça fait euh Locuteur 2: pratiquement seize ans dix sept ans bientôt euh Locuteur 2: voilà Locuteur 1: d'accord Question: Locuteur 1: et alors pour quelles raisons vous êtes arrivés euh ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 271,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: et un quatrième en route Locuteur 2: et on souhaitait quitter la région parisienne pour être dans un cadre un peu plus soft pour élever nos enfants Locuteur 2: et voilà donc euh c'est la raison pour laquelle nous sommes partis Locuteur 1: d'accord d'accord et Locuteur 1: vous vous z- vous étiez à Paris vous êtes euh d'o- d'origine Locuteur 1: parisienne Locuteur 2: oui oui oui oui oui Locuteur 1: d'accord Locuteur 2: on est euh Locuteur 2: né là-bas Question: Locuteur 1: nés à Paris ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 272,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: ville de Locuteur 2: alors le Locuteur 1: premier Locuteur 2: province Locuteur 2: on n'a pas véritablement choisi Orléans on avait choisi de partir en région Locuteur 2: on nous a proposé Orléans Locuteur 2: qu'on a accepté sans Locuteur 2: sans à priori Locuteur 2: sans sans préjugé donc voilà Locuteur 1: et donc quand vous êtes arrivés à Orléans vous êtes euh Question: Locuteur 1: vous avez habité où au début ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 273,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: sans sans préjugé donc voilà Locuteur 1: et donc quand vous êtes arrivés à Orléans vous êtes euh Locuteur 1: vous avez habité où au début ? Locuteur 2: on a habité l- en euh à Orléans sud limite Olivet Locuteur 2: parce qu'on habitait rue Basse Mouillère on avait loué une maison Locuteur 2: en attendant de euh trouver dans quel quartier on aurait envie d'habiter Locuteur 2: euh Locuteur 2: euh hm bon on avait soit Locuteur 2: sur l'agglomération vraiment d'Orléans-même Locuteur 2: soit un peu en dehors et puis finalement notre choix c'est porté sur Olivet Question: Locuteur 1: et donc ça c'était vraiment un choix ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 274,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: et sinon je reviens juste sur sur avant là euh Locuteur 1: Pa- Paris c'est c'était donc vous êtes née à Paris euh Locuteur 1: vous êtes de parents nés à Paris aussi c'était vous êtes Locuteur 1: parisienne de de Locuteur 2: ah oui Locuteur 2: alors de père et mère nés à Paris mais avec un grand-père italien Locuteur 2: donc comme tout parisien qui se respecte euh Locuteur 2: parisiens depuis euh quelques générations mais pas tant Locuteur 2: que ça Locuteur 1: d'accord Question: Locuteur 1: euh s- s- sans vous je peux je peux vous demander ce que ce que faisaient vos parents ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 275,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: ah bah oui Locuteur 1: quand même Locuteur 2: c'est c'est prenant c'est surtout euh hm un éventail assez riche Locuteur 2: de compétences Locuteur 1: oui Locuteur 2: c'est ça quand même Locuteur 2: voilà Locuteur 1: ah oui une gestion des ressources humaines euh Locuteur 2: en fait je je m- me présente comme soit organisateur d'ambiance soit chef de PM- soit chef d'entreprise PME Locuteur 2: ah oui oui Question: Locuteur 1: et que comme pendant ces dix années-là comme métier vous faisiez quoi vous ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 276,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: voilà Locuteur 1: ah oui une gestion des ressources humaines euh Locuteur 2: en fait je je m- me présente comme soit organisateur d'ambiance soit chef de PM- soit chef d'entreprise PME Locuteur 2: ah oui oui Locuteur 1: et que comme pendant ces dix années-là comme métier vous faisiez quoi vous ? Locuteur 2: ah bah j'ai fait des études de droit donc euh j'ai travaillé euh comme juriste Locuteur 2: voilà Locuteur 1: ah Locuteur 2: dans une entreprise Locuteur 1: d'accord Question: Locuteur 1: donc euh vos vos enfants eux ils ont quel âge ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 277,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: dans une entreprise Locuteur 1: d'accord Locuteur 1: donc euh vos vos enfants eux ils ont quel âge ? Locuteur 2: alors notre aînée a vingt-trois ans euh Locuteur 2: elle est étudiante en pharmacie euh à Paris enfin sur à Châtelet-Malabry Locuteur 2: la seconde a vingt-et-un ans elle est étudiante en droit Locuteur 2: je n'ai rien fait pour ça Locuteur 2: euh Locuteur 2: le troisième Locuteur 2: est Question: Locuteur 1: à Orléans étudiante ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 278,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: elle est étudiante en pharmacie euh à Paris enfin sur à Châtelet-Malabry Locuteur 2: la seconde a vingt-et-un ans elle est étudiante en droit Locuteur 2: je n'ai rien fait pour ça Locuteur 2: euh Locuteur 2: le troisième Locuteur 2: est Locuteur 1: à Orléans étudiante ? Locuteur 2: non elle est à Paris aussi Locuteur 1: non à Paris aussi Locuteur 2: euh le numéro Question: Locuteur 1: à Paris Un ? à",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 279,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: on reste dans des choses qui sont gérables euh Locuteur 2: pour euh allier à la fois une activité professionnelle et le fait d'être euh d'avoir des enfants Locuteur 2: donc comme on avait décidé euh Locuteur 2: moi j'étais ravie hein de de rester chez moi et d'élever mes enfants Locuteur 2: pas du tout était euh un choix d- cornélien du tout Locuteur 2: donc du coup euh c'était pas du tout un souci d'avoir un petit cinquième Locuteur 2: qui a douze ans bientôt le dix avril Locuteur 2: donc il a pas encore douze ans Locuteur 2: quand je dis qu'il a douze ans il est pas content Locuteur 2: oui Question: Locuteur 1: ah bon ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 280,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: hm hm Locuteur 2: qu'on a trouvé ici euh que qu'on aurait problablement trouvé ailleurs Locuteur 2: certes mais Locuteur 1: hm hm Locuteur 2: i- il f- c'est trouvé que c'était là Locuteur 2: que les gens qui nous ont acceuillis étaient olivetains Locuteur 2: enfin en tout cas euh si ce n'est d'origine euh Locuteur 2: en tout cas d'adoption Locuteur 1: hm Locuteur 1: et et c'est l'école qui a beaucoup euh servi de contact en fait euh Question: Locuteur 1: dans un premier temps ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 281,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: puis euh puis les choses s- vont vite hein Locuteur 1: hm hm Locuteur 2: et les enfants euh c'est un bon facteur d'intégration Locuteur 2: quand ils sont jeunes parce que très vite ils vous invitent des copains très vite ils se font inviter Locuteur 2: donc euh ça a été assez rapide Locuteur 2: voilà Locuteur 1: d'accord oui oui oui Locuteur 1: et et euh hm Locuteur 1: par rapport à Olivet justement vous faites vos courses euh sur Olivet euh Locuteur 1: vous allez dans les commerces Question: Locuteur 1: du coin plutôt ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 282,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: oui oui Locuteur 2: plusieurs boulangeries alors Locuteur 2: tout ce qui est coiffeurs agences de voyages et agences immobilières nous sommes très très bien servis Locuteur 2: on peut être très bien coiffé très bien logé et bien voyagé à Olivet Locuteur 2: et beaucoup avoir aussi une très bonne banque Locuteur 2: on en a beaucoup mais il nous reste aussi quelques commerces alimentaires très appréciables Locuteur 1: et euh pour pour une maison comme ça quand vous avez des des hm Locuteur 1: des aménagements à faire ou des problèmes de plomberie Locuteur 1: et cetera Locuteur 2: hm Question: Locuteur 1: c'est des artisans ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 283,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: et euh d'ailleurs Locuteur 1: un un bon artisan Locuteur 2: un très bon artisan voilà Locuteur 1: vous avez bien de la chance Locuteur 2: j'ai bien de la chance et euh Locuteur 2: à tel point d'ailleurs que quand euh nous allons partir euh Locuteur 2: c'est lui qui va faire les travaux dans notre future maison Locuteur 2: en région parisienne c'est pour vous dire que Locuteur 1: ah en région parisienne Locuteur 1: vraiment on y tient beaucoup et qu'on le lâche pas comme ça Question: Locuteur 1: donc vous allez partir bientôt ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 284,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: un très bon artisan voilà Locuteur 1: vous avez bien de la chance Locuteur 2: j'ai bien de la chance et euh Locuteur 2: à tel point d'ailleurs que quand euh nous allons partir euh Locuteur 2: c'est lui qui va faire les travaux dans notre future maison Locuteur 2: en région parisienne c'est pour vous dire que Locuteur 1: ah en région parisienne Locuteur 1: vraiment on y tient beaucoup et qu'on le lâche pas comme ça Locuteur 1: donc vous allez partir bientôt ? Locuteur 2: oui cet été Question: Locuteur 1: voilà pour les raisons professionnelles aussi ? c'est v-",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 285,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: alors professionnelles et familiales Locuteur 2: parce que donc euh nous avons deux enfants à Paris un numéro trois à Reims Locuteur 2: ce qui est quand même pas très simple au niveau des transports Locuteur 2: euh avec mon mari nous sommes enfants unique tous les deux Locuteur 2: nous avons moi je n'ai plus mon papa mais une maman qui commence à être un peu âgée Locuteur 2: mon mari a des parents aussi âgés Locuteur 2: donc on pense qu'il est temps d'aller un peu f- faire un petit regroupement familial Locuteur 2: et s'occuper des nos familles respectives Locuteur 2: et mon mari a effectivement la possibilité de de retravailler sur Paris Locuteur 1: je peux vous demander ce qu'il Question: Locuteur 1: fait comme travail ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 286,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: d'accord Locuteur 2: groupe Thales et en ce moment il travaille à Vendôme Locuteur 1: ah oui Locuteur 2: voilà Locuteur 1: donc oui il a eu la possibilité de Locuteur 1: travailler sur Paris ou proche euh Locuteur 2: oui de de de voir un site sur Locuteur 1: hm Locuteur 2: Paris ou en région parisienne voilà Locuteur 1: et donc vous avez déjà décidé où vous allez en région Question: Locuteur 1: parisienne ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 287,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: d'accord Locuteur 1: vous avez déjà même trouvé la maison Locuteur 1: tout ça Locuteur 2: et voilà Locuteur 1: ah oui t- tout est déjà Locuteur 1: oh Locuteur 2: c'est un retour aux sources vous savez Locuteur 2: donc c'était pas très compliqué de savoir où on voulait aller se poser Locuteur 2: c'était moins compliqué dans ce sens-là Locuteur 1: d'accord Question: Locuteur 1: maintenant vous allez quitter euh vos amis d'Olivet ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 288,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: notre fille Caroline peut mettre environ quarante-cinq minutes Locuteur 2: euh Locuteur 1: oui Locuteur 2: même pas loin d'une heure Locuteur 2: alors qu'en voiture on met un bon quart d'heure vingt minutes Locuteur 2: voire quand ça roule bien un bon quart d'heure Locuteur 2: donc je trouve qu'après une grosse journée ou avant une grosse journée Locuteur 2: c'est quand même pas sympa de de la laisser partir comme ça alors que je suis là pour ça Locuteur 2: donc euh Locuteur 2: je fais pas mal de transports Question: Locuteur 1: vous faites tous les transports ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 289,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: je fais pas mal de transports Locuteur 1: vous faites tous les transports ? Locuteur 1: quand même pas Locuteur 2: je circule beaucoup Locuteur 2: on s'arrange aussi avec quelques mamans pour euh faire un peu de co-voiturage Locuteur 2: mais évidemment ils arrivent à des âges où ils n'ont pas forcément tous les mêmes heures Locuteur 1: hm Locuteur 2: donc euh quand on peut on s'arrange Locuteur 2: et puis bah je fais tout ce qu'on font les mamans euh à la maison Locuteur 2: donc euh le rangement le linge le ménage les courses la cuisine Question: Locuteur 2: qu'est-ce que je vous fais encore ?",
+    "label": "partielle",
+    "intention": "non-question"
+  },
+  {
+    "id": 290,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: parce qu'on a eu un petit contre-temps qui fait que cette ann- ça a été annulé cette année mais Locuteur 2: pendant Locuteur 2: pratiquement quatorze ans on a fait une re- deux représentations tous les ans Locuteur 2: donc je j'apprends Locuteur 1: ah oui Locuteur 2: je fais fonctionner ma tête Locuteur 2: et voilà Locuteur 2: euh Locuteur 1: non mais c'est beaucoup d'occupation Locuteur 2: oui oui Question: Locuteur 1: euh scout ça vous prend beaucoup de temps ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 291,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: pratiquement quatorze ans on a fait une re- deux représentations tous les ans Locuteur 2: donc je j'apprends Locuteur 1: ah oui Locuteur 2: je fais fonctionner ma tête Locuteur 2: et voilà Locuteur 2: euh Locuteur 1: non mais c'est beaucoup d'occupation Locuteur 2: oui oui Locuteur 1: euh scout ça vous prend beaucoup de temps ? Locuteur 1: vous ê- vous êtes très investis hein je Question: Locuteur 2: euh ça c'est assez prenant ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 292,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: ils sont quand même tous étudiants ils ont pas toujours le temps Locuteur 2: de faire des choses dont on les décharge Locuteur 2: et puis euh un accompagnement euh Locuteur 2: aussi bien euh spirituel Locuteur 2: on les aide on on les on accompagner nos aumôniers on les aide dans cette voie-là Locuteur 2: et euh hm Locuteur 2: et également euh bah pour tout ce qui peut être tous les problèmes Locuteur 2: qu'ils peuvent rencontrer dans la dans la tâche qu'ils ont acceptée euh Locuteur 2: de chef de d'une unité ou d'assistant d'une unité Locuteur 1: mais euh hm Question: Locuteur 1: ça c'est ce sont des jeunes de de quel âge euh ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 293,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: donc on a euh des des maîtrises un petit peu déséquilibrées au niveau de la représentation Locuteur 2: parce qu'on a quand même beaucoup plus de filles que de garçons Locuteur 2: mais tout ça marche très bien Locuteur 2: voilà Locuteur 1: ah oui oui non mais Locuteur 2: donc ça occupe pas mal Locuteur 1: non mais j'imagine ça je suis très Locuteur 2: ça occupe pas mal Locuteur 1: oui ça j'i- j'imagine que Locuteur 1: que ça occupe bien vous-même vous allez euh Question: Locuteur 1: vous vous avez suivi ce parcours-là ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 294,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: parce qu'on a quand même beaucoup plus de filles que de garçons Locuteur 2: mais tout ça marche très bien Locuteur 2: voilà Locuteur 1: ah oui oui non mais Locuteur 2: donc ça occupe pas mal Locuteur 1: non mais j'imagine ça je suis très Locuteur 2: ça occupe pas mal Locuteur 1: oui ça j'i- j'imagine que Locuteur 1: que ça occupe bien vous-même vous allez euh Locuteur 1: vous vous avez suivi ce parcours-là ? Question: Locuteur 1: vous avez été scout enfant ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 295,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: alors moi j'ai j'ai pas j'ai été guide Locuteur 2: et cheftaine de louveteaux Locuteur 1: guide et cheftaine de louveteaux Locuteur 1: d'accord Locuteur 2: voilà Locuteur 2: et euh et puis mon mari qui a pas fait de scoutisme Locuteur 2: m'a b- m'a beaucoup étonné lorsqu'un jour des chefs de troupes ont dit Locuteur 2: des chefs de groupes ont dit euh bah nous on doit arrêter qui a envie de prendre notre suite Locuteur 2: moi j'aurai été emballée Locuteur 2: mais je me suis dit comme il a jamais fait de scoutisme ça va lui faire peur et il m'a dit Question: Locuteur 2: tu as pas envie qu'on le fasse ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 296,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: ce qui nous paraît intéressant c'est de donner à nos jeunes la dimension euh de cette communauté Locuteur 1: hm hm Locuteur 2: c'est vrai que quand ils sont en unités ils sont une vingt- vingt-quatre chez les petits Locuteur 2: une trentaine chez les plus grands Locuteur 2: ça donne déjà une notion du groupe mais c'est c'est pas suffisant Locuteur 2: quand ils se retrouvent à quasiment quatre cents scouts sur le même lieu Locuteur 2: ils ont plus la notion de ce que peut être euh euh cette notion cette communauté scout Locuteur 2: dans laquelle ils vivent et c'est c'est des bons moments Locuteur 1: ah oui oui Locuteur 2: ah oui ça ça a la pêche les scouts Question: Locuteur 1: et là qu'est ce qui différencie les les scouts Unitaires de euh des scouts d'Europe ou des scouts de de France ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 297,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: hm Locuteur 2: dans le sein de leur famille puisqu'ils sont fi- garçons et filles ou à l'école ou je ne sais où Locuteur 2: mais au niveau scout c'est vraiment un un un endroit où ils peuvent vivre entre filles et entre garçons Locuteur 2: et euh et ils ne le regrettent pas Locuteur 1: oui oui j'imagine Locuteur 1: bien Locuteur 2: voilà Locuteur 1: et justement vous me disiez qu'ils se rencontraient à l'extérieur Locuteur 1: est est-ce que ça veut dire qu'il y a aussi euh d'autres activités qui sont Locuteur 1: euh liées enfin où on rencontre les les les euh mêmes amis Question: Locuteur 1: par exmple au niveau des scouts ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 298,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: bah tous les scouts de France qui peuvent et même d'ailleurs Locuteur 2: puisqu'on a Locuteur 1: hm hm hm Locuteur 2: on a des des scouts en aussi à l'étranger Locuteur 2: euh se retrouvent tous ensemble Locuteur 2: je pense qu'on a vraiment l'instinct grégaire Locuteur 2: on a besoin d'être en troupeau on se sent bien quand on est tous réunis Locuteur 2: tous ensemble Locuteur 2: c'est ce sont vraiment des moments très forts Locuteur 2: voilà Question: Locuteur 1: et et le plus localement les les fêtes de Jeanne d'Arc ? euh",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 299,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: voilà Locuteur 1: et et le plus localement les les fêtes de Jeanne d'Arc ? euh Locuteur 2: alors oui oui oui Locuteur 1: ça fait partie des activités euh Locuteur 2: nous sommes présents aux fêtes de Jeanne d'Arc le premier mai Locuteur 2: euh o- nous avons euh Locuteur 2: en général des jeunes scouts qui sont les pages les écuyers de Jeanne d'Arc Locuteur 2: et puis euh nous participons à la messe qu'on appelle la messe de la chevauchée de Jeanne d'Arc Locuteur 2: euh le le le premier mai Locuteur 2: et ensuite le défilé pour accompagner Jeanne d'Arc jusqu'à son entrée dans Orléans Question: Locuteur 1: hm la chevauchée de Jeanne d'Arc le premier mai c'est l'entrée dans dans la ville ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 300,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: et euh avec la barque qui traverse euh qui traverse euh la Loire #spk2: et ensuite y a une messe qui se trouve en général au château du Bouchet #spk2: qui est euh tout près de euh #spk2: ah #spk2: de l'Ile Charlemagne #spk2: et euh donc là c'est une messe euh je ne enfin où les scouts sont tous présents des trois mouvements #spk2: et euh ensuite euh nous accompagnons donc tous euh en défilé #spk2: l'entrée de Jeanne d'Arc dans Orléans #spk1: hm d'accord #spk2: voilà Question: Locuteur 1: et euh et après donc le défilé euh et ça ça demande beaucoup de euh beaucoup de travail ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 301,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: et ensuite y a une messe qui se trouve en général au château du Bouchet #spk2: qui est euh tout près de euh #spk2: ah #spk2: de l'Ile Charlemagne #spk2: et euh donc là c'est une messe euh je ne enfin où les scouts sont tous présents des trois mouvements #spk2: et euh ensuite euh nous accompagnons donc tous euh en défilé #spk2: l'entrée de Jeanne d'Arc dans Orléans #spk1: hm d'accord #spk2: voilà #spk1: et euh et après donc le défilé euh et ça ça demande beaucoup de euh beaucoup de travail ? Question: Locuteur 1: enfin c'est un élément fort ou c'est un élément ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 302,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: qui s'appelle la Sioule #spk2: c'est-à-dire #spk1: ah #spk2: euh oui ça je doit dire tout le monde ne connaît pas #spk2: c'est un ancêtre du rugby #spk2: et en général euh nos éclaireurs toutes troupes mélangées #spk2: euh se frittent un peu avec les scouts euh d'Europe #spk2: toutes troupes mélangées et euh le score de cette sioule est un grand moment de gloire #spk2: pour celui #spk2: qui la remporte Question: Locuteur 1: et ça ça se se se se joue où la Sioule ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 303,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: ah sur les grands terrains de l'Ile Charlemagne #spk2: voilà alors on met en général un aumônier pour #spk2: arbitrer #spk1: ouais #spk2: parce que #spk2: ils ont quand même encore le respect de l'ordre #spk2: et voilà #spk1: ça #spk2: ça nous évite quelques #spk2: bleus Question: Locuteur 1: alors et vos vos enfants ils doiv- enfin vos filles par exemple elles ont pas voulu être Jeanne d'Arc ? euh",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 304,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: donc euh #spk2: bah lui euh alors c'est un scoutisme un peu particulier mais #spk2: qui qui est vraiment très très attirant pour les garçons qui aiment naviguer #spk2: alors lui c'est un fou de voile l'été #spk2: donc euh il a foncé quand cette troupe s'est ouverte #spk2: et donc alors eux participent aux Fêtes de Loire #spk1: d'accord #spk1: hm hm #spk2: ils sont #spk2: ils y ont participé encore cette année Question: Locuteur 1: et ils naviguent un peu sur la Loire ? non",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 305,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: bon c'était pas des fortunes mais on versait environ trois mille cinq cents euros #spk2: euh à deux associations qu'on gardait deux années #spk2: donc euh #spk2: au bout de deux ans ils avaient à peu près sept mille euros de de dons #spk2: euh venant de notre petite &Jacco #spk2: comme elle s'appelle #spk2: la Joyeuse Amicale des Comédiens Comiques de l'Orléanais #spk1: ah #spk1: et et ça a aidé à des associa- associations pardon #spk1: c'est de l'humanitaire Question: Locuteur 1: ou ou locale ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 306,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: euh notre pianiste nous ayant abandonné en cours de route #spk2: on ne peut pas faire notre spectacle #spk1: d'accord #spk1: et et alors là c'est le théâtre hm #spk1: vous vous en faisiez mais est-ce que vous allez aussi euh #spk1: au théâtre où on #spk2: ah oui oui oui oui oui oui #spk1: est-ce que vous trouvez que s- #spk2: on a #spk1: Orléans sur Olivet y a suffisamment Question: Locuteur 1: de vous vous utilisez les comme ça les les les les les théâtres locaux les programmations le ?",
+    "label": "partielle",
+    "intention": "question canonique"
+  },
+  {
+    "id": 307,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: fatigante #spk2: à laquelle on s'endort parfois un peu #spk2: mais bon en règle générale c'est quand même assez satisfaisant #spk2: et surtout très pratique cet abonnement #spk2: donc euh oui on est abonné depuis de nombreuses années #spk2: et c'est pas loin donc euh #spk2: on y est très vite on est très vite revenus #spk1: oui oui oui hm hm #spk2: donc c'est vrai que c'est quand même un avantage #spk1: et sur Olivet non y a y a pas de Question: Locuteur 1: y a pas de spectacles euh ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 308,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: avec les enfants #spk2: oui souvent oui #spk2: oui voilà #spk1: oui oui bien sûr #spk2: et puis euh #spk2: où ils y vont seuls d'ailleurs #spk1: de pl- pl plus de #spk2: ils sont grands maintenant #spk1: hm hm hm #spk2: ils se débrouillent sans nous Question: Locuteur 1: et c'est plutôt dans euh au cinéma qui est sur les quais là ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 309,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: ils se débrouillent sans nous #spk1: et c'est plutôt dans euh au cinéma qui est sur les quais là ? #spk2: oui oui oui #spk2: ça ils aiment bien oui #spk2: ça aussi c'est quand même très pratique #spk2: on se gare juste en dessous #spk1: oui oui #spk2: ouais #spk2: je reconnais que tout ce qui nous simplifie la vie euh #spk2: est bon à prendre Question: Locuteur 1: le les restaurants vous sortez parfois au restaurant ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 310,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: c'est vrai qu'on a qu'on a a plus tendance à se recevoir #spk1: voilà hm hm #spk2: que que qu'aller au #spk2: restaurant #spk1: hm #spk2: alors ça peut arriver euh #spk2: oui si pour un anniversaire une chose comme ça qu'un qu'un de nos enfants soit content et #spk2: euh de- demande d'aller voilà #spk2: mais en général on reçoit plus euh à la maison ou on est plus reçu entre amis #spk2: c'est plus conviviale Question: Locuteur 1: et vous deux vous y allez ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 311,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: voilà hm hm #spk2: que que qu'aller au #spk2: restaurant #spk1: hm #spk2: alors ça peut arriver euh #spk2: oui si pour un anniversaire une chose comme ça qu'un qu'un de nos enfants soit content et #spk2: euh de- demande d'aller voilà #spk2: mais en général on reçoit plus euh à la maison ou on est plus reçu entre amis #spk2: c'est plus conviviale #spk1: et vous deux vous y allez ? Question: Locuteur 1: vous avez pas découvert une gastronomie locale euh très particulière ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 312,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: non #spk1: les daubes de biche #spk1: et de chevreuils non c'est pas #spk2: oui non je je suis pas non #spk2: voilà voilà #spk2: puis alors le gibier euh quand on vous apporte du gibier gentiment #spk2: et qu'il faut #spk2: le plumer le vider machin non non non #spk2: donc euh j- je suis assez ravie de pas avoir trop d'amis chasseurs #spk2: qu'ont la bonne idée en tout cas de ne pas nous en nous en imposer nous en infliger Question: Locuteur 1: et je vous disez même dans les boulangeries à Olivet y a pas de euh y a pas de spécialités locales euh ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 313,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: oui #spk2: euh on n'a pas besoin d'une heure de route pour se retrouver sur un endroit où on peut aller euh #spk1: et si- et ici à Olivet vous êtes très #spk1: proche de des #spk2: oui voilà #spk1: du Loiret c'est sûr de de #spk2: voilà voilà #spk1: des plus beaux coi- plus beaux coins #spk2: nous avons une barque pour aller faire de la #spk2: barque sur le Loiret Question: Locuteur 1: ah oui vous avez une barque qui mais qui stationne sur le bord du Loiret ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 314,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: euh on n'a pas besoin d'une heure de route pour se retrouver sur un endroit où on peut aller euh #spk1: et si- et ici à Olivet vous êtes très #spk1: proche de des #spk2: oui voilà #spk1: du Loiret c'est sûr de de #spk2: voilà voilà #spk1: des plus beaux coi- plus beaux coins #spk2: nous avons une barque pour aller faire de la #spk2: barque sur le Loiret #spk1: ah oui vous avez une barque qui mais qui stationne sur le bord du Loiret ? Question: Locuteur 1: oui comme ça non vous avez ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 315,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: alors on on peut la stationner #spk2: sur le bord du Loiret parce qu'on est on a adhéré à la l'association des Riverains du Loiret #spk2: mais on a préféré aller stocker euh dans un garage ici #spk2: pour qu'elle s'abîme pas trop et euh l'été euh #spk2: nous allons faire de la barque sur le Loiret #spk2: c'est très bucolique #spk1: ah oui #spk1: c'est c'est non ça doit être #spk2: avec un fils scout marin ça sait ramer #spk1: c'est bah oui voilà voilà Question: Locuteur 1: des activités sportives aussi ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 316,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: pour qu'elle s'abîme pas trop et euh l'été euh #spk2: nous allons faire de la barque sur le Loiret #spk2: c'est très bucolique #spk1: ah oui #spk1: c'est c'est non ça doit être #spk2: avec un fils scout marin ça sait ramer #spk1: c'est bah oui voilà voilà #spk1: des activités sportives aussi ? #spk2: oui #spk1: vous utilisez les hm Question: Locuteur 1: ces activités sportives ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 317,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: des activités sportives aussi ? #spk2: oui #spk1: vous utilisez les hm #spk1: ces activités sportives ? #spk2: on utilise #spk2: moi particulièrement parce que je fais pas mal de tennis #spk2: donc je joue à l'USMO #spk2: euh deux de mes enfants et cette année mon mari s'y est mis #spk2: euh on a utilisé euh voilà c'est c'est vraiment euh #spk2: ce qu'on a utilisé le plus comme activité sportive c'est vraiment le tennis Question: Locuteur 1: là c'est le tennis à Olivet alors ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 318,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: les matchs de tennis #spk2: euh #spk1: ah oui les les #spk2: le hm au hm #spk2: au palais des #spk2: sports #spk1: palais des sports oui #spk2: euh #spk1: hm #spk2: euh Question: Locuteur 1: l'Open d'Orléans ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 319,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: j'adore le rugby donc je vais voir de temps en temps le match de rugby #spk2: voilà mais c'est tout mais je ne profite pas des installations sportives d'Orléans #spk1: non mais c'était surtout sur sur #spk1: oui aussi sur sur sur les équipes euh #spk2: oui #spk1: vous êtes pas subj- fan d'un club euh #spk2: je suis pas fan d'un club euh #spk2: hm #spk2: je suis très fan de rugby ça fait beaucoup rigoler tout le monde ici donc #spk2: j'ai quand même un peu supporté euh l'équipe Question: Locuteur 1: ah oui ?",
+    "label": "totale",
+    "intention": "non-question"
+  },
+  {
+    "id": 320,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 1: quand même #spk1: qui fait du rugby #spk2: quand même mais sinon les autres me disent que ils préférent me regarder regarder un #spk2: match que regarder #spk2: le match #spk2: je suis de très très mauvaise fois enfin bon #spk2: enfin tout ce qu'ils disent mais bon #spk1: ah oui #spk2: je crois pas #spk1: et euh Question: Locuteur 1: télévision radio c'est des choses que vous utilisez beaucoup ou ?",
+    "label": "alternative",
+    "intention": "question canonique"
+  },
+  {
+    "id": 321,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: donc on peut se retrouver au tour d'un bon film #spk2: ou un truc comme ça #spk2: on a des DVD euh #spk1: hm hm #spk2: la télé euh #spk2: c'est pas systématique on peut rester euh plusieurs jours sans l'allumer ouais #spk2: et la radio dans la voiture #spk1: et les enfants aussi les enfants #spk2: bah euh #spk1: ils sont souvent demandeurs Question: Locuteur 1: y avait des règles peut-être ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 322,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: mais euh à condition de s'en servir comme un outil #spk2: quoi de pas euh #spk1: oui oui #spk2: le #spk1: hm hm #spk2: la lai- laisser cet cet outil là prendre une place inconsidérée dans la famille #spk1: justemement Internet euh les #spk1: euh #spk2: oui #spk1: c'est aussi beaucoup utilisé par vous Question: Locuteur 1: les enfants enfin ?",
+    "label": "totale",
+    "intention": "question canonique"
+  },
+  {
+    "id": 323,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "input_text": "Locuteur 2: qu'on n'oublie pas euh pour des amis virtuels euh sa famille réelle #spk2: ou ses amis réels #spk2: voilà #spk2: enfin bon tout ça c'est un peu de la liberté conditionnelle soyons clair hein euh #spk2: je pense qu'élever ses enfants c'est les mettre en garde de pas mal de choses et euh #spk2: et aussi leur interdire et leur permettre des choses #spk2: donc euh #spk1: hm #spk2: bah on interdit et on #spk2: permet Question: Locuteur 1: qu'est-ce qui me reste comme activités la lecture peut-être ? euh",
+    "label": "totale",
+    "intention": "question canonique"
+  }
+]

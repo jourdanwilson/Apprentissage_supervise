@@ -1,15 +1,16 @@
-# Projet Apprentissage Supervisé
-Classification des types de questions (Totale / Partielle / Alternative)
+# Projet - Apprentissage Supervisé
 
-Projet de groupe pour travailler sur un corpus annoté de questions orales.
-Objectif : entraîner et évaluer un modèle qui prédit le type de question (totale, partielle, alternative)
-à partir de l'énoncé, et tester l'apport du contexte.
+Sujet : Classification des types de questions.
+
+Projet de groupe consistant à travailler sur un corpus annoté de questions orales. 
+
+Objectif : entraîner et évaluer un modèle capable de prédir le type de question (totale, partielle, alternative) à partir d'un énoncé. Vérifier également si l'apport d'un contexte, améliore ou réduit la qualité de la réponse du modèle.
+
 Corpus annoté à partir du travail de Yeojun Yun (MoDyCo).
 
+## Equipe
 
-## Équipe
-
-- …
--
-- annotations : d'après Yeojun Yun (Université Paris Nanterre, MoDyCo)
+* Zijun YANG
+* Jourdan WILSON
+* Jean-Charles DA SILVA
 
