@@ -16,7 +16,7 @@ Ce projet a pour but de classifier automatiquement les types de questions en fra
 
 ## **Distribution des étiquettes:**
 
-![Distribution des étiquettes](https://cdn.discordapp.com/attachments/1419624042981363812/1437437597537533952/image.png?ex=69133d95&is=6911ec15&hm=bb40ed4600a8d9caa9e6ba5d8096314c58e033f923d1701b8e2e4f3a0463f5b5)<img width="665" height="602" alt="image" src="https://github.com/user-attachments/assets/aa254b04-167a-4fe5-b912-6fcb0b167a1f" />
+![Distribution des étiquettes](https://cdn.discordapp.com/attachments/1419624042981363812/1437437597537533952/image.png?ex=69133d95&is=6911ec15&hm=bb40ed4600a8d9caa9e6ba5d8096314c58e033f923d1701b8e2e4f3a0463f5b5)
 
 
 Nous utilisons un corpus annoté (`corpus_simplifie_131025.xlsx`) fourni par Yeojun Yun (MoDyCo).
