@@ -165,9 +165,6 @@ class StatsApp(QWidget):
         
         self.data1 = data
         QMessageBox.information(self, "Succès", "Premier fichier JSON chargé avec succès.")
-        
-        total_questions, label_counts, intention_counts, unique_intentions = analyze_corpus(data)
-        self.show_stats(total_questions, label_counts, intention_counts, unique_intentions)
 
         for entry in self.data1:
             if "input_text" in entry:
@@ -176,6 +173,36 @@ class StatsApp(QWidget):
                 entry["question"] = question
                 del entry["input_text"]
 
+        # Sauvegarde du corpus contexte/question séparé.
+        save_path, _ = QFileDialog.getSaveFileName(
+        self,
+        "Enregistrer le corpus transformé (avec contexte/question)",
+        "",
+        "Fichier JSON (*.json)"
+    )
+        if save_path:
+            if not save_path.lower().endswith(".json"):
+                save_path += ".json"
+            try:
+                with open(save_path, "w", encoding="utf-8") as f:
+                    json.dump(self.data1, f, ensure_ascii=False, indent=2)
+                QMessageBox.information(
+                self,
+                "Succès",
+                f"Corpus transformé sauvegardé dans :\n{save_path}"
+            )
+            except Exception as e:
+                QMessageBox.critical(
+                    self,
+                    "Erreur",
+                    f"Impossible d'enregistrer le corpus transformé :\n{e}"
+            )
+        
+        total_questions, label_counts, intention_counts, unique_intentions = analyze_corpus(data)
+        self.show_stats(total_questions, label_counts, intention_counts, unique_intentions)
+
+        
+
         if not freq_labels_ok(label_counts):
             reponse = QMessageBox.question(self, "Corpus incomplet", "Une ou plusieurs classes ont une fréquence inférieure à la moitié de la classe majoritaire.\n" "Voulez-vous charger un second corpus pour compléter ?", QMessageBox.Yes | QMessageBox.No)
             if reponse == QMessageBox.Yes:
@@ -183,6 +210,10 @@ class StatsApp(QWidget):
             else:
                 self.final_data = self.data1
                 self.analyze_and_last_show()
+
+        else:
+            self.final_data = self.data1
+            self.analyze_and_last_show()
 
     def load_second_json(self):
         file_path, _ = QFileDialog.getOpenFileName(self, "Choisir le second fichier JSON", "", "Fichiers JSON (*.json)")
