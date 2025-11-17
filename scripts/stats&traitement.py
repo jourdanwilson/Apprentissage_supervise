@@ -166,37 +166,44 @@ class StatsApp(QWidget):
         self.data1 = data
         QMessageBox.information(self, "Succès", "Premier fichier JSON chargé avec succès.")
 
-        for entry in self.data1:
-            if "input_text" in entry:
-                context, question = split_context_and_question(entry["input_text"])
-                entry["context"] = context
-                entry["question"] = question
-                del entry["input_text"]
+        # Vérification de la nécessité de transformation
+        needs_transformation = any("input_text" in entry for entry in self.data1)
 
-        # Sauvegarde du corpus contexte/question séparé.
-        save_path, _ = QFileDialog.getSaveFileName(
-        self,
-        "Enregistrer le corpus transformé (avec contexte/question)",
-        "",
-        "Fichier JSON (*.json)"
-    )
-        if save_path:
-            if not save_path.lower().endswith(".json"):
-                save_path += ".json"
-            try:
-                with open(save_path, "w", encoding="utf-8") as f:
-                    json.dump(self.data1, f, ensure_ascii=False, indent=2)
-                QMessageBox.information(
+        if needs_transformation:
+            for entry in self.data1:
+                if "input_text" in entry:
+                    context, question = split_context_and_question(entry["input_text"])
+                    entry["context"] = context
+                    entry["question"] = question
+                    del entry["input_text"]
+
+            # Sauvegarde du corpus contexte/question séparé si nécessaire.
+            save_path, _ = QFileDialog.getSaveFileName(
                 self,
-                "Succès",
-                f"Corpus transformé sauvegardé dans :\n{save_path}"
+                "Enregistrer le corpus transformé (avec contexte/question)",
+                "",
+                "Fichier JSON (*.json)"
             )
-            except Exception as e:
-                QMessageBox.critical(
-                    self,
-                    "Erreur",
-                    f"Impossible d'enregistrer le corpus transformé :\n{e}"
-            )
+            if save_path:
+                if not save_path.lower().endswith(".json"):
+                    save_path += ".json"
+
+                try:
+                    with open(save_path, "w", encoding="utf-8") as f:
+                        json.dump(self.data1, f, ensure_ascii=False, indent=2)
+                    QMessageBox.information(
+                        self,
+                        "Succès",
+                        f"Corpus transformé sauvegardé dans :\n{save_path}"
+                    )
+                except Exception as e:
+                    QMessageBox.critical(
+                        self,
+                        "Erreur",
+                        f"Impossible d'enregistrer le corpus transformé :\n{e}"
+                    )
+        else:
+            QMessageBox.information(self, "Information", "Le corpus ne nécessite pas de transformation.")
         
         total_questions, label_counts, intention_counts, unique_intentions = analyze_corpus(data)
         self.show_stats(total_questions, label_counts, intention_counts, unique_intentions)
@@ -264,10 +271,14 @@ class StatsApp(QWidget):
 
                 try:
                     for entry in self.final_data:
-                        context, question = split_context_and_question(entry["input_text"])
-                        entry["context"] = context
-                        entry["question"] = question
-                        del entry["input_text"]
+                        if "context" in entry and "question" in entry:
+                            continue
+
+                        if "input_text" in entry:
+                            context, question = split_context_and_question(entry["input_text"])
+                            entry["context"] = context
+                            entry["question"] = question
+                            del entry["input_text"]
 
                     with open(save_path, "w", encoding="utf-8") as f:
                         json.dump(self.final_data, f, ensure_ascii=False, indent=2)
