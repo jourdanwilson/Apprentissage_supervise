@@ -10,6 +10,8 @@ Il crée un fichier JSON contenant les informations suivantes :
 * label (le type de question)
 * intention (l'intention derrière la question posée)
 
+-----
+
 
 ```
 Stats&traitement.py
@@ -22,12 +24,20 @@ Il permet également après analyse du corpus, de fournir des graphiques ces mê
 
 Enfin, il donne les statistiques finales du corpus (après fusion).
 
-PS : Les deux scripts mentionnés ci-dessus sont dotés d'une interface Qt afin de faciliter leur utilisation auprès du plus grand nombre.
+-----
 
+```
+alt_question_generator.py
+```
+Script permettant, à partir de l'API d'Open AI (et une clé), de générer un certain nombre de questions de type alternatives (déterminé par l'utilisateur) afin de constituer un second corpus au format JSON (que l'on fusionnera par la suite avec le premier corpus afin d'obtenir notre corpus dans sa forme finale).
+
+-----
+
+PS : Les trois scripts mentionnés ci-dessus sont dotés d'une interface Qt afin de faciliter leur utilisation auprès du plus grand nombre.
+
+-----
 
 ## A venir:
-
-- Un script permettant de générer des questions "alternatives" permettant ainsi de rééquilibrer nos classes de données.
 
 - Un script séparant le corpus en deux entités, une dédié à l'entrainement du modèle, le second pour le test du modèle. Il apportera également les différentes analyses nécessaires à l'analyse de la performance du modèle (graphiques et résumé textuels).
 
