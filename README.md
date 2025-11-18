@@ -16,5 +16,5 @@ Corpus annoté à partir du travail de Yeojun Yun (MoDyCo).
 
 ----
 
-Pour plus de détails concernant, le mode de fonctionnement des scripts, veuillez vous référer à [la documentation](https://github.com/jourdanwilson/Apprentissage_supervise/blob/jc_ds/doc/doc.md).
+Pour plus de détails concernant le mode de fonctionnement des scripts, veuillez-vous référer à [la documentation](https://github.com/jourdanwilson/Apprentissage_supervise/blob/jc_ds/doc/doc.md).
 
