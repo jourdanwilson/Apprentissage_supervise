@@ -1,0 +1,37 @@
+Nombre total de questions (après fusion) : 380
+
+Répartitions des labels :
+ - totale: 218
+ - partielle: 81
+ - alternative: 81
+
+Intentions :
+  - non-question: 124
+  - question canonique: 256
+
+Nombre d'intentions différentes : 2
+
+Statistiques linguistiques :
+Nombre moyen de mots par question : 8.04
+Top 5 des lemmes les plus fréquents :
+  - euh: 61
+  - non: 45
+  - -ce: 26
+  - être: 21
+  - faire: 19
+
+Répartition POS (part-of-speech) :
+  - ADP: 369
+  - PROPN: 87
+  - CCONJ: 171
+  - ADJ: 194
+  - PRON: 497
+  - AUX: 141
+  - DET: 345
+  - NOUN: 555
+  - ADV: 323
+  - VERB: 324
+  - SCONJ: 40
+  - INTJ: 1
+  - NUM: 5
+  - X: 3

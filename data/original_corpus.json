@@ -1,0 +1,2554 @@
+[
+  {
+    "id": 7,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "s- je suis resté sur Saint-Marceau ça fait deux ans et demi que je suis à Saint-Marceau d'accord d'accord et euh là qu'est-ce qui vous a amené à vivre à Orléans en fait ? bah des soucis personnels on va dire et une formation professionnelle aussi qu'il fallait que je vienne faire ici d'accord donc c'est le principal truc euh da- qui fait que je suis venu ici d'accord d'accord",
+    "question": "avant sur Blois et tout c'était vos parents toute votre famille et tout ça non ?"
+  },
+  {
+    "id": 8,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "d'accord donc c'est le principal truc euh da- qui fait que je suis venu ici d'accord d'accord avant sur Blois et tout c'était vos parents toute votre famille et tout ça non ? qui qui habitaient par là juste euh mes parents juste ouais",
+    "question": "OK eux eux eux ils habitaient Blois depuis longtemps ?"
+  },
+  {
+    "id": 12,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "y a aucun soucis mais ils faisaient quoi comme type de boulot ? euh mon père il est informaticien et ma mère euh elle travaille à EDF d'accord d'accord donc Blois puis vous euh vous vous ici euh euh et alors le quartier là ça vous plaît ? bah ouais ça me convient c'est provisoire mais",
+    "question": "c'est provisoire ?"
+  },
+  {
+    "id": 13,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "euh mon père il est informaticien et ma mère euh elle travaille à EDF d'accord d'accord donc Blois puis vous euh vous vous ici euh euh et alors le quartier là ça vous plaît ? bah ouais ça me convient c'est provisoire mais c'est provisoire ?",
+    "question": "c'est pas un quartier où vous voulez rester euh si ?"
+  },
+  {
+    "id": 24,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais non il en- il envoie pas sur un autre chantier ou un truc comme ça euh bah non parce que en général euh vu que on est six euh équipes de trois euh si on va sur un autre chantier on va être de trop on va se gêner ça va pas être utile autant rentrer chez soi bah tant pis on refera une heure plus tard et puis voilà ah ouais et il met que des jeunes ou il met euh des gars qui ont l'expérience avec des jeunes il mixe ou il non bah euh",
+    "question": "et y a des anciens dans le truc ?"
+  },
+  {
+    "id": 31,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et puis euh voilà c'est tout c'est le seul truc qu'y a à faire après bah c'est paperasse pour euh création de société et puis bah à la personne de se débrouiller pour euh créer son truc et créer une société euh dans le bâtiment ça non ? pour être euh non du tout non hors de question",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 34,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais ouais ouais je vois Auchan Olivet ouais hm toujours et donc pour euh qu'est-ce qu'y a d'autres dans le quartier ouais non p- rien la petite boucherie machin et tout ça euh non si boucherie ouais de temps en temps sinon y a quoi bah y en a un il a fermé le tabac pour euh les timbres les merguez il faisait les merguez ici un temps",
+    "question": "ouais la boucherie halal ?"
+  },
+  {
+    "id": 38,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "je paye déjà assez cher de loyer pour le HLM alors euh je fais intervenir ah oui ici ils font tout ouais ouais ouais ah y a pas dec- non mais la peinture tout ça c'est fait euh là quand ils ont refait c'est eux qu'on qui refont tout ? ouais ça se voit hein c'est cloqué comme pas possible y a du euh de la fibre de et c'est de la fibre de verre ça y a du beau ouais ouais de la toile de verre",
+    "question": "oh là l'oeil du pro c'est que c'est mal fait ?"
+  },
+  {
+    "id": 43,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "c'est un décodeur HD ça c'est des trucs euh ouais bah c'est ce qui est marqué mais euh mais ouais ça donne euh HD je sais pas d'où il sort parce que pas terrible donc euh des films de temps en temps non des petits euh non mouais de temps en temps mais madame elle aime pas trop euh",
+    "question": "non lo- location de DVD ou trucs comme ça ?"
+  },
+  {
+    "id": 44,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "c'est des trucs euh ouais bah c'est ce qui est marqué mais euh mais ouais ça donne euh HD je sais pas d'où il sort parce que pas terrible donc euh des films de temps en temps non des petits euh non mouais de temps en temps mais madame elle aime pas trop euh non lo- location de DVD ou trucs comme ça ?",
+    "question": "les films ?"
+  },
+  {
+    "id": 45,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais bah c'est ce qui est marqué mais euh mais ouais ça donne euh HD je sais pas d'où il sort parce que pas terrible donc euh des films de temps en temps non des petits euh non mouais de temps en temps mais madame elle aime pas trop euh non lo- location de DVD ou trucs comme ça ? les films ?",
+    "question": "donc euh elle elle autorise pas ?"
+  },
+  {
+    "id": 53,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais d'accord et après euh d- bah oui le ty- le le type de sites et puis les euh des films et tout justement de en téléchargement et en en &streaming ? bah téléchargement bof parce que le PC il commence à se faire vieux et il a du mal mais non ouais &streaming de temps en temps d'accord ce type euh",
+    "question": "pas de console de jeux non plus ?"
+  },
+  {
+    "id": 58,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "enfin j'aime bien mais faut vraiment que ça que ça qu'il soit bien fait et que ça soit dans mon truc quoi ouais et dans mon truc c'est quoi ? c'est plutôt voiture voitures quads motos ouais et voiture euh qu- euh émissions de télé euh émissions de tuning et tout ça non non s- des vrais ah non alors ça hors de questions non voitures des vraies pas des trucs de Jacky là",
+    "question": "d'accord c'est quoi les vrais alors ?"
+  },
+  {
+    "id": 75,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ah ouais ouais y en a un là ? hm qui est où juste y a y a une brasserie après un truc euh ça va il est pas mal non ? ouais euh mais la brasserie elle est route d'Olivet dans et à l'angle il est sur le parking ouais et le Croc' machin il est où ? y a y a deux trois trucs et il est là",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 76,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "hm qui est où juste y a y a une brasserie après un truc euh ça va il est pas mal non ? ouais euh mais la brasserie elle est route d'Olivet dans et à l'angle il est sur le parking ouais et le Croc' machin il est où ? y a y a deux trois trucs et il est là ah bon ?",
+    "question": "&shawarma frites ?"
+  },
+  {
+    "id": 86,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "non dans Orléans y a pas grand chose d'autre à faire si ? bah si y a plein de choses si bowling de temps à autres j'aime bien ah ouais pareil faut trouver le monde qui est &opé- pour suivre ou hm sinon bah je sais pas y a quoi ? bowling euh Olivet ou Saran ? hm hm pff",
+    "question": "n'importe ?"
+  },
+  {
+    "id": 92,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh oh les trucs après style euh Jardin des Plantes Parc Pasteur machin c'est un truc euh faut avoir des enfants pour ça non si l'île Charlemagne l'été l'île Charlemagne ouais l'été hein ouais ouais",
+    "question": "p- y compris pour la baignade ?"
+  },
+  {
+    "id": 99,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm j'adore moi ça aller en Corse ouais c'est bien hein moi je connaissais pas mais ça fait euh deux trois ans qu'on y va moi j'y vais avec mes enfants où ça ? en Corse bah ça dépend là là cet été on était où cet été ? cet été on fait vers le le Cap Corse vers le haut vers les montagnes là vers Corte et puis euh vers Calvi",
+    "question": "vous avez pas fait Porticcio tout ça ?"
+  },
+  {
+    "id": 101,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "cet été on fait vers le le Cap Corse vers le haut vers les montagnes là vers Corte et puis euh vers Calvi vous avez pas fait Porticcio tout ça ? Porticcio c'est où ? ça c'est en dans le Golfe d'Ajaccio c'est vers Ajaccio non ça c'est non j'ai j'ai pas fait oh faut faire",
+    "question": "c'est vrai ?"
+  },
+  {
+    "id": 109,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "d'accord et là sur Orléans sur les euh les euh télés locales euh trucs comme ça c'est euh y avait là mais je crois qu'ils ont je sais plus où ils en sont Orléans Télé Orléans Télé je suis ouais l'antenne elle est à Saran ah ouais",
+    "question": "mais j- ils ont pas arrêté là non ?"
+  },
+  {
+    "id": 119,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "euh un plat en plutôt un plat hyper simple avec leur idée c'est de demander à chaque personne comment il faisait une omelette d'où d'où ma question là est-ce que est-ce que vous faites des omelettes des fois et et si oui ou même si non est-ce que vous pouvez me raconter la recette de l'omelette très rarement parce que j'aime les oeufs mais pas en omelette en fait tout sauf les omelettes sinon bah je sais pas bah on casse des oeufs on bat et puis voilà ça fait une omelette un peu de beurre sel poivre",
+    "question": "c'est ça ?"
+  },
+  {
+    "id": 126,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "si on trouve un nom on le retire et on met un bip à la place euh donc là après je sais pas s- je sais plus ce qu'y a marqué sur le truc je mets l'adresse ? après euh ouais là l'adresse c'est pour qu'on puisse envoyer le CD et des trucs comme ça c'est pas une obligation hein n'importe ouais mais je vous fais confiance d'accord n'importe",
+    "question": "tu veux tu veux tu veux te marrer non ou ?"
+  },
+  {
+    "id": 127,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "euh donc là après je sais pas s- je sais plus ce qu'y a marqué sur le truc je mets l'adresse ? après euh ouais là l'adresse c'est pour qu'on puisse envoyer le CD et des trucs comme ça c'est pas une obligation hein n'importe ouais mais je vous fais confiance d'accord n'importe tu veux tu veux tu veux te marrer non ou ?",
+    "question": "tu veux rigoler non ?"
+  },
+  {
+    "id": 130,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "donc euh peut-être pour commencer une euh vous pourriez euh me parler un petit peu de votre parcours euh personnel et enfin hm",
+    "question": "depuis combien de temps est-ce que vous êtes originaire d'Orléans ou de sa région ?"
+  },
+  {
+    "id": 132,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "donc à Paris j'en avais pas forcément besoin bon nous on habitait non alors ensuite on s'était rapproché de Paris on habitait Villemont c'est une banlieue un peu plus plus chic quand même oui et puis on avait des ambitions oui de d'autres choses en fait donc euh on est arrivé ici euh ouh là moi ça a été le choc pour moi ouais",
+    "question": "parce que vous vous aviez toujours vécu euh ?"
+  },
+  {
+    "id": 133,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et puis on avait des ambitions oui de d'autres choses en fait donc euh on est arrivé ici euh ouh là moi ça a été le choc pour moi ouais parce que vous vous aviez toujours vécu euh ? bah j'avais pas besoin de voiture enfin j'utilisais beaucoup les transports en commun euh en ban- enfin dans la ville ou euh oui oui j'avais tout réseau amical là-bas euh bah lui aussi mais bon euh d'un seul coup moi je suis arrivée ici sans travail oui en plus je me suis retrouvée dans une maison en pleine campagne on l'avait choisie hein je",
+    "question": "mais je me suis dit ouh là est-ce que tu as bien réfléchi ? et puis voilà et puis"
+  },
+  {
+    "id": 134,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "donc euh on est arrivé ici euh ouh là moi ça a été le choc pour moi ouais parce que vous vous aviez toujours vécu euh ? bah j'avais pas besoin de voiture enfin j'utilisais beaucoup les transports en commun euh en ban- enfin dans la ville ou euh oui oui j'avais tout réseau amical là-bas euh bah lui aussi mais bon euh d'un seul coup moi je suis arrivée ici sans travail oui en plus je me suis retrouvée dans une maison en pleine campagne on l'avait choisie hein je mais je me suis dit ouh là est-ce que tu as bien réfléchi ? et puis voilà et puis",
+    "question": "est-ce une bonne idée ?"
+  },
+  {
+    "id": 144,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "travail en même temps ? d'accord bah ouais bah ouais donc j'ai des jours de dégagés pour aller en formation mais tout ce qui est euh travail euh sur les écrits mes lectures bah c'est sur mon temps perso et ouais ouais ouais ouais donc euh des fois euh oui c'est lourd quoi ouais à force j'ai envie de faire autre chose ouais je suis en deuxième année",
+    "question": "hm et c'est deux ans la formation ? ouais d'accord donc à la fin de l'année c'est"
+  },
+  {
+    "id": 149,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "on prend une journée on part le matin en train euh d'accord d'accord on visite euh là on est proche de ouais proche bah ça c'est c'est vrai que c'est un avantage euh d'Orléans hein c'est euh mais bon euh le train ou moi la voiture je suis beaucoup voiture d'accord non moi je suis pas transports du tout",
+    "question": "même pour aller à Paris ?"
+  },
+  {
+    "id": 1,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "alors marche bien au moins votre truc euh",
+    "question": "là ?"
+  },
+  {
+    "id": 2,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "tout simplement sur euh sur une question sur euh bah depuis quand vous habitez euh là dans l- dans le quartier par exemple ici ça fait euh un an un peu plus d- entre un an et un an et demi avant j'étais euh un peu plus bas oui et euh et à Orléans c'est v- Orléans ça fait deux ans et demi un truc comme ça ouais deux ans et demi d'accord",
+    "question": "et avant Orléans ?"
+  },
+  {
+    "id": 3,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "ouais deux ans et demi d'accord et avant Orléans ? Blois enfin à côté de Blois ah ouais Blois euh là c'est euh et avant Blois c'est que vous êtes né de né à Blois ou non je suis natif de Blois ah de Blois",
+    "question": "ou de Blois ou de près de Blois ?"
+  },
+  {
+    "id": 4,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "à Blois euh enfin s- à dix minutes de Blois sud quoi ouais voilà d'accord vers quand j- qu'est-ce que je connais par là euh après Chambord euh Vineuil",
+    "question": "Villerbon non ? tout ça non"
+  },
+  {
+    "id": 5,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "bah Cléry après c'est Saint-Laurent ouais après après c'est euh Muides parce que j'ai des copains de ma fille qui qui habitaient par là j'étais pas j'étais souvent par là euh donc Orléans bon peu importe Orléans euh deux ans deux ans et demi",
+    "question": "c'est ça ?"
+  },
+  {
+    "id": 6,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "euh donc Orléans bon peu importe Orléans euh deux ans deux ans et demi c'est ça ? ouais et puis euh hm ici depuis euh de- depuis un an dans bah ouais avant euh j'étais quatre cents mètres plus bas mais s- je suis resté sur Saint-Marceau ça fait deux ans et demi que je suis à Saint-Marceau d'accord d'accord",
+    "question": "et euh là qu'est-ce qui vous a amené à vivre à Orléans en fait ?"
+  },
+  {
+    "id": 9,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "avant sur Blois et tout c'était vos parents toute votre famille et tout ça non ? qui qui habitaient par là juste euh mes parents juste ouais OK eux eux eux ils habitaient Blois depuis longtemps ? bah ça faisait euh je sais pas à l'époque ça faisait plus d'une vingtaine ouais une vingtaine d'années on va dire",
+    "question": "donc ils sont pas ils sont pas nés là-bas ?"
+  },
+  {
+    "id": 10,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "OK eux eux eux ils habitaient Blois depuis longtemps ? bah ça faisait euh je sais pas à l'époque ça faisait plus d'une vingtaine ouais une vingtaine d'années on va dire donc ils sont pas ils sont pas nés là-bas ? non non non ah ils sont et euh juste com- s- enfin vous me répondez que si vous voulez euh",
+    "question": "y a aucun soucis mais ils faisaient quoi comme type de boulot ?"
+  },
+  {
+    "id": 11,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "non non ah ils sont et euh juste com- s- enfin vous me répondez que si vous voulez euh y a aucun soucis mais ils faisaient quoi comme type de boulot ? euh mon père il est informaticien et ma mère euh elle travaille à EDF d'accord d'accord donc Blois puis vous euh vous vous ici euh euh",
+    "question": "et alors le quartier là ça vous plaît ?"
+  },
+  {
+    "id": 14,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais l'opportunité d'aller ailleurs bah je le ferai d'accord et dans ce cas-là une maison c'est plutôt une maison euh en ville ou euh bah pas pas centre ville mais pas isolée à la campagne non plus ouais pas isolée à la campagne non plus non non mais avec de quoi avoir un peu de terrain un truc comme ça",
+    "question": "non ?"
+  },
+  {
+    "id": 15,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et puis pour nous c'est pas donné faut pas bah pour tout le monde hein faut pas les payer c'est c'est hm c'est chaud hein ouais ça serait plutôt un truc à construire ou plutôt euh moi moi si je fais je fais euh vu que je suis de la partie euh je ferais faire le gros oeuvre et je ferais le reste",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 16,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "bah pour tout le monde hein faut pas les payer c'est c'est hm c'est chaud hein ouais ça serait plutôt un truc à construire ou plutôt euh moi moi si je fais je fais euh vu que je suis de la partie euh je ferais faire le gros oeuvre et je ferais le reste ah ouais ? ouais",
+    "question": "hm parce que donc votre boulot votre boulot c'est quoi ?"
+  },
+  {
+    "id": 17,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "tout bah j'ai enchaîné divers euh divers euh types d'emplois donc euh d'accord j- j'ai fait une formation où je suis amené en fait à à être capable de poser tout ce qui est de l'aménagement intérieur en en finitions et la formation c'est c'est c'est quoi ce qui permet de faire ça",
+    "question": "comme formation ?"
+  },
+  {
+    "id": 18,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "à être capable de poser tout ce qui est de l'aménagement intérieur en en finitions et la formation c'est c'est c'est quoi ce qui permet de faire ça comme formation ? s- c'était un l'équivalent d'un CAP en fait ça s'appelle PMAI c'est Poseur de Menuiseries et d'Aménagements Intérieurs à l'Afpa d'accord à Olivet",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 19,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et la formation c'est c'est c'est quoi ce qui permet de faire ça comme formation ? s- c'était un l'équivalent d'un CAP en fait ça s'appelle PMAI c'est Poseur de Menuiseries et d'Aménagements Intérieurs à l'Afpa d'accord à Olivet ah ouais ? hm",
+    "question": "d'accord ça c'est fait à l'Afpa ?"
+  },
+  {
+    "id": 20,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "quoi alors non sur du neuf par contre pas de réno- pas de rénovation non euh ça sera y en a plein des euh enfin y en a plein d- des entreprises de rénovation et tout sur Orléans justement qui qui bossent beaucoup ça sur le",
+    "question": "sur les vieilles maisons dans dans la ville non ?"
+  },
+  {
+    "id": 21,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "après je peux pas vous dire d'accord ouais ouais ouais ouais ouais non d'accord donc là euh là vous là vous bossez dans une boîte qui fait euh là c'est une boîte de finitions dans laquelle je suis en ce moment c'est tout ce qui est tout ce qui est des des murs euh euh pose de pose de toile pose de papier peint peinture et euh tout ce qui est des sols finitions donc euh parquet strat- carrelage lino- et euh",
+    "question": "y a quoi d'autre ?"
+  },
+  {
+    "id": 22,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "là c'est une boîte de finitions dans laquelle je suis en ce moment c'est tout ce qui est tout ce qui est des des murs euh euh pose de pose de toile pose de papier peint peinture et euh tout ce qui est des sols finitions donc euh parquet strat- carrelage lino- et euh y a quoi d'autre ? faïence des bandes euh de temps en temps si derrière un chantier de placo y a de la bande à faire éventuellement on va sous-traiter un chantier de placo donc voilà",
+    "question": "et euh c'est une grosse boîte ça ?"
+  },
+  {
+    "id": 23,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "qui font confiance qui sont sur le terrain aussi eux qui font le truc ou bah moi mon patron euh ouais je sais qu'avant il quand il a démarré sa société il travaillait maintenant il est il essaie de gérer plus les chantiers parce que l'effectif il augmente et bah normal au bout d'un moment il veut se poser quoi c'est un peu le but aussi quand on a une société donc voilà et p- pou- pour voir un peu comment comment comment ça se passe euh je peux vous demander d-",
+    "question": "u- une journée de travail quoi en gros ça se passe comment ?"
+  },
+  {
+    "id": 26,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais ah bon ? sinon ce travail-là me plaît et cette entreprise me convient jusqu'à présent donc euh on verra alors c'est quoi le projet professionnel si je peux j'aimerais bien faire euh camion-pizza ah oui hm d'accord",
+    "question": "et euh ça ça passe par une autre euh ?"
+  },
+  {
+    "id": 27,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "on verra alors c'est quoi le projet professionnel si je peux j'aimerais bien faire euh camion-pizza ah oui hm d'accord et euh ça ça passe par une autre euh ? non bah y a une forma-",
+    "question": "non non faut une formation ?"
+  },
+  {
+    "id": 28,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "faire euh camion-pizza ah oui hm d'accord et euh ça ça passe par une autre euh ? non bah y a une forma- non non faut une formation ? y a une formation euh obligatoire euh pour le fait que euh on a pas le droit en France d'exercer un métier euh dans lequel on a aucune aptitude mais euh",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 29,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais y a des saisons euh dans leur coin euh huit mois de l'année puis les quatre mois l'été ils partent euh sur la côte ou ailleurs et ils font mais j'ai aucune expérience ouais au au bout d'un camping ou un truc comme ça dans le domaine pour le moment c'est un projet donc euh on verra d'accord il se passe ouais ouais y- y a une formation Afpa non justement",
+    "question": "là-dessus non du tout ?"
+  },
+  {
+    "id": 30,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "non du tout c'est non je sais pas c'est une formation de quinze jours euh faut s'inscrire en fait c'est une sorte de stage obligatoire et puis euh voilà c'est tout c'est le seul truc qu'y a à faire après bah c'est paperasse pour euh création de société et puis bah à la personne de se débrouiller pour euh créer son truc",
+    "question": "et créer une société euh dans le bâtiment ça non ?"
+  },
+  {
+    "id": 32,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "et puis faut de l'argent donc on va faire autre chose ouais ouais ouais ouais ouais c'est ça se fait comme ça ça c'est non mais c'est vrai que c'est euh c'est souvent lié aux parents aussi le enfin y a des moments comme ça c'était ouais c'était pas une histoire d'influence c'était pour euh surtout pas décevoir et redécevoir donc euh je me suis dit ça fait carré de faire ça je vais y aller et puis au final ça m'a pas plu du tout puis voilà",
+    "question": "et si un jour vous avez des enfants vous avez envie qu'ils fassent quoi comme type de boulot ?"
+  },
+  {
+    "id": 33,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "je dis que ça a toujours des in- ça a toujours des influences ce que disent les parents sur euh sur les enfants quoi ouais c'est sûr bah ce qui la mère ou le père euh pas ê- était nul à l'école qui a pas de diplôme il va vous dire va travailler à l'école mais c'est pas forcément bénéfique enfin ouais ouais ouais s- s- enfin c'est pas toujours comme ça ouais non ça hm",
+    "question": "ça l'école l'école c'est des bons souvenirs ?"
+  },
+  {
+    "id": 35,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "hm toujours et donc pour euh qu'est-ce qu'y a d'autres dans le quartier ouais non p- rien la petite boucherie machin et tout ça euh non si boucherie ouais de temps en temps sinon y a quoi bah y en a un il a fermé le tabac pour euh les timbres les merguez il faisait les merguez ici un temps ouais la boucherie halal ?",
+    "question": "non il fait pas les merguez ?"
+  },
+  {
+    "id": 36,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "timbres les merguez il faisait les merguez ici un temps ouais la boucherie halal ? non il fait pas les merguez ? bah ouais il fait toujours ouais ouais ouais ça de temps en temps on y va sinon y a quoi je sais pas le toilettage de chien",
+    "question": "ah ouais vous avez pas de chien si ?"
+  },
+  {
+    "id": 37,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "donc euh et dans le quart- ba- k- y a pas grand chose d'autre dans l- n- dans le quartier après si on regarde euh plutôt euh euh o- ouais plutôt l- plutôt loisirs parce que j'avais des questions aussi sur bah euh artisan enfin d- quand quand y a des fuites ou y a des machins à faire ici tout ça vous faites tout vous toute façon bah non moi je fais rien je paye déjà assez cher de loyer pour le HLM alors euh je fais intervenir ah oui ici ils font tout ouais ouais ouais ah y a pas dec- non mais la peinture tout ça c'est fait euh",
+    "question": "là quand ils ont refait c'est eux qu'on qui refont tout ?"
+  },
+  {
+    "id": 39,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "et maintenant c'est tout ça ouais sinon t- tout ce qui est re- retaper les apparts c'est ils ont deux ils ont deux trois mecs euh service technique qui font ça quoi hm hm hm ils font ce qu'ils peuvent c'est déjà pas mal d'accord d'accord donc après quand quand c'est pas le boulot parce qu'on va passer aux choses plus sympas k- quand quand c'est pas le boulot euh donc quand vous êtes pas en",
+    "question": "en en travail euh le type de loisirs c'est quoi ?"
+  },
+  {
+    "id": 40,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "ça m'arrive à l'occasion mais ouais ouais je sais pas rien c'est euh si ah c'est la télé par exemple hein non même pas ouais j'aime bien regarder des films mais même pas je me séquestre pas chez moi pour ça non je sais pas je vais traîner je vais voir des gars et voilà quoi sans plus",
+    "question": "sport non pas de sport ?"
+  },
+  {
+    "id": 41,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm ouais vite fait salle de sport histoire de me remuer salle de sport ouais euh non bah si quand même je reviens sur la télé bè- belle télé quand même c'est pas bah oui faut investir ça rigole pas hein ça rigole pas télé plus euh DVD euh ouais",
+    "question": "non Internet c'est quoi c'est c'est la Neuf box ça ?"
+  },
+  {
+    "id": 42,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "c'est pas bah oui faut investir ça rigole pas hein ça rigole pas télé plus euh DVD euh ouais non Internet c'est quoi c'est c'est la Neuf box ça ? ouais donc douze mille chaînes et tout ça quand même ouais mais il est pourri leur décodeur",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 46,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "nous on a hm : &streaming en &streaming : hm d'accord ah ouais ouais donc ça donc là euh pas de film pas de machin euh b- non sans plus c'est histoire d'avoir une télé correcte mais",
+    "question": "des petites émissions non ?"
+  },
+  {
+    "id": 47,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": ": si c'est possible y a y a de tout hein sept ans il habitait au dix-huitième il descend tout seul là s- y prend l'ascenseur : quoi tu sais le gamin-là le petit-là qui voulait taper sa tante là il était après manger il était sorti de chez l- : ah mais ça c'est pas Confessions Intimes c'est Pascal le Grand Frère mais non non c'était Super ma- Nanny là ah ah ouais ah ouais y a ça aussi bah elle est m- elle est morte",
+    "question": "qui qu'est morte ?"
+  },
+  {
+    "id": 48,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "le petit-là qui voulait taper sa tante là il était après manger il était sorti de chez l- : ah mais ça c'est pas Confessions Intimes c'est Pascal le Grand Frère mais non non c'était Super ma- Nanny là ah ah ouais ah ouais y a ça aussi bah elle est m- elle est morte qui qu'est morte ? aujourd'hui : Super Nanny cancer du poumon",
+    "question": "elle est morte cette nuit ?"
+  },
+  {
+    "id": 49,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "aujourd'hui : Super Nanny cancer du poumon elle est morte cette nuit ? hm : elle est morte ou c'est pas une vengeance d'un enfant qui euh : non non c'est vrai elle est morte",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 50,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais j'ai pas j'ai pas eu cette information-là moi bah ça ça va être dur pour ah bon non Confessions Intimes c'est euh des couples de jeunes euh elle qui est hyper jalouse euh le machin truc comme ça c'est ça ouais c'est ça ouais c'est ça c'est ça bon truc com-",
+    "question": "donc ce type d'émissions-là à la télé les infos les trucs comme ça euh non ?"
+  },
+  {
+    "id": 51,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ah ouais bah je passe ouais je pense deux petites heures par jour quand même donc pour les mails mails et puis euh après des trucs euh Facebook euh non Twitter non rien du tout non contre ah non Facebook je suis non Facebook je s- ah ouais moi les sectes comme ça je peux pas mais ouais je sais pas non c'est je navigue quoi ah ouais après les messages c'est avec des copains des trucs euh",
+    "question": "les mails non ?"
+  },
+  {
+    "id": 52,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "ah ouais après les messages c'est avec des copains des trucs euh les mails non ? non mais bah non c'est surtout euh je sais pas c'est : le bon coin aussi ouais voilà les trucs comme ça ah ouais ouais ouais ouais d'accord et après euh d- bah oui le ty- le le type de sites et puis les euh",
+    "question": "des films et tout justement de en téléchargement et en en &streaming ?"
+  },
+  {
+    "id": 55,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "j'ai avec les jeux et tout ? je regrette mais je regrette que euh un jour sur dix alors euh ah ouais au final c'est pas bien grave elle est pas là elle est pas là ça prenait du temps ça non quand on commence à jouer et ouais j'avais un jeu de code il déchirait mais quand je l'ai fini après ça m'agaçais je jouais plus donc euh",
+    "question": "et pas et sur Internet pas de jeux ?"
+  },
+  {
+    "id": 56,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "mais je regrette que euh un jour sur dix alors euh ah ouais au final c'est pas bien grave elle est pas là elle est pas là ça prenait du temps ça non quand on commence à jouer et ouais j'avais un jeu de code il déchirait mais quand je l'ai fini après ça m'agaçais je jouais plus donc euh et pas et sur Internet pas de jeux ? euh non parce que bah j'ai pas le PC adéquat et puis je suis pas trop je suis pas trop jeux vidéo en fait",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 57,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "mais quand je l'ai fini après ça m'agaçais je jouais plus donc euh et pas et sur Internet pas de jeux ? euh non parce que bah j'ai pas le PC adéquat et puis je suis pas trop je suis pas trop jeux vidéo en fait ah ouais ? non b- enfin j'aime bien mais faut vraiment que ça que ça qu'il soit bien fait et que ça soit dans mon truc quoi ouais",
+    "question": "et dans mon truc c'est quoi ?"
+  },
+  {
+    "id": 60,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ça m'arrive de admettons regarder Turbo des trucs comme ça des ouais c'est ça ouais ouais ouais sinon jeux bah des jeux de voitures euh normaux mais ouais ouais ouais ouais ouais tuning bah non tuning c'est Confessions Intimes c'est pareil vous avez pas vu l'autre fois non j'ai pas vu ça ah bon ?",
+    "question": "Pris c'était Confessions Intimes ?"
+  },
+  {
+    "id": 62,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ah bon ? et lui il obéissait il y allait et tout ah non j'ai pas vu ça je crois que c'était Confessions Intimes mais je suis pas sûr : si si c'était Confessions Intimes ouais j'ai vu un reportage comme ça euh sur Internet euh dans le nord là qui était sympa aussi mais euh pas ça le mec il expliquait à sa femme que tout façon euh sa bagnole c'était largement au-dessus d'elle",
+    "question": "ah c'était pas un jeune vingt-sept ans rasé ?"
+  },
+  {
+    "id": 64,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et alors euh sinon en dehors de euh de l'appart euh non du cinéma non ouais j'aime bien mais faut que c'est cher quoi non c'est même bah ouais non l'UGC ça va encore ah ouais ? mais c'est ouais faut qu'on m'accompagne et c'est pas tout le temps facile faut que ça plaise en fait",
+    "question": "ah sur le choix des films ?"
+  },
+  {
+    "id": 65,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh ouais on va dire que c'est le cliché action contre films d'amour ouais bah faut prendre euh les euh James Bond non non non ça marche pas non quoi y a non hm ah euh donc mais quand même plutôt films euh",
+    "question": "et donc UGC ici ?"
+  },
+  {
+    "id": 67,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "euh donc mais quand même plutôt films euh et donc UGC ici ? ouais UGC UGC bah moins cher hein ouais c'est moins cher hein ? puis rapide aussi et puis pou- pour se garer même le soir c'est bon",
+    "question": "à l'UGC ?"
+  },
+  {
+    "id": 68,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "mais quand même plutôt films euh et donc UGC ici ? ouais UGC UGC bah moins cher hein ouais c'est moins cher hein ? puis rapide aussi et puis pou- pour se garer même le soir c'est bon à l'UGC ? hm",
+    "question": "vers où où ça euh Place d'Arc là en dessous non ?"
+  },
+  {
+    "id": 69,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "UGC bah moins cher hein ouais c'est moins cher hein ? puis rapide aussi et puis pou- pour se garer même le soir c'est bon à l'UGC ? hm vers où où ça euh Place d'Arc là en dessous non ? non c'est fermé à ah ouais j'ai fait une perd-",
+    "question": "c'est quoi la rue où y a ma mutuelle là ?"
+  },
+  {
+    "id": 70,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "dans la rue de la caserne et tout là on se gare dans cette rue-là ouais c'est ça ouais rue Marcel Proust d'accord ouais ça doit être ça ouais c'est ça ouais ouais ouais ouais ouais ça doit être ça et d'autres trucs sinon euh restau- euh ouais j'aime ouais bah de temps en temps ouais quand on peut on fait",
+    "question": "et dans la plutôt quoi Orléans ou ?"
+  },
+  {
+    "id": 71,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "on se gare dans cette rue-là ouais c'est ça ouais rue Marcel Proust d'accord ouais ça doit être ça ouais c'est ça ouais ouais ouais ouais ouais ça doit être ça et d'autres trucs sinon euh restau- euh ouais j'aime ouais bah de temps en temps ouais quand on peut on fait et dans la plutôt quoi Orléans ou ?",
+    "question": "ou quel type ?"
+  },
+  {
+    "id": 72,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et d'habitude non n'importe lequel ouais n'importe lequel par contre ç- ouais non parce que moi avec mes enfants on fait des études sur les &shawarmas hein ah Croc'express au quartier là à Carrefour Market il est pas mal Croc'expess à Carrefour Market ah Carrefour Market euh près de euh euh ouais ouais bah là là ju- euh en sortant à gauche en face la poste ouais ouais ouais c'est que moi je vais souvent plus à l'autre y en a un",
+    "question": "ah ouais ouais y en a un là ?"
+  },
+  {
+    "id": 74,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais c'est que moi je vais souvent plus à l'autre y en a un ah ouais ouais y en a un là ? hm qui est où juste y a y a une brasserie après un truc euh ça va il est pas mal non ? ouais euh mais la brasserie elle est route d'Olivet dans et à l'angle il est sur le parking",
+    "question": "ouais et le Croc' machin il est où ?"
+  },
+  {
+    "id": 77,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "non ? ouais euh mais la brasserie elle est route d'Olivet dans et à l'angle il est sur le parking ouais et le Croc' machin il est où ? y a y a deux trois trucs et il est là ah bon ? &shawarma frites ? bah normal quoi enfin tout tout ouais",
+    "question": "parce après avec les pains comment ?"
+  },
+  {
+    "id": 78,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "des pains pita et tout ah ouais tout pita euh baguette tout bon bah on testera si on il faut il faut avec mon fils on teste et euh on c'est quasi si on met des notes sur toutes les trucs euh il cherche pour l'instant son préféré c'est celui qu'y a qu'y a près de la fac alors euh ouais comment il s'appelle celui euh à la Source",
+    "question": "connais pas non ? Bennys"
+  },
+  {
+    "id": 79,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ou Bennyz euh je sais ah euh où y a le tram là ouais où y a le tram ouais euh non je connais pas où y a le tram euh en montant un peu : à la Madeleine vous y êtes allez à celui euh rue de Madeleine là moi mon préféré hm Faubourg Madeleine : Faubourg Madeleine Faubourg Madeleine",
+    "question": "tout au début du Faubourg Madeleine ?"
+  },
+  {
+    "id": 80,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais où y a le tram ouais euh non je connais pas où y a le tram euh en montant un peu : à la Madeleine vous y êtes allez à celui euh rue de Madeleine là moi mon préféré hm Faubourg Madeleine : Faubourg Madeleine Faubourg Madeleine tout au début du Faubourg Madeleine ? ouais ouais ouais",
+    "question": "tout au début sur la gauche là ?"
+  },
+  {
+    "id": 81,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm ah ouais c'est turc ah ouais non j'ai pas été là encore bah il est trop bon lui ah ouais ah ouais : ouais c'est bon c'est servi chaud et tout : moi c'est mon préféré hm",
+    "question": "et rue des Carmes ?"
+  },
+  {
+    "id": 82,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "juste après New New Antalya : moi j'ose pas aller rue des Carmes euh ant- Antal- Antalya ouais ça doit être ça je crois que c'est ça ouais ouais celui-là il est bon oui il est bon oh enfin c'est comme ça c'est pour récupérer des in- c'est k- c'est pour récupérer des infos- euh hm",
+    "question": "boire des coups aussi non ?"
+  },
+  {
+    "id": 83,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "il est bon oh enfin c'est comme ça c'est pour récupérer des in- c'est k- c'est pour récupérer des infos- euh hm boire des coups aussi non ? ouais mais à domicile ou chez les autres ouais d'accord ouais plutôt plutôt l'apéro euh ouais f- f- ouais euh et puis à part ça euh",
+    "question": "non dans Orléans y a pas grand chose d'autre à faire si ?"
+  },
+  {
+    "id": 84,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "plutôt plutôt l'apéro euh ouais f- f- ouais euh et puis à part ça euh non dans Orléans y a pas grand chose d'autre à faire si ? bah si y a plein de choses si bowling de temps à autres j'aime bien ah ouais pareil faut trouver le monde qui est &opé- pour suivre ou hm sinon bah",
+    "question": "je sais pas y a quoi ?"
+  },
+  {
+    "id": 87,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "pareil faut trouver le monde qui est &opé- pour suivre ou hm sinon bah je sais pas y a quoi ? bowling euh Olivet ou Saran ? hm hm pff n'importe ? Saran j'y été qu'une fois ou ouais mais plus Olivet parce que c'est à côté quoi",
+    "question": "et euh ou sortie en boîte truc euh non ?"
+  },
+  {
+    "id": 88,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ou ouais mais plus Olivet parce que c'est à côté quoi et euh ou sortie en boîte truc euh non ? euh non bah à l'occasion mais c'est pas non c'est pas mon truc comme ça pas tous pas tous les week-end et tout euh ah non loin de là non non peut-être pas tous les ans non plus",
+    "question": "des soir- ah ouais des soi- soirées avec copains ?"
+  },
+  {
+    "id": 89,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et euh ou sortie en boîte truc euh non ? euh non bah à l'occasion mais c'est pas non c'est pas mon truc comme ça pas tous pas tous les week-end et tout euh ah non loin de là non non peut-être pas tous les ans non plus des soir- ah ouais des soi- soirées avec copains ? ouais voilà c'est ça",
+    "question": "non ?"
+  },
+  {
+    "id": 90,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "peut-être pas tous les ans non plus des soir- ah ouais des soi- soirées avec copains ? ouais voilà c'est ça non ? ouais euh qu'est-ce qu'il y a à Orléans d'autre sinon je cherche euh peut-être on a essayé de voir par exemple aussi si y a des des euh si y a plus de choses maintenant qu'il y a quarante ans pour faire de euh la médiathèque",
+    "question": "non ?"
+  },
+  {
+    "id": 91,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "des soir- ah ouais des soi- soirées avec copains ? ouais voilà c'est ça non ? ouais euh qu'est-ce qu'il y a à Orléans d'autre sinon je cherche euh peut-être on a essayé de voir par exemple aussi si y a des des euh si y a plus de choses maintenant qu'il y a quarante ans pour faire de euh la médiathèque non ?",
+    "question": "non ?"
+  },
+  {
+    "id": 93,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "si l'île Charlemagne l'été l'île Charlemagne ouais l'été hein ouais ouais p- y compris pour la baignade ? bah surtout pour surtout la baignade ouais ouais mais cet été ça a été euh quasi fermé tout le temps",
+    "question": "non ?"
+  },
+  {
+    "id": 94,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "c'était bon encore ah ouais ouais parce que là y a moins ouais y a du- ouais y a deux plages maintenant hein ouais hm donc ça donc euh dans bah dans la ville aussi euh ouais euh euh sport c'est plutôt euh un peu de salle euh en salle",
+    "question": "euh le sport local tous les euh basket machin et tout ça vous suivez non pas du tout ?"
+  },
+  {
+    "id": 95,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "donc ah ouais ouais et euh sinon hors Orléans euh je sais pas les les vacances comme ça c'est euh bah les vacances c'est enfin on va dire maintenant qu'on est deux on s'est fixé un un an sur deux quoi pour euh ouais se faire des bonnes vacances pas partir euh quatre jours euh enfin pas partir euh une semaine à Royan quoi alors si je donne allez deux mille deux mille euros pour passer des vacances",
+    "question": "pa- vous faites vous partez où ?"
+  },
+  {
+    "id": 96,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "bah les vacances c'est enfin on va dire maintenant qu'on est deux on s'est fixé un un an sur deux quoi pour euh ouais se faire des bonnes vacances pas partir euh quatre jours euh enfin pas partir euh une semaine à Royan quoi alors si je donne allez deux mille deux mille euros pour passer des vacances pa- vous faites vous partez où ? mouais c'est ça ouais si je fais ça bah cet été Corse",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 97,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "pa- vous faites vous partez où ? mouais c'est ça ouais si je fais ça bah cet été Corse ah ouais ? hm j'adore moi ça aller en Corse ouais c'est bien hein moi je connaissais pas mais ça fait euh deux trois ans qu'on y va moi j'y vais avec mes enfants",
+    "question": "où ça ?"
+  },
+  {
+    "id": 98,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "mouais c'est ça ouais si je fais ça bah cet été Corse ah ouais ? hm j'adore moi ça aller en Corse ouais c'est bien hein moi je connaissais pas mais ça fait euh deux trois ans qu'on y va moi j'y vais avec mes enfants où ça ?",
+    "question": "en Corse bah ça dépend là là cet été on était où cet été ?"
+  },
+  {
+    "id": 100,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "j'adore moi ça aller en Corse ouais c'est bien hein moi je connaissais pas mais ça fait euh deux trois ans qu'on y va moi j'y vais avec mes enfants où ça ? en Corse bah ça dépend là là cet été on était où cet été ? cet été on fait vers le le Cap Corse vers le haut vers les montagnes là vers Corte et puis euh vers Calvi vous avez pas fait Porticcio tout ça ?",
+    "question": "Porticcio c'est où ?"
+  },
+  {
+    "id": 102,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "euh ou de trucs comme ça bah c'est pas trop le bon coin mais là-bas je sais pas y a y a vraiment plein de choses à faire quoi non euh Ajaccio c'est ça près d'Ajaccio c'est le Golfe d'Ajaccio ouais c'est à dix bornes Ajaccio s- Ajaccio c'est c'est à gauche-là en bas",
+    "question": "je sais pas Pris c'est où Ajaccio ?"
+  },
+  {
+    "id": 104,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "non enfin ça un une espèce de petite lune vite fait et Porticcio c'est un petit peu plus en contrebas moi j'étais pas loin je crois plus bas peut-être Propriano et des trucs comme ça ouais je crois que c'est ça ouais c'est toi qui a été ? : c'est beau aussi Propriano en dessous le après euh comment ça s'appelle après euh je crois que j'y ai déjà été mais je suis pas sûr Favone tout ça là",
+    "question": "non ?"
+  },
+  {
+    "id": 105,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "moi j'aime bien la montagne mais euh c'était terrible là c'est c'est t- c'est trop sympa c'est de la vraie montagne quand même aussi et puis alors là en bas euh masque euh non masque palmes tube s- s- bah ouais ouais on a fait plongée mais c'était on était déçu hm",
+    "question": "ah euh pour un baptême de plongée ?"
+  },
+  {
+    "id": 107,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "sinon si y a pas le choix bah camping toile de tente et puis voilà hm hm Ok Ok Ok bon bah ça c'était pour pour les vacances euh j'avais quelques questions comme ça juste sur Orléans euh justement sur le type loisirs euh fête de Jeanne d'Arc euh festival de Loire les machins comme ça c'est des trucs euh",
+    "question": "où vous allez des fois ou pas du tout non ?"
+  },
+  {
+    "id": 108,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais fête de la musique c'est un truc euh ouais mais tous ces trucs-là je m'intéresse sans plus quoi et sur le reste euh dans la ville euh sur euh l'opinion en gr- en gros sur l- sur la ville c'est plutôt une ville euh bah c'est une bah quand on sort de Blois on peut que trouver que c'est bien toute façon Orléans ah ouais mais ouais si j'aime bien oh ça dépend pour quoi hein Blois euh",
+    "question": "c'est symp- non c'est pas bien ?"
+  },
+  {
+    "id": 110,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais l'antenne elle est à Saran ah ouais mais j- ils ont pas arrêté là non ? je croyais qu'ils en ah je sais pas je- je sais même pas si on l'a nous hm donc euh l'opinion global sur la ville c'est euh",
+    "question": "mieux que mieux que Blois ?"
+  },
+  {
+    "id": 111,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "l'opinion global sur la ville c'est euh mieux que mieux que Blois ? bah moi j- bah ouais dix fois mieux ouais hm ouais c'est moi j'aime bien c'est une bonne ville les gens ils se prennent un peu trop pour des Parisiens mais ah ouais c'est ça ouais ils bah je pense que c'est",
+    "question": "l'image des Orléanais c'est quoi ?"
+  },
+  {
+    "id": 113,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "y a pas y a pas des mots qui ont c'est j- bah à à notre âge si on a des expressions je sais qu'y a des trucs d'ici je les ai pas entendu chez moi et y a des trucs de chez moi ils connaissent pas ici mais ah ouais voilà pourtant c'est sinon le ça ça vous avez des exemples de ça de de de truc euh bah des expressions comme chez pas trop &bibz des des trucs comme ça ou",
+    "question": "trop &bibz c'est pas d'ici ça hein si ?"
+  },
+  {
+    "id": 114,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "bah à à notre âge si on a des expressions je sais qu'y a des trucs d'ici je les ai pas entendu chez moi et y a des trucs de chez moi ils connaissent pas ici mais ah ouais voilà pourtant c'est sinon le ça ça vous avez des exemples de ça de de de truc euh bah des expressions comme chez pas trop &bibz des des trucs comme ça ou trop &bibz c'est pas d'ici ça hein si ? bah si moi je fais pas mais à Blois y a pas ça ou",
+    "question": "et ici y a ça ?"
+  },
+  {
+    "id": 115,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "bah des expressions comme chez pas trop &bibz des des trucs comme ça ou trop &bibz c'est pas d'ici ça hein si ? bah si moi je fais pas mais à Blois y a pas ça ou et ici y a ça ? y a &bitch pour dire y a rien à faire des trucs comme ça euh ça je c- o- ouais s- je sais pas c'est des trucs d'ici quoi euh j'avais pas entendu avant chez moi c'est des trucs d'ici",
+    "question": "ou c'est des trucs qui d- qui sont différents selon l'âge peut-être non ?"
+  },
+  {
+    "id": 116,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "c'est quoi plutôt euh langues africaines après je connais pas y a trop de y a trop de variantes quoi s- ouais ouais ouais ouais mais ici euh pas mal pas mal de variantes ici ouais ouais ouais vous vous parlez d'autres choses que le français ou en langue anglais bah anglais je me débrouille angl- espagnol euh vite fait parce que",
+    "question": "c'est les langues de l'école ça anglais espagnol ?"
+  },
+  {
+    "id": 117,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "c'est les langues de l'école ça anglais espagnol ? ouais mais espagnol je savais plus c'est juste que là j'ai un un collègue il est espagnol donc euh lui il parle trop mal français donc j'ai pas le choix faut que je parle en espagnol sinon ouais anglais ça va je me débrouille puis après j'avais juste une une dernière question la y la l- la la question la plus drôle de euh c'est pas",
+    "question": "pourquoi tu tu te marres tu sais le truc non ?"
+  },
+  {
+    "id": 120,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ouais ouais non y a pas de euh euh y y a pas la bonne façon de de faire l'o- l'omelette hein je sais pas des si y a une différence par exemple entre Blois et Orléans euh pour faire l'omelette je suis pas sûr je sais pas hein à mon avis voilà sinon u- euh en en en goût comme ça en en en alimentation et tout c'est euh",
+    "question": "vous préférez plutôt quoi comme type de bouffe ?"
+  },
+  {
+    "id": 121,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "la viande des vrais plats enfin j'aime bien les vrais plats mais après faut le temps pour les faire et et je suis pas trop euh adepte des cuisines toutes prêtes donc l'idéal maintenant si je résume l'idéal c'est euh faire construire une grande maison avec une grande piscine sur le Golfe de machin a- en Corse un peu d'argent ah non pas en Corse",
+    "question": "non pas en Corse ?"
+  },
+  {
+    "id": 122,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "Ok bon bah pour moi c'est bon d'accord si euh merci bien bah y a pas de soucis merci bien bah j'ai tout une superbe interview en fait i- euh ben voilà on peu terminer là euh merci beaucoup je vais arrêter euh l'enregistrement",
+    "question": "ça a fait une heure là ?"
+  },
+  {
+    "id": 123,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "quand on écoute moi j'écoute après c'est s- bon c'est c'est un peu ma ma passion c'est un peu bizarre comme ça mais les les documents que j'ai retrouvé là enfin qu'on a retrouvé y a quarante ans d'Orléans euh moi ça me fascine n- n- et donc j'écoute plein de gens comme ça qui racontent euh leur vie mais c'est s- c'est vraiment intéressant quoi",
+    "question": "et le but c'est quoi c'est c'est d'étudier le la façon de parler des gens ?"
+  },
+  {
+    "id": 124,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "il faut juste me signer ça que moi je mets dans les archives avec euh ouais tu me passes un stylo s'il te plait j'avais j'ai un crayon mais c'est pas s- franchement s- y a pas de mauvais coup derrière ça engage à rien hein ça engage à rien ouais ouais bien sûr y a pas de problème c'est juste une question de protection euh",
+    "question": "là j- par contre j- je mets mon nom ?"
+  },
+  {
+    "id": 125,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ah ouais hm et euh dans l'audio c'est bipé la face euh de toute façon y a pas le nom là bah tout façon j- bah ouais je l'ai pas dit ouais non non non non mais si on trouve un nom si on trouve un nom on le retire et on met un bip à la place euh donc là après je sais pas s- je sais plus ce qu'y a marqué sur le truc",
+    "question": "je mets l'adresse ?"
+  },
+  {
+    "id": 129,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "tu veux tu veux tu veux te marrer non ou ? tu veux rigoler non ? : de quoi ? : non c'est bon toute façon je peux le transmettre donc euh et puis euh hm j'autorise ouais s- alors on on a mis deux choses j'autorise l'enregistrement ouais réalisé bah aujourd'hui on est le le vingt janvier je crois",
+    "question": "c'est ça ?"
+  },
+  {
+    "id": 131,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "puis en même temps il a eu un poste on lui a proposé un poste plus élevé plus intéressant donc euh on moi j'avais déjà euh on avait déjà Marine a un grand frère qui a aujourd'hui vingt-six ans et demi ouais donc euh on est venu avec Nicolas donc qui avait deux ans et puis bah ça correspondait tout à fait bah c'était la campagne euh le petit village euh et donc vous viviez là-bas",
+    "question": "ou déjà à Orléans ?"
+  },
+  {
+    "id": 136,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "bah ma famille hein n'y croyait enfin bah voilà et puis là ouais je me suis dit bah de toute façon tu as tout entre les mains hein c'est à toi de euh hm hm hm de d'y aller de faire les choses d'y aller et donc je je suis allée dans une école de travail social et puis euh et j'ai et là c'est euh",
+    "question": "comment ça se passe ? il y a un conc- ça y avait un"
+  },
+  {
+    "id": 137,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais qui avaient qui ont qui ont représenté un petit peu un modèle qui revenait en moi qui résonnait en moi quelque chose hm hm hm hm donc voilà moi je me suis construite un peu comme ça hein c'était en observant ouais hm hm ouais j'ai beaucoup observé je continue quand même encore aussi c'est un peu la base de notre métier aussi mais euh donc voilà donc euh et maintenant euh",
+    "question": "et maintenant donc ? Vous"
+  },
+  {
+    "id": 142,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "oui et puis elle aussi apparemment la directrice ouais et puis ce qui m'a plu en fait dans cette idée c'était bah construire un service où on partait de rien d'accord on avait rien on avait juste euh le budget euh des locaux et puis euh bah fallait y aller construire tous les outils euh l'équipe était jeune ils sortaient tous de l'école là on est sept",
+    "question": "hm hm et vous êtes combien dans cette é- dans cette équipe ? d'accord"
+  },
+  {
+    "id": 143,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "de les leurrer et de leur non non donc euh j'ai refusé donc je continue à me former et après j'arrête là d'accord enfin bon oh non ça me prend un temps fou là je rentre de cours j'ai pas mal d'écrits à faire donc j'ai mon travail et puis et là donc euh vous donc c'est formation plus",
+    "question": "travail en même temps ? d'accord"
+  },
+  {
+    "id": 145,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais on est arrivé à Meung-sur-Loire y a d'accord hm hm hm ouais bah en quatre-vingt-cinq Nicolas avait deux ans et puis euh bah j'en suis partie là en quatre-vingt en deux mille neuf d'accord hm hm oui ouais voilà et ici alors",
+    "question": "vous vous y plaisez ?"
+  },
+  {
+    "id": 146,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais donc euh faut dire quoi sur le le c- le le la ville euh non de Fleury de la ville d'Orléans euh je sais pas sur le euh oui non je sais pas qu'est-ce que j'ai pas suivi donc euh bah comme vous venez juste d'arriver dans ce quartier c'est que vrai que peut-être vous connaissez pas",
+    "question": "vous vous vous utilisez pas les commerces les les choses d'ici ou ?"
+  },
+  {
+    "id": 147,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "non c'est vraiment pas le truc que je regarde oui hm ouais on a beau m'expliquer les règles puis je fais aucun effort ouais pour comprendre en plus donc euh euh par contre euh ce que j'apprécie le fait d'être dans l'&agglo c'est euh oh c'est plus facile de sortir ou de se dire ah bah tiens euh tiens y a un truc pas mal là euh par exemple à la Passerelle là à Fleury y a des y a des s-",
+    "question": "c'est c'est quoi la Passerelle ?"
+  },
+  {
+    "id": 148,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "on a beau m'expliquer les règles puis je fais aucun effort ouais pour comprendre en plus donc euh euh par contre euh ce que j'apprécie le fait d'être dans l'&agglo c'est euh oh c'est plus facile de sortir ou de se dire ah bah tiens euh tiens y a un truc pas mal là euh par exemple à la Passerelle là à Fleury y a des y a des s- c'est c'est quoi la Passerelle ? c'est un grand centre oui",
+    "question": "c'est une salle ? non ah"
+  },
+  {
+    "id": 150,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "y a pas si longtemps que ça et euh je lui ai dit on va y aller en train oh elle me dit en train c'est vrai que c'est drôle ah ouais ouais ouais je lui dis oh bah oui on va y aller en train parce que ça va être compliqué pour se garer et tout et franchement enfin au moment de rentrer j'ai dit oh là là la prochaine fois on reprend la voiture hein j'ai du mal quand même mais même pour aller",
+    "question": "dans Paris c'est pas ?"
+  },
+  {
+    "id": 151,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "c'est le portable ah ben allez-y hein ouh là là bah vous vous l'enlevez je mets pause bientôt terminé euh hm et hm et au niveau toujours de la ville d'Orléans qu'est-ce que ou ouais de d'Orléans",
+    "question": "qu'est-ce que qu'est-ce que il vous plaît ou qu'est-ce qui vous déplaît dans la ville ?"
+  },
+  {
+    "id": 152,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "beaucoup de monde et puis euh je m'y retrouve pas trop dans ces trucs j'ai l'impression qu'y a un peu un décalage euh franchement euh non mais euh quand y a eu la caravane de Loire là aussi et puis oui les spectacles un peu farfelus avec euh moi j'appelle ça farfelus mais mais y avait un peu des des spectacles de rue là",
+    "question": "avec la caravane ?"
+  },
+  {
+    "id": 153,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh quand y a eu la caravane de Loire là aussi et puis oui les spectacles un peu farfelus avec euh moi j'appelle ça farfelus mais mais y avait un peu des des spectacles de rue là avec la caravane ? ou euh oui oui",
+    "question": "ça ça c'est c- ça c'est l'été non c'est quand ça ? oui"
+  },
+  {
+    "id": 154,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "des spectacles un peu oui c'est l'été ça c'est è- c'est euh non c'est septembre oui qui se balade dans les différentes villes euh ouais ouais ouais voilà hm hm hm hm j'ai pas vu j'y étais pas d'accord d'accord hm hm voilà avec des un peu des troubadours des moi j'adhère pas trop à ce genre de choses ça me je sais pas je sais pas pourquoi",
+    "question": "les déguisements ? les euh"
+  },
+  {
+    "id": 59,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "non je sais pas des j'aime bien les belles voitures normales enfin ça m'arrive de admettons regarder Turbo des trucs comme ça des ouais c'est ça ouais ouais ouais sinon jeux bah des jeux de voitures euh normaux mais ouais ouais ouais ouais ouais tuning bah non tuning c'est Confessions Intimes c'est pareil vous avez pas vu l'autre fois",
+    "question": "non j'ai pas vu ça ah bon ?"
+  },
+  {
+    "id": 25,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "qui faisaient pas mal d'histoires chez eux et qui faisaient des trucs assez drôles i- y avait une ambiance quoi des fois y a des ambiances comme ça euh ouais des fois y a des trucs marrants mais mais euh d'accord euh ouais sinon s- donc p- par la suite vous allez conserver le ce ce boulot-là ou euh bah euh je sais pas pour le moment je me tâte parce que j'ai un projet professionnel qui a rien à voir avec ça mais",
+    "question": "ouais ah bon ?"
+  },
+  {
+    "id": 54,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ce type euh pas de console de jeux non plus ? euh je l'ai vendue Xbox ouais et j'aurai pas dû faut faut la racheter faut d'occase ça se trouve ouais mais j'ai",
+    "question": "avec les jeux et tout ?"
+  },
+  {
+    "id": 61,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "tuning bah non tuning c'est Confessions Intimes c'est pareil vous avez pas vu l'autre fois non j'ai pas vu ça ah bon ? Pris c'était Confessions Intimes ? ah je crois que j'ai vu ça non j'ai pas vu c'est sa gonzesse elle demandait qui- que le monsieur il sorte et qu'il soulève le euh la voiture quand elle elle passait les dos d'ânes sinon ça râpait",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 63,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ouais c'est pas je sais même pas si c'est une histoire que j'ai pas le temps ou quoi mais je suis plus là-dedans en fait si y a le truc il est là bah j'y joue mais si il y est pas bah tant pis d'ac- et alors euh sinon en dehors de euh de l'appart euh non du cinéma non ouais j'aime bien mais faut que c'est cher quoi non c'est même bah ouais non l'UGC ça va encore",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 66,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "non non ça marche pas non quoi y a non hm ah euh donc mais quand même plutôt films euh et donc UGC ici ? ouais UGC UGC bah moins cher hein",
+    "question": "ouais c'est moins cher hein ?"
+  },
+  {
+    "id": 103,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "s- Ajaccio je crois que c'est en bas à gauche non c'est Porto-Vec- ça non Porto-Vecchio c'est au-dessus Ajaccio c'est en bas à gauche non enfin ça un une espèce de petite lune vite fait et Porticcio c'est un petit peu plus en contrebas moi j'étais pas loin je crois plus bas peut-être Propriano et des trucs comme ça ouais je crois que c'est ça",
+    "question": "ouais c'est toi qui a été ?"
+  },
+  {
+    "id": 106,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "c'est de la vraie montagne quand même aussi et puis alors là en bas euh masque euh non masque palmes tube s- s- bah ouais ouais on a fait plongée mais c'était on était déçu hm ah euh pour un baptême de plongée ? ouais bah en même temps on a fait le tarif euh",
+    "question": "avec bouteille ?"
+  },
+  {
+    "id": 112,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "y a besoin de rien de plus quoi d'accord le tram euh ouais euh ouais le tram ouais ouais ici c'est pour ça i- c'est bien le le tram bah ouais c'est bah c'est pour ça qu'on est dans ce quartier-là parce que",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 118,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "sinon ouais anglais ça va je me débrouille puis après j'avais juste une une dernière question la y la l- la la question la plus drôle de euh c'est pas pourquoi tu tu te marres tu sais le truc non ? ah non non mais de toute façon : non je sais rien moi",
+    "question": "c'est vrai ?"
+  },
+  {
+    "id": 128,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "donc là après je sais pas s- je sais plus ce qu'y a marqué sur le truc je mets l'adresse ? après euh ouais là l'adresse c'est pour qu'on puisse envoyer le CD et des trucs comme ça c'est pas une obligation hein n'importe ouais mais je vous fais confiance d'accord n'importe tu veux tu veux tu veux te marrer non ou ? tu veux rigoler non ?",
+    "question": ": de quoi ?"
+  },
+  {
+    "id": 135,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "de faire autre chose quand même oui hm hm je me donnerai les moyens d'y arriver donc euh je cheminais tranquillement ensuite euh bah euh Marine est arrivée et euh en fait euh j'ai travaillé je faisais des petits boulots hein toujours dans le secrétariat dans la comptabilité mais je m'éclatais pas vraiment mais bon ça m'occupait quelque part Nicolas était à l'école donc ça m'occupait hm hm hm oui oui oui et puis je voyais des gens j'échangeais bah pas je dis pas que c'était pas très profond mais bon bah je voyais des gens ça me ça me permettait de pas",
+    "question": "voilà comment dire euh ?"
+  },
+  {
+    "id": 85,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "alternative",
+    "intention": "non-question",
+    "context": "ouais f- f- ouais euh et puis à part ça euh non dans Orléans y a pas grand chose d'autre à faire si ? bah si y a plein de choses si bowling de temps à autres j'aime bien ah ouais pareil faut trouver le monde qui est &opé- pour suivre ou hm sinon bah je sais pas y a quoi ?",
+    "question": "bowling euh Olivet ou Saran ?"
+  },
+  {
+    "id": 73,
+    "file_name": "ESLO2_ENT_1001_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ah Croc'express au quartier là à Carrefour Market il est pas mal Croc'expess à Carrefour Market ah Carrefour Market euh près de euh euh ouais ouais bah là là ju- euh en sortant à gauche en face la poste ouais ouais ouais c'est que moi je vais souvent plus à l'autre y en a un ah ouais ouais y en a un là ? hm qui est où juste y a y a une brasserie après un truc euh ça va il est pas mal",
+    "question": "non ?"
+  },
+  {
+    "id": 155,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "voilà avec des un peu des troubadours des moi j'adhère pas trop à ce genre de choses ça me je sais pas je sais pas pourquoi les déguisements ? les euh ouais non ouais je sais pas je trouve que ça me fait pas rire ouais franchement y a alors y a des fois y a puis alors plus on est un peu euh",
+    "question": "comment dire euh ?"
+  },
+  {
+    "id": 156,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "je sais pas je sais pas pourquoi les déguisements ? les euh ouais non ouais je sais pas je trouve que ça me fait pas rire ouais franchement y a alors y a des fois y a puis alors plus on est un peu euh comment dire euh ?",
+    "question": "critique non ?"
+  },
+  {
+    "id": 157,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais ça lui faisait plaisir aussi de ouais ouais ouais de elle me disait de participer à ça euh puis ah bah là elle est à fond hein ça lui plaît vachement ce qu'elle fait donc euh hm hm hm et justement pour faire un lien un peu avec euh avec ce qu'elle fait et ce qu'on fait est-ce que vous pensez qu'ici y a une façon de parler à Orléans hm",
+    "question": "particulière ?"
+  },
+  {
+    "id": 158,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "avec ce qu'elle fait et ce qu'on fait est-ce que vous pensez qu'ici y a une façon de parler à Orléans hm particulière ? euh que ce soit euh des mots que vous ayez entendus ou un accent ou je sais pas pas une façon de parler mais des mots que j'ai appris ici que j'utilisais pas avant ouais alors euh par exemple euh",
+    "question": "vous é- comme quoi ?"
+  },
+  {
+    "id": 159,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ah c'est une canche d'accord après y a eu euh les nourrices quand ils étaient petits euh ça fais-moi un mignon alors les enfants ils regardaient la nourrice comme ça ils me regardaient bah je disais je peux pas vous aider un mignon on ne sait pas ce que c'est un bisou",
+    "question": "un bisou ah oui ?"
+  },
+  {
+    "id": 160,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "dans l'enquête qui a été qui avait été faite y a quarante ans y avait ils posaient une question culinaire sur l'omelette en fait et du ah non elle vous l'a pas dit non non elle me l'a pas dit et euh hm et donc euh donc ils avaient un certain nombre de questions c'était beaucoup plus fermé en fait que ce qu'on essaye de faire là avec Marine oui et y avait une question qui était euh",
+    "question": "comment est-ce qu'on fait une omelette chez vous ?"
+  },
+  {
+    "id": 161,
+    "file_name": "ESLO2_ENT_1002_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "comment est-ce qu'on fait une omelette chez vous ? et donc pour eux qu'on pour qu'on est un point de comparaison un peu avec l'enquête de soixante-huit si vous voulez bien oui m'expliquer comment vous faites une omelette alors je vais vous donner deux réponses déjà ah j'en fait pas parce que je n'aime pas les oeufs",
+    "question": "oh ?"
+  },
+  {
+    "id": 162,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "par rapport ok à Orléans d'accord donc est-ce que vous êtes euh enfin Orléans ou Ingré la région quoi hm hm donc on va on va ok aborder ça",
+    "question": "donc est-ce que vous êtes euh originaire d'ici ?"
+  },
+  {
+    "id": 163,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "à Ingré et ensuite euh j'aime le théâtre euh et y a une option théâtre au lycée Voltaire à la Source à Orléans la d'accord Source donc bah j'ai immigré là bas d'accord d'accord et euh je faisais les allers et retours euh Ingré Orléans la Source euh j'ai redoublé ma seconde donc j'ai fait ça pendant quatre ans",
+    "question": "quand vous étiez au lycée ?"
+  },
+  {
+    "id": 164,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "en fait donc la Source hm euh et Orléans et Orléans donc vous y alliez euh vous passiez plus de temps à à Orléans ou à la Source que à Orléans oui carrément qu'à Ingré ouais ouais ouais hm hm ouais ouais ouais donc et vos parents ont toujours euh",
+    "question": "été d'ic- enfin sont d'ici aussi ?"
+  },
+  {
+    "id": 165,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "comment vous le voyez ou comment vous le moi je enfin après je sais pas hein c'est peut-être euh je me trompe peut-être totalement mais euh non non c'est votre avis enfin j'ai l'impression que l'esprit des gens est plus étroit en fait euh parce que c'est ici ouais un village euh que ouais y a plus j'ai l'impression que les gens ils sont plus superficiels aussi euh",
+    "question": "c'est plutôt âgé ou plutôt jeune comme euh population ?"
+  },
+  {
+    "id": 166,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais c'était beaucoup de boulot en plus plus qu'une euh une simple option lourde de je sais pas d'espagnol ou euh quelque chose comme ça hm hm hm hm hm hm hm hm hm mais sans regret ah ouais non carrément ah ouais j'ai vécu franchement en plus y avait des voyages euh donc je suis allée euh en Allemagne",
+    "question": "c'était sur trois ans ou ?"
+  },
+  {
+    "id": 167,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "trois fois par m- par mois peut-être deux trois ah oui fois par mois euh on faisait des stages euh on y avait des intervenants on faisait enfin c'était vraiment c'était génial quoi hein et puis il y avait une un escri- un esprit de groupe ouais et ça c'était euh",
+    "question": "vous étiez combien une vingtaine ?"
+  },
+  {
+    "id": 168,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "un esprit de groupe ouais et ça c'était euh vous étiez combien une vingtaine ? oui voilà ouais ouais ouais ouais ouais et ça c'était vraiment chouette quoi ouais hm ouais ça devait être sympa hm hm hm hm hm",
+    "question": "et vous en faites toujours ?"
+  },
+  {
+    "id": 169,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "et puis après j'irai ailleurs donc euh ouais hm hm hm d'accord donc vous vouliez pas commencer quelque chose qui allait s'arrêter euh d'accord et puis maintenant je suis partie sur de la danse ou je sais pas donc euh je vais peut-être changer de truc je sais pas ouais d'accord hm bon bah c'est chouette ouais ouais ouais ouais bah là l'année prochaine je vais à Tours donc je vais essayer de trouver sur Tours euh si y a euh",
+    "question": "et vous allez faire quoi alors à Tours ?"
+  },
+  {
+    "id": 170,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et vous allez faire quoi alors à Tours ? je vais en fait je vais dans une école euh qui prépare au concours d'éducatrice de jeunes enfants hm donc c'est de septembre à février ouais en février y a les écrits et euh pour passer bonjour",
+    "question": ": ça enregistre ?"
+  },
+  {
+    "id": 171,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "hm raté mais bon j'ai pas eu de préparation euh là je vais dans une école pour me préparer donc euh hm hm normalement ça va marcher je croise les doigts ouais ouais ouais ça va faciliter ouais bah ouais ouais ouais et euh voilà ouais",
+    "question": "et après l'école se serait à Tours aussi ou ?"
+  },
+  {
+    "id": 172,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "j'aimerais être à Tours parce que bon c'est pas loin de d'Orléans ma soeur est déjà à Tours d'accord donc on va habiter ensemble euh et puis euh bon après y a plein d'autres écoles sur Paris euh après bon après c'est plus loin c'est Angers euh Limoges euh tout ça hm hm hm hm",
+    "question": "et Orléans y a pas ?"
+  },
+  {
+    "id": 173,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "moniteur euh je sais plus comment ça s'appelle mais éducateur de jeunes enfants c'est pas la même chose que éducateur spécialisé non d'accord non non parce c'est vraiment les enfants de zéro à six ans quoi d'accord",
+    "question": "et donc après ça mène à faire quoi ?"
+  },
+  {
+    "id": 174,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "m'occuper d'enfants euh hospitalisés les accompagner et cetera d'accord euh dans les foyers ouais et puis en crèche euh aussi d'accord ouais ça peut être euh divers d'accord d'accord hm",
+    "question": "et vous vous préféreriez euh ?"
+  },
+  {
+    "id": 175,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "y a beaucoup de cas difficiles donc euh toute une vie ça fait beaucoup peut-être mais euh oui c'est oui ça doit être difficile enfin y a des choses qui doivent être difficile à gérer et ouais hm hm mais bon après je peux être euh directrice de crèche je peux évoluer donc euh d'accord d'accord d'accord donc ouais",
+    "question": "et l'école c'est combien de temps après ?"
+  },
+  {
+    "id": 176,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "hm hm c'est chouette ouais je ça me tarde d'y être quoi parce que bah à la fac euh je faisais sciences du langage pour me préparer aux concours d'orthophonie oui et euh et puis bah je me suis aperçue que ça allait pas me convenir du tout en fait",
+    "question": "l'orthophonie ?"
+  },
+  {
+    "id": 177,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "l'orthophonie ? ouais ouais ouais et euh et puis les sciences du langage je m'attendais pas à ça non plus ouais j'ai enfin ouais ça m'a pas non ça m'a pas vraiment plu en fait et donc bah j'ai eu une période où je me suis dit qu'est-ce que je fais",
+    "question": "?"
+  },
+  {
+    "id": 178,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "dans une euh garderie du soir quoi d'accord et euh donc j'étais quand même en contact avec des enfants et puis au conservatoire je m- je m'occupais des plus jeunes élèves donc euh à partir de cinq six ans ouais ouais donc bon j'étais quand même en relation avec des enfants ouais ouais ouais ouais",
+    "question": "pour leur faire quoi vous faisiez quoi du théâtre ?"
+  },
+  {
+    "id": 179,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "au lycée j'ai été beaucoup prise par le théâtre tout ça donc euh ouais j'avais je pouvais pas tout gérer quoi enfin bon bah oui c'est sûr ouais c'est déjà bien d'accord euh",
+    "question": "sur quoi pourrions-nous partir maintenant ?"
+  },
+  {
+    "id": 180,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm euh à Tours vous disiez avec votre soeur ouais voilà ouais ouais bon ouais ça y est ouais on a trouvé un beau petit appartement comme il faut ouais ça me tarde d'y être et Tours vous connaissez ou euh",
+    "question": "qu- la ville ?"
+  },
+  {
+    "id": 181,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "bah ouais j'y suis allée l'année dernière euh deux trois fois parce que j'ai des amis là-bas ouais donc euh bon c'était surtout pour faire la fête mais euh ou- non je connais pas plus que ça ouais bon je saurais pas me repérer ouais oui et vous avez l'impression que ça voi- va vous plaire ou ouais",
+    "question": "c'est plus grand qu'Orléans ?"
+  },
+  {
+    "id": 182,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais qui vont essayer de vous faire pleurer si je craque ce sera avant voilà je saurais sur quoi euh les sujets sensibles hop je dévirais bah voilà ouais hm hm hm hm ou je ferais une réponse toute faite toute carrée et puis euh fuit-",
+    "question": "et c'est c'est euh combien de temps l'oral ?"
+  },
+  {
+    "id": 183,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "que pensent euh que pensent les les autres euh de vous euh d'accord ouais hm hm hm ouais ou quelles sont vos qualités hm qu- quels sont vos des choses comme ça ouais ouais comment vous perçoivent les autres c'était ça la question ouais",
+    "question": "comment vous perçoivent les autres ?"
+  },
+  {
+    "id": 184,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais ouais c'est plein de sentiments mais euh ouais mais c'est du bon quoi c'est pas ouais ouais ouais ouais ouais hm",
+    "question": "y a pas trop de stress ?"
+  },
+  {
+    "id": 185,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm hm hm hm c'est quand même c'est c'est c'est pas facile hein ah ouais non je respecte mais euh toute une vie quoi c'est hm hm hm hm hm c'est dur quand même hein hm donc et là vous faites ça pour euh",
+    "question": "pour l'été ?"
+  },
+  {
+    "id": 186,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "c'est quand même c'est c'est c'est pas facile hein ah ouais non je respecte mais euh toute une vie quoi c'est hm hm hm hm hm c'est dur quand même hein hm donc et là vous faites ça pour euh pour l'été ?",
+    "question": "pendant tout l'été ?"
+  },
+  {
+    "id": 187,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "hm hm hm hm hm je fais ma petite vie euh je nettoie ce qu'il faut et puis euh voilà hm bien c'est courageux bon et pour parler d'autre chose que du travail oui en dehors du travail oh là en dehors du travail",
+    "question": "qu'est-ce que vous faites ?"
+  },
+  {
+    "id": 188,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "qu'une ou deux fois ouais hm donc euh voilà théâtre cinéma et puis euh je vois mes amis et cinéma vous a- vous allez voir quel type de enfin vous aimez quoi comme type de films j'aime bien la science-fiction ouais ouais donc euh",
+    "question": "le dernier film que vous avez vu ?"
+  },
+  {
+    "id": 189,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "après j'aime bien lire aussi euh oui des policiers des policiers ouais hm j'aime bien lire ça euh ouais voilà quoi hm hm hm hm hm",
+    "question": "et euh Internet l'ordinateur tout ça non ?"
+  },
+  {
+    "id": 190,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais mêmes les jeux vidéos ou des trucs oui comme ça euh non hm playstation machin gameboy euh hm hm non j'ai jamais non jamais voilà",
+    "question": "et la télé ?"
+  },
+  {
+    "id": 191,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "enfin ouais de prendre l'air euh hm hm hm hm d'accord à co- à coté sans prendre la voiture euh voilà ouais",
+    "question": "et du sport ?"
+  },
+  {
+    "id": 192,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et vous pratiquez ah mais bon ça j'avais parce que mon père il est judoka euh donc euh d'accord d'accord il est prof de judo aussi d'accord il en fait depuis qu'il a sept ans donc euh j'ai baigné là dedans hein d'accord",
+    "question": "et vous en faites ?"
+  },
+  {
+    "id": 193,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "mais bon ça j'avais parce que mon père il est judoka euh donc euh d'accord d'accord il est prof de judo aussi d'accord il en fait depuis qu'il a sept ans donc euh j'ai baigné là dedans hein d'accord et vous en faites ?",
+    "question": "ou vous en avait fait ? hm"
+  },
+  {
+    "id": 194,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "c'est pas mal ouais ok donc euh ensuite euh y a toute une partie plus euh évaluative sur Orléans en fait qu'est-ce que vous pensez euh hm hm ou ouais qu'est-ce que vous trouvez de bien hm hm",
+    "question": "à Orléans ?"
+  },
+  {
+    "id": 195,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ensuite euh y a toute une partie plus euh évaluative sur Orléans en fait qu'est-ce que vous pensez euh hm hm ou ouais qu'est-ce que vous trouvez de bien hm hm à Orléans ? et qu'est-ce que vous trouvez d'accord de moins bien",
+    "question": "à Orléans ?"
+  },
+  {
+    "id": 196,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "qu'est-ce que vous pensez euh hm hm ou ouais qu'est-ce que vous trouvez de bien hm hm à Orléans ? et qu'est-ce que vous trouvez d'accord de moins bien à Orléans ? ok",
+    "question": "donc qu'est-ce qu- ouais qu'est-ce qui vous plaît à Orléans ?"
+  },
+  {
+    "id": 197,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais ouais alors j- après je sais où ils veulent euh vers Saint-Jean-le-Blanc je crois ils veulent euh Saint-Jean-de-Braye ah bon non Saint-Jean-de-Braye je crois ils veulent euh je sais pas mais euh ouais non",
+    "question": "et vous quand vous allez à Orléans vous y allez en voiture ou y a des bus ?"
+  },
+  {
+    "id": 198,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "pas de stress et euh donc ouais vous allez partir à Tours et euh euh pour sur la région Centre on parle toujours d'Orléans Tours est-ce que comment vous voyez cette euh dualité ou cette euh cette proximité des deux villes dans la région est-ce que vous pensez qu'il y a qu'il y en a une qui prend le dessus sur l'autre ah",
+    "question": "qui doit prendre le dessus ? qui représenterait plus la région Centre ?"
+  },
+  {
+    "id": 199,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ouais ouais ouais ouais plus gros avec plus de de personnes mais euh hm d'accord ouais ok euh et est-ce que vous vous parlez euh d'autres langues que le français",
+    "question": "ou ?"
+  },
+  {
+    "id": 200,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm hm pas grand chose et c'est mais c'est vrai que ça m'aurais euh vraiment plu de qu'elle m'apprenne cette langue euh parce que ouais ça fait quarante ans qu'elle est en France mais son pays c'est l'Algérie quoi et euh ouais ouais ouais ouais ma mère est née là-bas tout ça donc",
+    "question": "et votre mère le parle ou ?"
+  },
+  {
+    "id": 201,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ma mère est née là-bas tout ça donc et votre mère le parle ou ? pas du tout ouais non plus non non plus donc ouais j'aurais bien aimé parler cette langue en plus j'aime bien tous tous les pays d'Afrique du nord tout ça hm hm hm et euh",
+    "question": "et votre grand-mère elle vit pas ici ?"
+  },
+  {
+    "id": 202,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ça fait bizarre quoi parce que mais tant mieux quoi si euh bah oui si ils s'en sortent mieux que que nous si ça se vé- hm hm hm hm que nous et euh et quand vous vous balader dans Orléans ou dans l'Agglo est-ce est-ce que vous avez repéré des langues euh",
+    "question": "autre le que le français qui sont parlées euh ?"
+  },
+  {
+    "id": 203,
+    "file_name": "ESLO2_ENT_1003_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "pour voir d'accord si y a des différences par rapport à soixante huit des choses comme ça hein hein donc voilà donc est-ce que vous pourriez m'expliquer c'est marrant d'accord",
+    "question": "comment vous faites une omelette avec toutes les étapes euh ?"
+  },
+  {
+    "id": 204,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "donc",
+    "question": "je peux commencer ?"
+  },
+  {
+    "id": 205,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "on peut commencer de de d'ici qu'est-ce qui de de cette maison en même temps et je oui je vous cache pas qu'elle est orléanaise elle m'a beaucoup impressionné en arrivant elle est très belle hein oui",
+    "question": "euh donc depuis quand vous êtes euh dans cette maison ?"
+  },
+  {
+    "id": 206,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "non parce qu'encore euh et encore avant a- euh je n'étais pas à Orléans j'étais euh à la campagne à hm alors euh euh quand est-ce que je suis venue euh",
+    "question": "rue de Limare euh ?"
+  },
+  {
+    "id": 207,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "euh ici il y avait d- il habitait dans la maison qui était là derrière il y a sa bibliothèque il y avait des écuries devant ce que vous ce que vous avez traversé la cour ba- la cour pavée et ici c'est la salle du hm",
+    "question": "comment ça s'appelle Marion ?"
+  },
+  {
+    "id": 208,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "il habitait dans la maison qui était là derrière il y a sa bibliothèque il y avait des écuries devant ce que vous ce que vous avez traversé la cour ba- la cour pavée et ici c'est la salle du hm comment ça s'appelle Marion ? euh la salle euh vous savez où ils",
+    "question": ": des domestiques ?"
+  },
+  {
+    "id": 209,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "un joli jardin derrière donc on est très bien on adore cette maison et euh malgré tout ça fait douze ans qu'on est là et les autres ne sont encore pas habitués à nous c'est une caractéristique des gens d'Orléans ils ont du mal s'ha- ils ont du mal à s'habituer aux autres",
+    "question": "ah ouais ?"
+  },
+  {
+    "id": 210,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "ça fait douze ans qu'on est là et les autres ne sont encore pas habitués à nous c'est une caractéristique des gens d'Orléans ils ont du mal s'ha- ils ont du mal à s'habituer aux autres ah ouais ? voilà d'accord et et alors c'était un choix vraiment pour la maison au début et pas pour le quartier spécialement",
+    "question": "ou ?"
+  },
+  {
+    "id": 211,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "mais en même temps euh j'ai la chance de voir Gabriel qui est à la fac et Pierre NPERS son frère que je lis quelquefois tous les deux sur le trottoir en train de discuter c'est bien euh qui est qui est-ce qu'il y a alors madame NPERS donc s'occupe de la paroisse euh d'une manière absolument enragée mais elle est sympathique quand même euh hm",
+    "question": "elle est quand même sympathique hein Marion ?"
+  },
+  {
+    "id": 212,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "quelquefois tous les deux sur le trottoir en train de discuter c'est bien euh qui est qui est-ce qu'il y a alors madame NPERS donc s'occupe de la paroisse euh d'une manière absolument enragée mais elle est sympathique quand même euh hm elle est quand même sympathique hein Marion ? oui oui c'est vrai elle a elle a",
+    "question": "c'est vrai ?"
+  },
+  {
+    "id": 213,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "et donc on a une mini vie de quartier sans jamais euh c'est-à-dire que ça pourrait être mieux si je m'entendais mieux euh si on s'entendait mieux avec les gens de de la copropriété c'est un peu on peut pas on peut pas s'entendre avec eux on peut pas euh je crois que ça vient de l'amour extrême qu'on porte à cette maison",
+    "question": "vous voyez ?"
+  },
+  {
+    "id": 214,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "y a quelque chose et les les réunions de copropriété peuvent se terminer euh dans les sanglots et les réconciliations enfin bon c'est fort ça donne des moments très forts voilà c'est fort hm hm est-ce que vous utilisez aussi le le quartier je sais pas pour un",
+    "question": "pour une maison justement pour des artisans ?"
+  },
+  {
+    "id": 215,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "dans les sanglots et les réconciliations enfin bon c'est fort ça donne des moments très forts voilà c'est fort hm hm est-ce que vous utilisez aussi le le quartier je sais pas pour un pour une maison justement pour des artisans ? pour euh",
+    "question": "faire des réparations euh ?"
+  },
+  {
+    "id": 216,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "pas souvent oui culturel parce que j'ai un f- j'ai un fi- je vais à l'Astrolabe parce que j'ai un fils qui est musicien que qu- si jamais il se produit là-bas j'y vais Marion sûrement plus hein euh : oui euh la patinoire non",
+    "question": "euh qu'est-ce qu'il y a dans le coin ?"
+  },
+  {
+    "id": 217,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ah ça c'est curieux oui et d'ailleurs c'est très curieux mais enfin c'est pas désagréable parce qu'à la gare euh en ce moment y a des jeunes qui font euh euh du du hip-hop et j'adore et donc je regarde voilà voilà alors",
+    "question": "la gare c'était important vous m'avez dit aussi pour aller à Paris ?"
+  },
+  {
+    "id": 218,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "euh en ce moment y a des jeunes qui font euh euh du du hip-hop et j'adore et donc je regarde voilà voilà alors la gare c'était important vous m'avez dit aussi pour aller à Paris ? alors parce que vous m'aviez dit que vous étiez parisienne voilà",
+    "question": "s- ça veut dire que vous êtes née à Paris ?"
+  },
+  {
+    "id": 219,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "enfin moi moi je suis à la retraite mon mari est est instituteur euh on le le on reste le samedi pour faire nos bagages et on part le dimanche on part tout le temps hm on a une maison en Bretagne et donc c'est le métier qui vous a ramenée vers euh",
+    "question": "vers Orléans non ?"
+  },
+  {
+    "id": 220,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "hm euh par ailleurs c'était euh notre périmètre euh parental mes parents étant de Meung-sur-Loire et ses parents étant de Beaugency oui et euh à cause de ça sans doute et d- et d'aut- d'autres choses nous avons divorcé voilà d'accord et et donc euh av- votre métier c'était d'être institutrice",
+    "question": "puis directrice d'école ?"
+  },
+  {
+    "id": 221,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "euh par ailleurs c'était euh notre périmètre euh parental mes parents étant de Meung-sur-Loire et ses parents étant de Beaugency oui et euh à cause de ça sans doute et d- et d'aut- d'autres choses nous avons divorcé voilà d'accord et et donc euh av- votre métier c'était d'être institutrice puis directrice d'école ?",
+    "question": "c'est ça ?"
+  },
+  {
+    "id": 222,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "puisque euh j'étais suppléante éventuelle étant donné que j'étais arrivée comme ça c- euh et très vite je j'ai été de nouveau directrice j'étais directrice des Chaussées à hm à Beaugency qui est une école euh très belle très agréable et et alors vous êtes toujours directrice est-ce que ça vous c'est ça vous plaît d'être euh",
+    "question": "directrice ?"
+  },
+  {
+    "id": 223,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "vous savez tout ça maintenant hein je le sais c'est c'est c'est je le sais c'est bien j'ai pris ma retraite ah oui oui c'est pour ça mon mari est toujours instituteur donc je sais que c'est terminé hm hein je dis ça alors euh en c'est moins ça se sent moins en primaire hein",
+    "question": "vous croyez ?"
+  },
+  {
+    "id": 224,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "alors euh en c'est moins ça se sent moins en primaire hein vous croyez ? oui parce qu'en primaire y a jamais eu ce lien euh im- hyper important avec l'enfant la famille les parents qu'il y a euh il y a oui &wa &Ot elle va &Ot",
+    "question": "tu v- tu veux a mettre dehors ?"
+  },
+  {
+    "id": 225,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "bah oui oui je suis pas quelqu'un euh qui a pris sa retraite euh en disant c'est super la retraite maintenant oui euh depuis un ou deux ans je trouve ça pas mal hm et et avant avant la retraite justement vous vous z- vous voyez une évolution dans dans votre métier justement ou dans l- dans dans l'ambiance dans le rôle de l'école",
+    "question": "dans la société ?"
+  },
+  {
+    "id": 226,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "non non c'est vrai que moi je suis à l'Université qu'on a eu un un mouvement un peu long l'année dernière euh oui sans grande réussite hein c'était un petit peu ah ouais alors là est-ce qu'ils ont compris que les z-",
+    "question": "qu'ils avaient perdu aux élections ?"
+  },
+  {
+    "id": 227,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "oui sans grande réussite hein c'était un petit peu ah ouais alors là est-ce qu'ils ont compris que les z- qu'ils avaient perdu aux élections ? on se le demande voilà mais qu- qu dans qu- vous voyez p- euh hm",
+    "question": "quoi comme différence aussi entre le métier d'institutrice et le métier de directrice ?"
+  },
+  {
+    "id": 228,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "oui ou ou de d'installer un climat dans une école d'installer un climat euh quoique concrètement installer un climat ah c'est-à-dire que institutrice c'est plus facile en tant qu'institutrice c'est c'est c'est s- d'installer un climat quand on est directrice par exemple on peut dire euh",
+    "question": "on peut faire écrire dans le hm comment ça s'appelle ?"
+  },
+  {
+    "id": 229,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "d'installer un climat euh quoique concrètement installer un climat ah c'est-à-dire que institutrice c'est plus facile en tant qu'institutrice c'est c'est c'est s- d'installer un climat quand on est directrice par exemple on peut dire euh on peut faire écrire dans le hm comment ça s'appelle ? le hm",
+    "question": "ah comment ça s'appelle ?"
+  },
+  {
+    "id": 230,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "c'était pas pesant puis et puis euh au cours Freinet on savait ce que ce que c'était que l'institution et comment se défendre ça ça le oui voilà le euh la la pédagogie Freinet on s- hm on pouvait des fois c'était vraiment important pour euh pour vous à m- à mettre en place",
+    "question": "?"
+  },
+  {
+    "id": 231,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "j'avais pas envie de rester et et d'av- et de hm de refaire tout ce boulot avec euh de nouvelles personnes et puis j'étais fatiguée voilà hm voilà donc j'étais au centre d'Orléans à ce moment-là je connais euh tous les gens du centre d'Orléans oui oui et v- et vous avez des souvenirs très marquants particuliers",
+    "question": "de profession ?"
+  },
+  {
+    "id": 232,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "hm voilà donc j'étais au centre d'Orléans à ce moment-là je connais euh tous les gens du centre d'Orléans oui oui et v- et vous avez des souvenirs très marquants particuliers de profession ? j'ai beaucoup de souvenirs je suis je suis hypermnésique : non c'est pas vrai",
+    "question": "je suis pas hypermnésique ?"
+  },
+  {
+    "id": 233,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "oui hyper pas hypo : ouais je c- sais plein de choses oui : ah oui oui beaucoup de souvenirs hm beaucoup de souvenirs heureux je me rappelle de tout le monde",
+    "question": "c'est vrai ?"
+  },
+  {
+    "id": 234,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "c'est là que mon fils Bertrand est né mon ainé et euh hm non ils avaient perdu personne bon on a appelé l'hôpital en gériatrie ils n'avaient perdu personne non plus bon on a appelé les flics euh et puis",
+    "question": "qu'est-ce qui s'est passé ?"
+  },
+  {
+    "id": 235,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "mais on avait quand même un petit noyau euh de de blacks et de maghrébins quelques portugais alors ces f- les familles euh les plus difficiles les familles portugaises s'intègrent pas surtout avec des enfants en bas âge euh c'était compliqué mais euh sinon tout ça ça marche bien ensemble vous avez l'impression que c'est c'est hm c'est l'école qui permet ça ou",
+    "question": "ou particulièrement la pédagogie Freinet par exemple ?"
+  },
+  {
+    "id": 236,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "bon euh je profitais du moment où c'était pas moi qui avais mes mes enfants parce que c'était mon ex-mari pour venir à Orléans ça faisait vingt-cinq kilomètres ça a aussi euh pesé dans ma dans mon idée de venir euh m'installer à Orléans et puis le rue de Limare et ben y avait les les cinémas",
+    "question": "comment s'appelait-il euh rue d'Illiers le Martroi ou je sais pas quoi ?"
+  },
+  {
+    "id": 237,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh et moi je l'ai- j'ai eu ses élèves euh ses z- ses enfants à l'école donc on est alors euh je lui dis euh ce qui est très bien monsieur NPERS c'est d'a- c'est d'aller voir euh le le film de Polanski il me dit mais c'est au Pathé j'ai dit mais nous on mange à tous les râteliers j'ai vu que bon c'est quelque chose qu'il faut pas faire oui pour vous y a vraiment une répartition selon",
+    "question": "selon les cinémas à Orléans ?"
+  },
+  {
+    "id": 238,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "non je suis pas comme ça donc euh euh ici c'est bien on n'est pas loin des cinés le Pathé c'est un peu loin on y va le moins possible euh hm les Carmes c'est pas loin c'est bien",
+    "question": "et le théâtre par exemple ?"
+  },
+  {
+    "id": 239,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "euh on aime euh c'est mon mari Emmanuel qui aime le théâtre euh j'y vais parce qu'il aime ça et quelques fois ça me plait et euh et euh moi j'aime beaucoup la musique mais pas plus d'un opéra par an parce que ça coûte cher voilà",
+    "question": "euh qu'est-ce qu'on fait d'autre euh ?"
+  },
+  {
+    "id": 240,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh l'un le p- l'aîné est saxophoniste le deuxième est pianiste euh ben moi je suis groupie euh donc euh je vais partout où ils jouent au Moulin de la Vapeur à la Fabrique à Meung-sur-Loire euh euh hm mais quand vous dites qu'ils s- à l'Astrolabe",
+    "question": "ils sont musiciens de de d- de métiers ?"
+  },
+  {
+    "id": 241,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "au Moulin de la Vapeur à la Fabrique à Meung-sur-Loire euh euh hm mais quand vous dites qu'ils s- à l'Astrolabe ils sont musiciens de de d- de métiers ? oui hm vous avez vous avez c- ce qui veut d- ce qui veut dire qu'ils crèvent la faim",
+    "question": "ça vous avez combien d'enfants ?"
+  },
+  {
+    "id": 242,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "donc euh euh l'aîné a quarante-cinq ans le deuxième trente-cinq ans et le troisième vingt-cinq ans et le le troisième donc euh c'est celui qui vit avec Marion et c- il est prof de Maths voilà à Jean Zay je suis allée à Jean Zay quand j'étais jeune voilà s- et y a plus la mère NPERS euh n'est pas là euh elle ne hante pas les murs",
+    "question": "donc lui il est pas musicien professionnel ?"
+  },
+  {
+    "id": 243,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "euh mon fils Baptiste accompagnait Hugo Zermati qui est un un une sorte de clown magique et dans un spectacle où qui s'appelait Reprises de Renaud où il y avait trois re- trois reprises hein c'est-à-dire euh une assez sobre par euh quelqu'un qui est très connu à Orléans qui s'appelle euh",
+    "question": "mince comment il s'appelle ?"
+  },
+  {
+    "id": 244,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "et puis après y avait euh euh celui qui joue dans les Vendeurs d'enclumes euh qui fait guitariste dans j- Vendeurs d'enclumes je ne me rappelle plus son nom qui jouait euh qui p- qui p- reprenait Renaud de toute manière et puis Baptiste et Hugo euh d'une troisième manière euh je les avais déjà vus à l'Astrolabe voilà je je vais euh souvent euh",
+    "question": "dans le café euh comment s'appelle ce café le ?"
+  },
+  {
+    "id": 245,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh rue de Bourgogne parce que Baptiste y joue très souvent en fait je s- je c'est mon fils Baptiste euh que je suis le plus celui qui est hm donc tous ces a- tous ces g- c- tous ces musiciens euh viennent des fois en Bretagne et donc euh je connais euh beaucoup de musiciens voilà beaucoup de jeunes musiciens enfin jeunes euh hm hm jeunes et moins jeunes quarante-cinq ans c'est moins jeune",
+    "question": "et vous trouvez qu'il y a qu'on fait assez de choses à Orléans pour la vie culturelle ?"
+  },
+  {
+    "id": 246,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "c'est sympa c'est très sympa et et les autres euh grand moments de la vie culturelle orléanaise et professionn- oh y a eu y a eu des grands moments mais c'est fini y avait les journées cinématographiques s- c'est fini",
+    "question": "qu'est-ce qu'on peut trouver comme grands moment ben ?"
+  },
+  {
+    "id": 247,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "que j'appelle la Saint Grouard j'ai adoré aussi euh dans le temps le jazz quand c'était à Saint-Aignan après c'était bien aussi à Saint-Aignan l'histoire du cochon là bon mais maintenant ces gens-là ils savent se débrouiller i- ils font quand même même si c'est des petites choses hm hm j'aime beaucoup f- le festival euh Parcours et jardins c'est bien mais y a pas",
+    "question": "qu'est-ce qu'il y a d'autre ?"
+  },
+  {
+    "id": 248,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "quand c'était à Saint-Aignan après c'était bien aussi à Saint-Aignan l'histoire du cochon là bon mais maintenant ces gens-là ils savent se débrouiller i- ils font quand même même si c'est des petites choses hm hm j'aime beaucoup f- le festival euh Parcours et jardins c'est bien mais y a pas qu'est-ce qu'il y a d'autre ? ce qu'il y a d'autre",
+    "question": "les fêtes de Jeanne d'Arc ?"
+  },
+  {
+    "id": 249,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "après c'était bien aussi à Saint-Aignan l'histoire du cochon là bon mais maintenant ces gens-là ils savent se débrouiller i- ils font quand même même si c'est des petites choses hm hm j'aime beaucoup f- le festival euh Parcours et jardins c'est bien mais y a pas qu'est-ce qu'il y a d'autre ? ce qu'il y a d'autre les fêtes de Jeanne d'Arc ?",
+    "question": "vous avez déjà euh été aux fêtes de Jeanne d'Arc ?"
+  },
+  {
+    "id": 250,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "on m- même pas d'émissions euh non de non alors il m'arrive m'arrive de regarder mais pas souvent parce que ça fout le moral à zéro euh hm je regarde même pas d'émissions littéraires alors que y a que la littérature qui m'intéresse euh hm",
+    "question": "qu'est-ce que c'est cette émission euh ?"
+  },
+  {
+    "id": 251,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ça s'épuise un peu je peux pas vous dire le nom la la radio vous é- alors oui euh France Musique euh la radio dès le matin je cause pas voilà pas",
+    "question": "pas de télés ou de radios locales ?"
+  },
+  {
+    "id": 252,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "je me sers beaucoup d'Internet hm hm ils mettent des des sites qu'on peut appeler qu'on peut taper pour euh en savoir plus je je le fais hm hm hm hm je pétitionne d'ailleurs je dev- je devrais tenir un un cahier de pétitions parce que je ne sais plus après pourquoi pour qui pourquoi j'ai pétitionné voilà",
+    "question": "et ça fonctionne ?"
+  },
+  {
+    "id": 253,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ils l'ont cachée euh à un moment on la trouvait même plus là elle a pris un petit peu euh des couleurs mais toutefois elle ne elle ne elle n'est raccrochée à rien ce qui fait qu'on passe dans z- z- des espèces de labyrinthes absolument incroyables pour euh remonter Place d'Arc et à chaque fois je me demande toujours où je où je suis par où je vais passer et vous et vous trouvez qu'il y a une euh",
+    "question": "je sais pas une identité orléanaise euh ?"
+  },
+  {
+    "id": 254,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "à un moment on la trouvait même plus là elle a pris un petit peu euh des couleurs mais toutefois elle ne elle ne elle n'est raccrochée à rien ce qui fait qu'on passe dans z- z- des espèces de labyrinthes absolument incroyables pour euh remonter Place d'Arc et à chaque fois je me demande toujours où je où je suis par où je vais passer et vous et vous trouvez qu'il y a une euh je sais pas une identité orléanaise euh ?",
+    "question": "une identité orléanaise ? alors"
+  },
+  {
+    "id": 255,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "elle est arrivée parce que son mari a été muté à Orléans euh elle a eu un ma- un mal fou à se faire des amis en fait on fonctionne par groupes euh nous on est euh hm on est euh y a y a le petit groupe euh y a le euh le le plus grand goup- groupe et puis euh ce qu'on appelle toujours les mêmes c'est-à-dire euh tous ceux qu'on connait quoi oui on dit que c'est une euh ville à rumeurs aussi et puis la rumeur d'Orléans c'est c'est sûr euh alors euh c'est sûr à l'école euh taisez-vous",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 256,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "un grand ami nous z- nous sommes tous les deux montagnards du même village de montagne et euh je le vois toujours et euh il est insupportable parce qu'il a viré euh juif intégriste et euh hm et c'est lui qui a écrit sur la rumeur et il avait donc l- rue de Limare une librairie qui s'appelait la Rumeur hm hm hm voilà",
+    "question": "et m- m- montagnard c'est que vous êtes née à la montagne ?"
+  },
+  {
+    "id": 257,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et euh il est insupportable parce qu'il a viré euh juif intégriste et euh hm et c'est lui qui a écrit sur la rumeur et il avait donc l- rue de Limare une librairie qui s'appelait la Rumeur hm hm hm voilà et m- m- montagnard c'est que vous êtes née à la montagne ? non non non plus",
+    "question": "c'est c'est une passion ?"
+  },
+  {
+    "id": 258,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "on savait rien d'autre euh ils s- mes mes parents alla- allaient un peu à à l'aveuglette voilà c'est comme ça que oui a- et et vous avez vu une différence dans la la la façon de parler des des des orléanais par exemple vous trouvez qu'il y a une euh une langue particulière à Orléans",
+    "question": "une façon de parler ou au contraire c'est très standard ?"
+  },
+  {
+    "id": 259,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "alors quand on est arrivé c'est-à-dire il y a très longtemps comme on avait vécu à Paris dans le Cher à Nice et en Creuse on était capable de faire un des différences déjà à Meung c'était tout un problème pour le prononcer c'était euh Saint-Ay bon tout ça c'était euh",
+    "question": "pour mes parents bon euh qu'est-ce où est-ce qu'on est tombé ?"
+  },
+  {
+    "id": 260,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "oui vous avez l'impression qu'il y a une langue des jeunes comme ça oui il y avait une langue des jeunes et et même un accent moi j'interdisais à mon fils de parler avec cet accent ne parle pas beur ah bon je lui disais tu ne parles pas beur",
+    "question": "et pourquoi ?"
+  },
+  {
+    "id": 261,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "comme ça oui il y avait une langue des jeunes et et même un accent moi j'interdisais à mon fils de parler avec cet accent ne parle pas beur ah bon je lui disais tu ne parles pas beur et pourquoi ?",
+    "question": "enfin pourquoi vous lui interdisiez ?"
+  },
+  {
+    "id": 262,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "moi j'interdisais à mon fils de parler avec cet accent ne parle pas beur ah bon je lui disais tu ne parles pas beur et pourquoi ? enfin pourquoi vous lui interdisiez ? et bien parce que euh pareil parce que moi euh j'ai bé- vécu à Nice ma mère me disait euh",
+    "question": "mais tu n- tu ne prends pas l'accent ?"
+  },
+  {
+    "id": 263,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "elle voulait qu'on parle sans accent elle me disait on habite au centre de la France au centre de la France y a pas d'accent il parait que s- ma mère disait c'est le meilleur euh c'est le meilleur euh Français celui qui est parlé ici tu dois parler comme les gens d'ici voilà",
+    "question": "et vous vous transmettez ça à vos enfants aussi alors ?"
+  },
+  {
+    "id": 264,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "oui sans faire exprès enfin euh sans f- je veux dire euh faut bien qu'on transmette quelque chose alors bon euh moi je voulais pas qu- je voulais pas que Tristan et j'av- euh j'ai raison il a pas besoin de parler comme ça euh maintenant qu'il est prof surtout",
+    "question": "et et vous entendez euh dans le quartier par exemple vous entendez d'autres langues euh que que le Français ?"
+  },
+  {
+    "id": 265,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "et de la place Saint-Aignan on pouvait aller à la piscine parce qu'y avait une piscine là oui et euh moi quand j'étais lycéenne euh j'allais à la piscine euh régulièrement l'été j'ai fait c- j'ai fait khâgne aussi à Pothier donc euh j'étais un j'étais un peu plus vieille j'habitais rue Etienne Dolet",
+    "question": "mais pourquoi est-ce que je n'aime pas le rue de Bourgogne ?"
+  },
+  {
+    "id": 266,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "on allait vers euh trois heures et demie on shuntait la récré et on allait jusque là y a un gros mur é- j'ai d- j'avais des CM2 ils étaient adorables ils s'asseyaient on emmenait un livre un papier un crayon et ils dessinaient la Loire c'était c'était bien je sais pas si c'était pédagogique je veux pas le savoir",
+    "question": "et alors la la vue qui représente le plus orléans pour vous c'est c'est quoi ?"
+  },
+  {
+    "id": 267,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "ils s'asseyaient on emmenait un livre un papier un crayon et ils dessinaient la Loire c'était c'était bien je sais pas si c'était pédagogique je veux pas le savoir et alors la la vue qui représente le plus orléans pour vous c'est c'est quoi ? ah bah moi c'est c- euh bah je vais vous dire s- euh la carte postale de",
+    "question": "c'est une carte postale une photo ?"
+  },
+  {
+    "id": 268,
+    "file_name": "ESLO2_ENT_1004_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh qui qui on euh on n'en porte pas la responsabilité hein c'est une c'est une euh une une question qui a été utilisée dans l'enquête y a y a quarante ans là c'est une question anglaise c'est une question anglaise et on demandait à à tous les orléanais euh interrogés comment ils faisaient euh l'omelette si on voulait avoir la recette de l'omelette donc j'aurais une double question",
+    "question": "c'est d'une part est-ce que vous faites des omelettes des fois ?"
+  },
+  {
+    "id": 269,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "donc ma ma première question est très simple c'est depuis quand vous habitez euh",
+    "question": "à Orléans ou dans l'agglomération ici à Olivet ?"
+  },
+  {
+    "id": 270,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "depuis quand vous habitez euh à Orléans ou dans l'agglomération ici à Olivet ? alors nous sommes arrivés à Orléans en août quatre-vingt-treize et à Olivet en mai quatre-vingt-quatorze voilà d'accord donc ça fait euh pratiquement seize ans dix sept ans bientôt euh voilà d'accord",
+    "question": "et alors pour quelles raisons vous êtes arrivés euh ?"
+  },
+  {
+    "id": 271,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et un quatrième en route et on souhaitait quitter la région parisienne pour être dans un cadre un peu plus soft pour élever nos enfants et voilà donc euh c'est la raison pour laquelle nous sommes partis d'accord d'accord et vous vous z- vous étiez à Paris vous êtes euh d'o- d'origine parisienne oui oui oui oui oui d'accord on est euh né là-bas",
+    "question": "nés à Paris ?"
+  },
+  {
+    "id": 272,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ville de alors le premier province on n'a pas véritablement choisi Orléans on avait choisi de partir en région on nous a proposé Orléans qu'on a accepté sans sans à priori sans sans préjugé donc voilà et donc quand vous êtes arrivés à Orléans vous êtes euh",
+    "question": "vous avez habité où au début ?"
+  },
+  {
+    "id": 273,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "sans sans préjugé donc voilà et donc quand vous êtes arrivés à Orléans vous êtes euh vous avez habité où au début ? on a habité l- en euh à Orléans sud limite Olivet parce qu'on habitait rue Basse Mouillère on avait loué une maison en attendant de euh trouver dans quel quartier on aurait envie d'habiter euh euh hm bon on avait soit sur l'agglomération vraiment d'Orléans-même soit un peu en dehors et puis finalement notre choix c'est porté sur Olivet",
+    "question": "et donc ça c'était vraiment un choix ?"
+  },
+  {
+    "id": 274,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "et sinon je reviens juste sur sur avant là euh Pa- Paris c'est c'était donc vous êtes née à Paris euh vous êtes de parents nés à Paris aussi c'était vous êtes parisienne de de ah oui alors de père et mère nés à Paris mais avec un grand-père italien donc comme tout parisien qui se respecte euh parisiens depuis euh quelques générations mais pas tant que ça d'accord",
+    "question": "euh s- s- sans vous je peux je peux vous demander ce que ce que faisaient vos parents ?"
+  },
+  {
+    "id": 275,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ah bah oui quand même c'est c'est prenant c'est surtout euh hm un éventail assez riche de compétences oui c'est ça quand même voilà ah oui une gestion des ressources humaines euh en fait je je m- me présente comme soit organisateur d'ambiance soit chef de PM- soit chef d'entreprise PME ah oui oui",
+    "question": "et que comme pendant ces dix années-là comme métier vous faisiez quoi vous ?"
+  },
+  {
+    "id": 276,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "voilà ah oui une gestion des ressources humaines euh en fait je je m- me présente comme soit organisateur d'ambiance soit chef de PM- soit chef d'entreprise PME ah oui oui et que comme pendant ces dix années-là comme métier vous faisiez quoi vous ? ah bah j'ai fait des études de droit donc euh j'ai travaillé euh comme juriste voilà ah dans une entreprise d'accord",
+    "question": "donc euh vos vos enfants eux ils ont quel âge ?"
+  },
+  {
+    "id": 277,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "dans une entreprise d'accord donc euh vos vos enfants eux ils ont quel âge ? alors notre aînée a vingt-trois ans euh elle est étudiante en pharmacie euh à Paris enfin sur à Châtelet-Malabry la seconde a vingt-et-un ans elle est étudiante en droit je n'ai rien fait pour ça euh le troisième est",
+    "question": "à Orléans étudiante ?"
+  },
+  {
+    "id": 278,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "elle est étudiante en pharmacie euh à Paris enfin sur à Châtelet-Malabry la seconde a vingt-et-un ans elle est étudiante en droit je n'ai rien fait pour ça euh le troisième est à Orléans étudiante ? non elle est à Paris aussi non à Paris aussi euh le numéro",
+    "question": "à Paris Un ? à"
+  },
+  {
+    "id": 279,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "on reste dans des choses qui sont gérables euh pour euh allier à la fois une activité professionnelle et le fait d'être euh d'avoir des enfants donc comme on avait décidé euh moi j'étais ravie hein de de rester chez moi et d'élever mes enfants pas du tout était euh un choix d- cornélien du tout donc du coup euh c'était pas du tout un souci d'avoir un petit cinquième qui a douze ans bientôt le dix avril donc il a pas encore douze ans quand je dis qu'il a douze ans il est pas content oui",
+    "question": "ah bon ?"
+  },
+  {
+    "id": 280,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm hm qu'on a trouvé ici euh que qu'on aurait problablement trouvé ailleurs certes mais hm hm i- il f- c'est trouvé que c'était là que les gens qui nous ont acceuillis étaient olivetains enfin en tout cas euh si ce n'est d'origine euh en tout cas d'adoption hm et et c'est l'école qui a beaucoup euh servi de contact en fait euh",
+    "question": "dans un premier temps ?"
+  },
+  {
+    "id": 281,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "puis euh puis les choses s- vont vite hein hm hm et les enfants euh c'est un bon facteur d'intégration quand ils sont jeunes parce que très vite ils vous invitent des copains très vite ils se font inviter donc euh ça a été assez rapide voilà d'accord oui oui oui et et euh hm par rapport à Olivet justement vous faites vos courses euh sur Olivet euh vous allez dans les commerces",
+    "question": "du coin plutôt ?"
+  },
+  {
+    "id": 282,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "oui oui plusieurs boulangeries alors tout ce qui est coiffeurs agences de voyages et agences immobilières nous sommes très très bien servis on peut être très bien coiffé très bien logé et bien voyagé à Olivet et beaucoup avoir aussi une très bonne banque on en a beaucoup mais il nous reste aussi quelques commerces alimentaires très appréciables et euh pour pour une maison comme ça quand vous avez des des hm des aménagements à faire ou des problèmes de plomberie et cetera hm",
+    "question": "c'est des artisans ?"
+  },
+  {
+    "id": 283,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et euh d'ailleurs un un bon artisan un très bon artisan voilà vous avez bien de la chance j'ai bien de la chance et euh à tel point d'ailleurs que quand euh nous allons partir euh c'est lui qui va faire les travaux dans notre future maison en région parisienne c'est pour vous dire que ah en région parisienne vraiment on y tient beaucoup et qu'on le lâche pas comme ça",
+    "question": "donc vous allez partir bientôt ?"
+  },
+  {
+    "id": 284,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "un très bon artisan voilà vous avez bien de la chance j'ai bien de la chance et euh à tel point d'ailleurs que quand euh nous allons partir euh c'est lui qui va faire les travaux dans notre future maison en région parisienne c'est pour vous dire que ah en région parisienne vraiment on y tient beaucoup et qu'on le lâche pas comme ça donc vous allez partir bientôt ? oui cet été",
+    "question": "voilà pour les raisons professionnelles aussi ? c'est v-"
+  },
+  {
+    "id": 285,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "alors professionnelles et familiales parce que donc euh nous avons deux enfants à Paris un numéro trois à Reims ce qui est quand même pas très simple au niveau des transports euh avec mon mari nous sommes enfants unique tous les deux nous avons moi je n'ai plus mon papa mais une maman qui commence à être un peu âgée mon mari a des parents aussi âgés donc on pense qu'il est temps d'aller un peu f- faire un petit regroupement familial et s'occuper des nos familles respectives et mon mari a effectivement la possibilité de de retravailler sur Paris je peux vous demander ce qu'il",
+    "question": "fait comme travail ?"
+  },
+  {
+    "id": 286,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "d'accord groupe Thales et en ce moment il travaille à Vendôme ah oui voilà donc oui il a eu la possibilité de travailler sur Paris ou proche euh oui de de de voir un site sur hm Paris ou en région parisienne voilà et donc vous avez déjà décidé où vous allez en région",
+    "question": "parisienne ?"
+  },
+  {
+    "id": 287,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "d'accord vous avez déjà même trouvé la maison tout ça et voilà ah oui t- tout est déjà oh c'est un retour aux sources vous savez donc c'était pas très compliqué de savoir où on voulait aller se poser c'était moins compliqué dans ce sens-là d'accord",
+    "question": "maintenant vous allez quitter euh vos amis d'Olivet ?"
+  },
+  {
+    "id": 288,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "notre fille Caroline peut mettre environ quarante-cinq minutes euh oui même pas loin d'une heure alors qu'en voiture on met un bon quart d'heure vingt minutes voire quand ça roule bien un bon quart d'heure donc je trouve qu'après une grosse journée ou avant une grosse journée c'est quand même pas sympa de de la laisser partir comme ça alors que je suis là pour ça donc euh je fais pas mal de transports",
+    "question": "vous faites tous les transports ?"
+  },
+  {
+    "id": 289,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "non-question",
+    "context": "je fais pas mal de transports vous faites tous les transports ? quand même pas je circule beaucoup on s'arrange aussi avec quelques mamans pour euh faire un peu de co-voiturage mais évidemment ils arrivent à des âges où ils n'ont pas forcément tous les mêmes heures hm donc euh quand on peut on s'arrange et puis bah je fais tout ce qu'on font les mamans euh à la maison donc euh le rangement le linge le ménage les courses la cuisine",
+    "question": "qu'est-ce que je vous fais encore ?"
+  },
+  {
+    "id": 290,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "parce qu'on a eu un petit contre-temps qui fait que cette ann- ça a été annulé cette année mais pendant pratiquement quatorze ans on a fait une re- deux représentations tous les ans donc je j'apprends ah oui je fais fonctionner ma tête et voilà euh non mais c'est beaucoup d'occupation oui oui",
+    "question": "euh scout ça vous prend beaucoup de temps ?"
+  },
+  {
+    "id": 291,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "pratiquement quatorze ans on a fait une re- deux représentations tous les ans donc je j'apprends ah oui je fais fonctionner ma tête et voilà euh non mais c'est beaucoup d'occupation oui oui euh scout ça vous prend beaucoup de temps ? vous ê- vous êtes très investis hein je",
+    "question": "euh ça c'est assez prenant ?"
+  },
+  {
+    "id": 292,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ils sont quand même tous étudiants ils ont pas toujours le temps de faire des choses dont on les décharge et puis euh un accompagnement euh aussi bien euh spirituel on les aide on on les on accompagner nos aumôniers on les aide dans cette voie-là et euh hm et également euh bah pour tout ce qui peut être tous les problèmes qu'ils peuvent rencontrer dans la dans la tâche qu'ils ont acceptée euh de chef de d'une unité ou d'assistant d'une unité mais euh hm",
+    "question": "ça c'est ce sont des jeunes de de quel âge euh ?"
+  },
+  {
+    "id": 293,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "donc on a euh des des maîtrises un petit peu déséquilibrées au niveau de la représentation parce qu'on a quand même beaucoup plus de filles que de garçons mais tout ça marche très bien voilà ah oui oui non mais donc ça occupe pas mal non mais j'imagine ça je suis très ça occupe pas mal oui ça j'i- j'imagine que que ça occupe bien vous-même vous allez euh",
+    "question": "vous vous avez suivi ce parcours-là ?"
+  },
+  {
+    "id": 294,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "parce qu'on a quand même beaucoup plus de filles que de garçons mais tout ça marche très bien voilà ah oui oui non mais donc ça occupe pas mal non mais j'imagine ça je suis très ça occupe pas mal oui ça j'i- j'imagine que que ça occupe bien vous-même vous allez euh vous vous avez suivi ce parcours-là ?",
+    "question": "vous avez été scout enfant ?"
+  },
+  {
+    "id": 295,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "alors moi j'ai j'ai pas j'ai été guide et cheftaine de louveteaux guide et cheftaine de louveteaux d'accord voilà et euh et puis mon mari qui a pas fait de scoutisme m'a b- m'a beaucoup étonné lorsqu'un jour des chefs de troupes ont dit des chefs de groupes ont dit euh bah nous on doit arrêter qui a envie de prendre notre suite moi j'aurai été emballée mais je me suis dit comme il a jamais fait de scoutisme ça va lui faire peur et il m'a dit",
+    "question": "tu as pas envie qu'on le fasse ?"
+  },
+  {
+    "id": 296,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "ce qui nous paraît intéressant c'est de donner à nos jeunes la dimension euh de cette communauté hm hm c'est vrai que quand ils sont en unités ils sont une vingt- vingt-quatre chez les petits une trentaine chez les plus grands ça donne déjà une notion du groupe mais c'est c'est pas suffisant quand ils se retrouvent à quasiment quatre cents scouts sur le même lieu ils ont plus la notion de ce que peut être euh euh cette notion cette communauté scout dans laquelle ils vivent et c'est c'est des bons moments ah oui oui ah oui ça ça a la pêche les scouts",
+    "question": "et là qu'est ce qui différencie les les scouts Unitaires de euh des scouts d'Europe ou des scouts de de France ?"
+  },
+  {
+    "id": 297,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "hm dans le sein de leur famille puisqu'ils sont fi- garçons et filles ou à l'école ou je ne sais où mais au niveau scout c'est vraiment un un un endroit où ils peuvent vivre entre filles et entre garçons et euh et ils ne le regrettent pas oui oui j'imagine bien voilà et justement vous me disiez qu'ils se rencontraient à l'extérieur est est-ce que ça veut dire qu'il y a aussi euh d'autres activités qui sont euh liées enfin où on rencontre les les les euh mêmes amis",
+    "question": "par exmple au niveau des scouts ?"
+  },
+  {
+    "id": 298,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "bah tous les scouts de France qui peuvent et même d'ailleurs puisqu'on a hm hm hm on a des des scouts en aussi à l'étranger euh se retrouvent tous ensemble je pense qu'on a vraiment l'instinct grégaire on a besoin d'être en troupeau on se sent bien quand on est tous réunis tous ensemble c'est ce sont vraiment des moments très forts voilà",
+    "question": "et et le plus localement les les fêtes de Jeanne d'Arc ? euh"
+  },
+  {
+    "id": 299,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "voilà et et le plus localement les les fêtes de Jeanne d'Arc ? euh alors oui oui oui ça fait partie des activités euh nous sommes présents aux fêtes de Jeanne d'Arc le premier mai euh o- nous avons euh en général des jeunes scouts qui sont les pages les écuyers de Jeanne d'Arc et puis euh nous participons à la messe qu'on appelle la messe de la chevauchée de Jeanne d'Arc euh le le le premier mai et ensuite le défilé pour accompagner Jeanne d'Arc jusqu'à son entrée dans Orléans",
+    "question": "hm la chevauchée de Jeanne d'Arc le premier mai c'est l'entrée dans dans la ville ?"
+  },
+  {
+    "id": 300,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "et euh avec la barque qui traverse euh qui traverse euh la Loire : et ensuite y a une messe qui se trouve en général au château du Bouchet : qui est euh tout près de euh : ah : de l'Ile Charlemagne : et euh donc là c'est une messe euh je ne enfin où les scouts sont tous présents des trois mouvements : et euh ensuite euh nous accompagnons donc tous euh en défilé : l'entrée de Jeanne d'Arc dans Orléans : hm d'accord : voilà",
+    "question": "et euh et après donc le défilé euh et ça ça demande beaucoup de euh beaucoup de travail ?"
+  },
+  {
+    "id": 301,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "et ensuite y a une messe qui se trouve en général au château du Bouchet : qui est euh tout près de euh : ah : de l'Ile Charlemagne : et euh donc là c'est une messe euh je ne enfin où les scouts sont tous présents des trois mouvements : et euh ensuite euh nous accompagnons donc tous euh en défilé : l'entrée de Jeanne d'Arc dans Orléans : hm d'accord : voilà : et euh et après donc le défilé euh et ça ça demande beaucoup de euh beaucoup de travail ?",
+    "question": "enfin c'est un élément fort ou c'est un élément ?"
+  },
+  {
+    "id": 302,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "qui s'appelle la Sioule : c'est-à-dire : ah : euh oui ça je doit dire tout le monde ne connaît pas : c'est un ancêtre du rugby : et en général euh nos éclaireurs toutes troupes mélangées : euh se frittent un peu avec les scouts euh d'Europe : toutes troupes mélangées et euh le score de cette sioule est un grand moment de gloire : pour celui : qui la remporte",
+    "question": "et ça ça se se se se joue où la Sioule ?"
+  },
+  {
+    "id": 303,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ah sur les grands terrains de l'Ile Charlemagne : voilà alors on met en général un aumônier pour : arbitrer : ouais : parce que : ils ont quand même encore le respect de l'ordre : et voilà : ça : ça nous évite quelques : bleus",
+    "question": "alors et vos vos enfants ils doiv- enfin vos filles par exemple elles ont pas voulu être Jeanne d'Arc ? euh"
+  },
+  {
+    "id": 304,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "donc euh : bah lui euh alors c'est un scoutisme un peu particulier mais : qui qui est vraiment très très attirant pour les garçons qui aiment naviguer : alors lui c'est un fou de voile l'été : donc euh il a foncé quand cette troupe s'est ouverte : et donc alors eux participent aux Fêtes de Loire : d'accord : hm hm : ils sont : ils y ont participé encore cette année",
+    "question": "et ils naviguent un peu sur la Loire ? non"
+  },
+  {
+    "id": 305,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "bon c'était pas des fortunes mais on versait environ trois mille cinq cents euros : euh à deux associations qu'on gardait deux années : donc euh : au bout de deux ans ils avaient à peu près sept mille euros de de dons : euh venant de notre petite &Jacco : comme elle s'appelle : la Joyeuse Amicale des Comédiens Comiques de l'Orléanais : ah : et et ça a aidé à des associa- associations pardon : c'est de l'humanitaire",
+    "question": "ou ou locale ?"
+  },
+  {
+    "id": 306,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "partielle",
+    "intention": "question canonique",
+    "context": "euh notre pianiste nous ayant abandonné en cours de route : on ne peut pas faire notre spectacle : d'accord : et et alors là c'est le théâtre hm : vous vous en faisiez mais est-ce que vous allez aussi euh : au théâtre où on : ah oui oui oui oui oui oui : est-ce que vous trouvez que s- : on a : Orléans sur Olivet y a suffisamment",
+    "question": "de vous vous utilisez les comme ça les les les les les théâtres locaux les programmations le ?"
+  },
+  {
+    "id": 307,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "fatigante : à laquelle on s'endort parfois un peu : mais bon en règle générale c'est quand même assez satisfaisant : et surtout très pratique cet abonnement : donc euh oui on est abonné depuis de nombreuses années : et c'est pas loin donc euh : on y est très vite on est très vite revenus : oui oui oui hm hm : donc c'est vrai que c'est quand même un avantage : et sur Olivet non y a y a pas de",
+    "question": "y a pas de spectacles euh ?"
+  },
+  {
+    "id": 308,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "avec les enfants : oui souvent oui : oui voilà : oui oui bien sûr : et puis euh : où ils y vont seuls d'ailleurs : de pl- pl plus de : ils sont grands maintenant : hm hm hm : ils se débrouillent sans nous",
+    "question": "et c'est plutôt dans euh au cinéma qui est sur les quais là ?"
+  },
+  {
+    "id": 309,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "ils se débrouillent sans nous : et c'est plutôt dans euh au cinéma qui est sur les quais là ? : oui oui oui : ça ils aiment bien oui : ça aussi c'est quand même très pratique : on se gare juste en dessous : oui oui : ouais : je reconnais que tout ce qui nous simplifie la vie euh : est bon à prendre",
+    "question": "le les restaurants vous sortez parfois au restaurant ?"
+  },
+  {
+    "id": 310,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "c'est vrai qu'on a qu'on a a plus tendance à se recevoir : voilà hm hm : que que qu'aller au : restaurant : hm : alors ça peut arriver euh : oui si pour un anniversaire une chose comme ça qu'un qu'un de nos enfants soit content et : euh de- demande d'aller voilà : mais en général on reçoit plus euh à la maison ou on est plus reçu entre amis : c'est plus conviviale",
+    "question": "et vous deux vous y allez ?"
+  },
+  {
+    "id": 311,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "voilà hm hm : que que qu'aller au : restaurant : hm : alors ça peut arriver euh : oui si pour un anniversaire une chose comme ça qu'un qu'un de nos enfants soit content et : euh de- demande d'aller voilà : mais en général on reçoit plus euh à la maison ou on est plus reçu entre amis : c'est plus conviviale : et vous deux vous y allez ?",
+    "question": "vous avez pas découvert une gastronomie locale euh très particulière ?"
+  },
+  {
+    "id": 312,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "non : les daubes de biche : et de chevreuils non c'est pas : oui non je je suis pas non : voilà voilà : puis alors le gibier euh quand on vous apporte du gibier gentiment : et qu'il faut : le plumer le vider machin non non non : donc euh j- je suis assez ravie de pas avoir trop d'amis chasseurs : qu'ont la bonne idée en tout cas de ne pas nous en nous en imposer nous en infliger",
+    "question": "et je vous disez même dans les boulangeries à Olivet y a pas de euh y a pas de spécialités locales euh ?"
+  },
+  {
+    "id": 313,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "oui : euh on n'a pas besoin d'une heure de route pour se retrouver sur un endroit où on peut aller euh : et si- et ici à Olivet vous êtes très : proche de des : oui voilà : du Loiret c'est sûr de de : voilà voilà : des plus beaux coi- plus beaux coins : nous avons une barque pour aller faire de la : barque sur le Loiret",
+    "question": "ah oui vous avez une barque qui mais qui stationne sur le bord du Loiret ?"
+  },
+  {
+    "id": 314,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "euh on n'a pas besoin d'une heure de route pour se retrouver sur un endroit où on peut aller euh : et si- et ici à Olivet vous êtes très : proche de des : oui voilà : du Loiret c'est sûr de de : voilà voilà : des plus beaux coi- plus beaux coins : nous avons une barque pour aller faire de la : barque sur le Loiret : ah oui vous avez une barque qui mais qui stationne sur le bord du Loiret ?",
+    "question": "oui comme ça non vous avez ?"
+  },
+  {
+    "id": 315,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "alors on on peut la stationner : sur le bord du Loiret parce qu'on est on a adhéré à la l'association des Riverains du Loiret : mais on a préféré aller stocker euh dans un garage ici : pour qu'elle s'abîme pas trop et euh l'été euh : nous allons faire de la barque sur le Loiret : c'est très bucolique : ah oui : c'est c'est non ça doit être : avec un fils scout marin ça sait ramer : c'est bah oui voilà voilà",
+    "question": "des activités sportives aussi ?"
+  },
+  {
+    "id": 316,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "pour qu'elle s'abîme pas trop et euh l'été euh : nous allons faire de la barque sur le Loiret : c'est très bucolique : ah oui : c'est c'est non ça doit être : avec un fils scout marin ça sait ramer : c'est bah oui voilà voilà : des activités sportives aussi ? : oui : vous utilisez les hm",
+    "question": "ces activités sportives ?"
+  },
+  {
+    "id": 317,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "des activités sportives aussi ? : oui : vous utilisez les hm : ces activités sportives ? : on utilise : moi particulièrement parce que je fais pas mal de tennis : donc je joue à l'USMO : euh deux de mes enfants et cette année mon mari s'y est mis : euh on a utilisé euh voilà c'est c'est vraiment euh : ce qu'on a utilisé le plus comme activité sportive c'est vraiment le tennis",
+    "question": "là c'est le tennis à Olivet alors ?"
+  },
+  {
+    "id": 318,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "les matchs de tennis : euh : ah oui les les : le hm au hm : au palais des : sports : palais des sports oui : euh : hm : euh",
+    "question": "l'Open d'Orléans ?"
+  },
+  {
+    "id": 319,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "non-question",
+    "context": "j'adore le rugby donc je vais voir de temps en temps le match de rugby : voilà mais c'est tout mais je ne profite pas des installations sportives d'Orléans : non mais c'était surtout sur sur : oui aussi sur sur sur les équipes euh : oui : vous êtes pas subj- fan d'un club euh : je suis pas fan d'un club euh : hm : je suis très fan de rugby ça fait beaucoup rigoler tout le monde ici donc : j'ai quand même un peu supporté euh l'équipe",
+    "question": "ah oui ?"
+  },
+  {
+    "id": 320,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "alternative",
+    "intention": "question canonique",
+    "context": "quand même : qui fait du rugby : quand même mais sinon les autres me disent que ils préférent me regarder regarder un : match que regarder : le match : je suis de très très mauvaise fois enfin bon : enfin tout ce qu'ils disent mais bon : ah oui : je crois pas : et euh",
+    "question": "télévision radio c'est des choses que vous utilisez beaucoup ou ?"
+  },
+  {
+    "id": 321,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "donc on peut se retrouver au tour d'un bon film : ou un truc comme ça : on a des DVD euh : hm hm : la télé euh : c'est pas systématique on peut rester euh plusieurs jours sans l'allumer ouais : et la radio dans la voiture : et les enfants aussi les enfants : bah euh : ils sont souvent demandeurs",
+    "question": "y avait des règles peut-être ?"
+  },
+  {
+    "id": 322,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "mais euh à condition de s'en servir comme un outil : quoi de pas euh : oui oui : le : hm hm : la lai- laisser cet cet outil là prendre une place inconsidérée dans la famille : justemement Internet euh les : euh : oui : c'est aussi beaucoup utilisé par vous",
+    "question": "les enfants enfin ?"
+  },
+  {
+    "id": 323,
+    "file_name": "ESLO2_ENT_1005_C.txt",
+    "label": "totale",
+    "intention": "question canonique",
+    "context": "qu'on n'oublie pas euh pour des amis virtuels euh sa famille réelle : ou ses amis réels : voilà : enfin bon tout ça c'est un peu de la liberté conditionnelle soyons clair hein euh : je pense qu'élever ses enfants c'est les mettre en garde de pas mal de choses et euh : et aussi leur interdire et leur permettre des choses : donc euh : hm : bah on interdit et on : permet",
+    "question": "qu'est-ce qui me reste comme activités la lecture peut-être ? euh"
+  }
+]

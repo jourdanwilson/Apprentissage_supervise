@@ -45,5 +45,5 @@ PS : Les trois scripts mentionnés ci-dessus sont dotés d'une interface Qt afin
 
 
 
-Note : Les graphiques et documents récapitulatifs des statistiques du corpus datant du 10 Novemebre ne sont pas encore définitif (contenant que le corpus sans l'ajout supplémentaire des questions alternatives)
+
 

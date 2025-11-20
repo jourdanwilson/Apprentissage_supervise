@@ -14,7 +14,7 @@ try:
 except:
     raise RuntimeError("Le modèle SpaCy 'fr_core_news_md' n'est pas installé. Veuillez l'installer en exécutant 'python -m spacy download fr_core_news_md' dans votre terminal.")
 
-# Fonction pour séparer le contexte et la question
+# Fonction pour nettoyer, séparer le contexte et la question
 def split_context_and_question(input_text: str):
     
     parts = re.split(r"Question:", input_text, maxsplit=1)
@@ -25,6 +25,8 @@ def split_context_and_question(input_text: str):
         context = ""
         question = re.sub(r"(Locuteur \d+:)", "", input_text)
 
+    context = re.sub(r"#spk[\w-]*", "", context)
+    question = re.sub(r"#spk[\w-]*", "", question)
 
     context = re.sub(r"\s+", " ", context).strip()
     question = re.sub(r"\s+", " ", question).strip()
@@ -48,9 +50,35 @@ def freq_labels_ok(label_counts):
             return False
     return True
 
+def normalize_ids(data):
+    cleaned_data = []
+    used_ids = set()
+    next_id = 1
+
+    for entry in data:
+        raw_id = entry.get("id")
+
+        try:
+            new_id = int(raw_id)
+        except:
+            new_id = None
+
+        if new_id is None or new_id in used_ids:
+            while next_id in used_ids:
+                next_id += 1
+            new_id = next_id
+            next_id += 1
+
+        entry["id"] = new_id
+        used_ids.add(new_id)
+        cleaned_data.append(entry)
+    
+    return cleaned_data
+
 # Fusion de deux corpus JSON
 def fusion_corpus(data1, data2):
-    return data1 + data2
+    combined = data1 + data2
+    return normalize_ids(combined)
 
 # Nettoyage et lemmatisation des questions
 def clean_and_lemmatize(data):
@@ -164,6 +192,13 @@ class StatsApp(QWidget):
             return
         
         self.data1 = data
+
+        for entry in self.data1:
+            if "context" in entry:
+                entry["context"] = re.sub(r"#spk[\w-]*", "", entry["context"])
+            if "question" in entry:
+                entry["question"] = re.sub(r"#spk[\w-]*", "", entry["question"])
+
         QMessageBox.information(self, "Succès", "Premier fichier JSON chargé avec succès.")
 
         # Vérification de la nécessité de transformation
@@ -202,6 +237,41 @@ class StatsApp(QWidget):
                         "Erreur",
                         f"Impossible d'enregistrer le corpus transformé :\n{e}"
                     )
+
+        export_original = QMessageBox.question(self, "Exporter également le corpus original nettoyé", "Voulez-vous également sauvegarder le corpus original nettoyé ?", QMessageBox.Yes | QMessageBox.No)
+        if export_original == QMessageBox.Yes:
+            cleaned_original = normalize_ids(self.data1)
+            for entry in cleaned_original:
+                if "context" in entry:
+                    entry["context"] = re.sub(r"#spk[\w-]*", "", entry["context"])
+                if "question" in entry:
+                    entry["question"] = re.sub(r"#spk[\w-]*", "", entry["question"])
+
+            save_path_orig, _ = QFileDialog.getSaveFileName(
+                self,
+                "Enregistrer le corpus original nettoyé",
+                "",
+                "Fichier JSON (*.json)"
+            )
+
+            if save_path_orig:
+                if not save_path_orig.lower().endswith(".json"):
+                    save_path_orig += ".json"
+
+                try:
+                    with open(save_path_orig, "w", encoding="utf-8") as f:
+                        json.dump(cleaned_original, f, ensure_ascii=False, indent=2)
+                    QMessageBox.information(
+                        self,
+                        "Succès",
+                        f"Corpus original nettoyé sauvegardé dans :\n{save_path_orig}"
+                    )
+                except Exception as e:
+                    QMessageBox.critical(
+                        self,
+                        "Erreur",
+                        f"Impossible d'enregistrer le corpus original nettoyé :\n{e}"
+                    )     
         else:
             QMessageBox.information(self, "Information", "Le corpus ne nécessite pas de transformation.")
         
@@ -209,17 +279,16 @@ class StatsApp(QWidget):
         self.show_stats(total_questions, label_counts, intention_counts, unique_intentions)
 
         
-
         if not freq_labels_ok(label_counts):
-            reponse = QMessageBox.question(self, "Corpus incomplet", "Une ou plusieurs classes ont une fréquence inférieure à la moitié de la classe majoritaire.\n" "Voulez-vous charger un second corpus pour compléter ?", QMessageBox.Yes | QMessageBox.No)
+            reponse = QMessageBox.question(self, "Corpus incomplet", "Certaines classes sont sous-représentées.\n" "Voulez-vous charger un second corpus pour compléter ?", QMessageBox.Yes | QMessageBox.No)
             if reponse == QMessageBox.Yes:
                 self.load_second_json()
             else:
-                self.final_data = self.data1
+                self.final_data = normalize_ids(self.data1)
                 self.analyze_and_last_show()
 
         else:
-            self.final_data = self.data1
+            self.final_data = normalize_ids(self.data1)
             self.analyze_and_last_show()
 
     def load_second_json(self):
@@ -287,7 +356,7 @@ class StatsApp(QWidget):
                     QMessageBox.critical(self, "Erreur",f"Erreur de sauvegarde :\n{e}")
             self.analyze_and_last_show()
         else:
-            self.final_data = self.data1
+            self.final_data = normalize_ids(self.data1)
             self.analyze_and_last_show()
 
     # Affichage des statistiques finales (après fusion)
@@ -295,6 +364,12 @@ class StatsApp(QWidget):
         if not self.final_data:
             QMessageBox.warning(self, "Aucun corpus", "Aucun corpus chargé pour l'analyse finale.")
             return
+        
+        for entry in self.final_data:
+            if "context" in entry:
+                entry["context"] = re.sub(r"#spk[\w-]*", "", entry["context"])
+            if "question" in entry:
+                entry["question"] = re.sub(r"#spk[\w-]*", "", entry["question"])
         
         stats_ling = clean_and_lemmatize(self.final_data)
         total_questions, label_counts, intention_counts, unique_intentions = analyze_corpus(self.final_data)

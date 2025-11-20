@@ -1,0 +1,490 @@
+[
+    {
+        "id": "1",
+        "file_name": "question_1",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Imagine que tu dois choisir un lieu pour t’installer définitivement.",
+        "question": "Préfères-tu vivre au bord de la mer ou à la montagne ?"
+    },
+    {
+        "id": "2",
+        "file_name": "question_2",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu es invité à une soirée où les deux options sont possibles.",
+        "question": "Entre un dîner gastronomique et un repas fait maison, lequel privilégierais-tu ?"
+    },
+    {
+        "id": "3",
+        "file_name": "question_3",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu planifies tes prochaines vacances et cherches à te détendre.",
+        "question": "Es-tu plus tenté par un voyage en ville ou en pleine nature ?"
+    },
+    {
+        "id": "4",
+        "file_name": "question_4",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une soirée tranquille t'attend, comment vas-tu l’occuper ?",
+        "question": "Serais-tu plutôt du genre à lire un roman ou regarder un film pour te détendre ?"
+    },
+    {
+        "id": "5",
+        "file_name": "question_5",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Un jour férié se présente, tu veux en profiter au maximum.",
+        "question": "A ton avis, vaut-il mieux passer une journée à faire du sport ou à se reposer chez soi ?"
+    },
+    {
+        "id": "6",
+        "file_name": "question_6",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu cherches à te ressourcer après une période chargée au travail.",
+        "question": "Pour un weekend, choisirais-tu une escapade culturelle ou un séjour détente ?"
+    },
+    {
+        "id": "7",
+        "file_name": "question_7",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu as du temps libre pour développer une nouvelle compétence.",
+        "question": "Entre apprendre une nouvelle langue ou découvrir un nouvel instrument de musique, quelle activité te branche le plus ?"
+    },
+    {
+        "id": "8",
+        "file_name": "question_8",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Il y a une fête ce week-end, mais tu hésites sur le type d’ambiance.",
+        "question": "Plutôt soirées en petit comité ou grandes fêtes avec beaucoup de monde ?"
+    },
+    {
+        "id": "9",
+        "file_name": "question_9",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Il est 15h, la pause est la bienvenue.",
+        "question": "Tu penches davantage pour un café ou un thé lors d'une pause ?"
+    },
+    {
+        "id": "10",
+        "file_name": "question_10",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Un événement sportif important est programmé.",
+        "question": "Pour toi, est-ce plus cool de regarder un match en direct ou en différé ?"
+    },
+    {
+        "id": "11",
+        "file_name": "question_11",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu dois te focaliser sur un travail important.",
+        "question": "Préfères-tu écouter de la musique douce ou des morceaux dynamiques pour te concentrer ?"
+    },
+    {
+        "id": "12",
+        "file_name": "question_12",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu as la possibilité de partir en voyage bientôt.",
+        "question": "Est-ce que tu serais plutôt tenté par un road trip improvisé ou des vacances tout planifiées ?"
+    },
+    {
+        "id": "13",
+        "file_name": "question_13",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Après le repas, il faut bien choisir une douceur.",
+        "question": "À choisir, tu opterais pour un dessert au chocolat ou aux fruits ?"
+    },
+    {
+        "id": "14",
+        "file_name": "question_14",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu réfléchis à ton futur professionnel.",
+        "question": "A ton avis, vaut-il mieux avoir un job créatif ou un job bien rémunéré ?"
+    },
+    {
+        "id": "15",
+        "file_name": "question_15",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une conversation importante doit avoir lieu.",
+        "question": "Préfères-tu discuter via messages ou en face à face ?"
+    },
+    {
+        "id": "16",
+        "file_name": "question_16",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Ton prochain voyage peut se faire de différentes façons.",
+        "question": "Mieux vaut-il voyager seul ou en groupe ?"
+    },
+    {
+        "id": "17",
+        "file_name": "question_17",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu cherches une sortie culturelle ce week-end.",
+        "question": "Tu es plus tenté par une soirée cinéma à la maison ou une sortie au théâtre ?"
+    },
+    {
+        "id": "18",
+        "file_name": "question_18",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu souhaites commencer une nouvelle activité sportive.",
+        "question": "Es-tu plus attiré par les sports individuels ou les sports d’équipe ?"
+    },
+    {
+        "id": "19",
+        "file_name": "question_19",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu envisages de t’acheter un nouveau livre.",
+        "question": "Préfères-tu un livre papier ou un e-book pour tes lectures ?"
+    },
+    {
+        "id": "20",
+        "file_name": "question_20",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu veux surprendre tes invités ce soir.",
+        "question": "Mieux vaut-il cuisiner un plat exotique ou un plat traditionnel ?"
+    },
+    {
+        "id": "21",
+        "file_name": "question_21",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu envisages un changement radical de mode de vie.",
+        "question": "Entre une vie urbaine animé ou une vie rurale paisible, que choisirais-tu ?"
+    },
+    {
+        "id": "22",
+        "file_name": "question_22",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu veux optimiser ta journée de travail.",
+        "question": "Tu es plutôt du matin ou du soir pour être productif ?"
+    },
+    {
+        "id": "23",
+        "file_name": "question_23",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "On te demande de choisir un cadeau pour un proche.",
+        "question": "Préfères-tu un cadeau utile ou un cadeau original ?"
+    },
+    {
+        "id": "24",
+        "file_name": "question_24",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Deux événements musicaux se tiennent le même soir.",
+        "question": "Serais-tu plus tenté par un concert de musique classique ou un festival de musique pop ?"
+    },
+    {
+        "id": "25",
+        "file_name": "question_25",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Ton voyage approche, il faut décider du style.",
+        "question": "Quel est ton choix : partir à l’aventure sans itinéraire ou suivre un parcours bien tracé ?"
+    },
+    {
+        "id": "26",
+        "file_name": "question_26",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une soirée cinéma se prépare.",
+        "question": "Préfères-tu les films comiques ou les films dramatiques ?"
+    },
+    {
+        "id": "27",
+        "file_name": "question_27",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Il faut envisager un changement de logement.",
+        "question": "Tu choisirais plutôt de vivre dans une grande maison loin de la ville ou dans un petit appartement en centre-ville ?"
+    },
+    {
+        "id": "28",
+        "file_name": "question_28",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu as une journée libre pour te faire plaisir.",
+        "question": "Entre passer une journée au spa ou une journée de randonnée, que choisirais-tu ?"
+    },
+    {
+        "id": "29",
+        "file_name": "question_29",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu souhaites exprimer tes idées régulièrement.",
+        "question": "Mieux vaut-il écrire un journal intime ou partager ses pensées sur un blog ?"
+    },
+    {
+        "id": "30",
+        "file_name": "question_30",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu pars à l’étranger et tu dois choisir ta façon de te nourrir.",
+        "question": "Plutôt découvrir la cuisine locale ou manger dans des restaurants internationaux en voyage ?"
+    },
+    {
+        "id": "31",
+        "file_name": "question_31",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu veux t’informer pendant tes trajets.",
+        "question": "Préfères-tu écouter un podcast ou lire un article sur un sujet qui t'intéresse ?"
+    },
+    {
+        "id": "32",
+        "file_name": "question_32",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu as l’occasion d’assister à un spectacle naturel.",
+        "question": "Entre un coucher de soleil en bord de mer ou une nuit étoilée en montagne, que préfères-tu admirer ?"
+    },
+    {
+        "id": "33",
+        "file_name": "question_33",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu envisages ton orientation professionnelle.",
+        "question": "Es-tu plus attiré par une carrière dans l’art ou dans la science ?"
+    },
+    {
+        "id": "34",
+        "file_name": "question_34",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Il est temps de choisir comment passer une soirée ludique.",
+        "question": "Tu es plus fan des jeux vidéo sur console ou sur ordinateur ?"
+    },
+    {
+        "id": "35",
+        "file_name": "question_35",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Ce samedi soir s’annonce, que faire ?",
+        "question": "Préfères-tu une soirée tranquille à la maison ou une sortie en ville ?"
+    },
+    {
+        "id": "36",
+        "file_name": "question_36",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Le choix de la prochaine destination se fait.",
+        "question": "Plutôt vacances en été à la plage ou en hiver à la montagne ?"
+    },
+    {
+        "id": "37",
+        "file_name": "question_37",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu prépares un événement important.",
+        "question": "Es-tu plus du genre à organiser chaque détail ou à improviser ?"
+    },
+    {
+        "id": "38",
+        "file_name": "question_38",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Nouveaux loisirs à tester.",
+        "question": "Aurais-tu plutôt envie d’apprendre la danse ou la musique ?"
+    },
+    {
+        "id": "39",
+        "file_name": "question_39",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une pause gourmande s’impose.",
+        "question": "Préfères-tu le chocolat noir ou le chocolat au lait ?"
+    },
+    {
+        "id": "40",
+        "file_name": "question_40",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu souhaiterais adopter un nouvel ami à quatre pattes.",
+        "question": "Mieux vaut-il privilégier un animal de compagnie actif ou calme ?"
+    },
+    {
+        "id": "41",
+        "file_name": "question_41",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une nouvelle aventure te propose de relever un challenge.",
+        "question": "Es-tu plus motivé par un défi personnel ou une récompense collective ?"
+    },
+    {
+        "id": "42",
+        "file_name": "question_42",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Le matin, il faut faire un choix pour bien commencer la journée.",
+        "question": "Préfères-tu un petit-déjeuner sucré ou salé ?"
+    },
+    {
+        "id": "43",
+        "file_name": "question_43",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une soirée cinéma entre amis se prépare.",
+        "question": "Entre un film d’horreur ou un film d’aventure, lequel te tente le plus ?"
+    },
+    {
+        "id": "44",
+        "file_name": "question_44",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu investis dans un nouveau logement.",
+        "question": "Tu choisirais d’avoir une maison intelligente ou une maison écologique ?"
+    },
+    {
+        "id": "45",
+        "file_name": "question_45",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu veux améliorer ta routine alimentaire.",
+        "question": "Serais-tu plutôt du genre à planifier tes repas ou à improviser chaque jour ?"
+    },
+    {
+        "id": "46",
+        "file_name": "question_46",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une occasion musicale se présente.",
+        "question": "Préfères-tu écouter de la musique en live ou enregistrée ?"
+    },
+    {
+        "id": "47",
+        "file_name": "question_47",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu souhaites enrichir ta culture littéraire.",
+        "question": "Es-tu plus attiré par la lecture de poésie ou d’essais ?"
+    },
+    {
+        "id": "48",
+        "file_name": "question_48",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu penses à une expatriation.",
+        "question": "Mieux vaut-il vivre dans un pays chaud ou un pays tempéré ?"
+    },
+    {
+        "id": "49",
+        "file_name": "question_49",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu veux mieux gérer ton emploi du temps.",
+        "question": "Préfères-tu utiliser un carnet papier ou une application numérique pour organiser tes tâches ?"
+    },
+    {
+        "id": "50",
+        "file_name": "question_50",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Une séance au cinéma à choisir.",
+        "question": "Plutôt film en 3D ou film classique ?"
+    },
+    {
+        "id": "51",
+        "file_name": "question_51",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu dois préparer le dîner après une longue journée.",
+        "question": "Entre cuisiner une recette rapide ou une recette élaborée, quelle option t’attire le plus ?"
+    },
+    {
+        "id": "52",
+        "file_name": "question_52",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu as un projet d’écriture à démarrer.",
+        "question": "Préfères-tu écrire à la main ou taper à l’ordinateur ?"
+    },
+    {
+        "id": "53",
+        "file_name": "question_53",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu essaies d’installer une nouvelle routine.",
+        "question": "Es-tu plutôt du matin pour faire du sport ou en fin de journée ?"
+    },
+    {
+        "id": "54",
+        "file_name": "question_54",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Les fêtes approchent, il faut penser aux plans.",
+        "question": "Préfères-tu passer Noël en famille ou entre amis ?"
+    },
+    {
+        "id": "55",
+        "file_name": "question_55",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu hésites sur un achat de valeur.",
+        "question": "Mieux vaut-il écouter des recommandations ou suivre son intuition pour un achat important ?"
+    },
+    {
+        "id": "56",
+        "file_name": "question_56",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Choix pour une future scolarité.",
+        "question": "Es-tu tenté par un établissement scolaire public ou privé ?"
+    },
+    {
+        "id": "57",
+        "file_name": "question_57",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Ton employeur propose un nouveau mode de travail.",
+        "question": "Entre travailler à distance ou au bureau, quelle formule préfères-tu ?"
+    },
+    {
+        "id": "58",
+        "file_name": "question_58",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu recherches un hébergement pour tes congés.",
+        "question": "Préfères-tu passer tes vacances dans un hôtel ou en camping ?"
+    },
+    {
+        "id": "59",
+        "file_name": "question_59",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Tu souhaites renouveler ta garde-robe.",
+        "question": "Tu serais plutôt du genre à adopter un style vestimentaire classique ou original ?"
+    },
+    {
+        "id": "60",
+        "file_name": "question_60",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Nouveaux cours sportifs à découvrir.",
+        "question": "Entre apprendre les arts martiaux ou le yoga, que choisirais-tu ?"
+    },
+    {
+        "id": "61",
+        "file_name": "question_61",
+        "label": "alternative",
+        "intention": "question canonique",
+        "context": "Un break arrive, tu dois choisir l’ambiance.",
+        "question": "Plutôt weekend à te balader en ville ou à explorer la campagne ?"
+    }
+]
