@@ -1,0 +1,29 @@
+              precision    recall  f1-score   support
+
+ alternative       0.93      0.76      0.84        17
+   partielle       0.31      0.31      0.31        16
+      totale       0.61      0.67      0.63        30
+
+    accuracy                           0.60        63
+   macro avg       0.62      0.58      0.60        63
+weighted avg       0.62      0.60      0.61        63
+
+=== Détails par classe pour LinearSVC ===
+    Classe: alternative
+    Précision: 0.9286
+    Rappel: 0.7647
+    F1: 0.8387
+    Support: 17
+
+    Classe: partielle
+    Précision: 0.3125
+    Rappel: 0.3125
+    F1: 0.3125
+    Support: 16
+
+    Classe: totale
+    Précision: 0.6061
+    Rappel: 0.6667
+    F1: 0.6349
+    Support: 30
+

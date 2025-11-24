@@ -1,0 +1,29 @@
+              precision    recall  f1-score   support
+
+ alternative       0.86      0.75      0.80        16
+   partielle       0.78      0.88      0.82        16
+      totale       0.71      0.71      0.71        17
+
+    accuracy                           0.78        49
+   macro avg       0.78      0.78      0.78        49
+weighted avg       0.78      0.78      0.78        49
+
+=== Détails par classe pour LogisticRegression ===
+    Classe: alternative
+    Précision: 0.8571
+    Rappel: 0.7500
+    F1: 0.8000
+    Support: 16
+
+    Classe: partielle
+    Précision: 0.7778
+    Rappel: 0.8750
+    F1: 0.8235
+    Support: 16
+
+    Classe: totale
+    Précision: 0.7059
+    Rappel: 0.7059
+    F1: 0.7059
+    Support: 17
+

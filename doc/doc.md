@@ -1,49 +1,36 @@
-```
-Extract_info_excel.py
-```
-Script permettant de récupérer les informations contenus dans le fichier excel source.
-Il crée un fichier JSON contenant les informations suivantes :
+## Documentation:
 
-* id (identifiant)
-* file_name (le nom du fichier d'ou provient les annotations)
-* input_text (la fusion entre le contexte précédent la question et la question en elle-même.)
-* label (le type de question)
-* intention (l'intention derrière la question posée)
+*Partie Corpus :*
 
------
+> original_corpus.json
 
+Corpus crée par l'extraction de ses données à partir d'un fichier Excel.
+Il contient 218 questions totales, 81 questions partielles et 20 questions alternatives.
 
-```
-Stats&traitement.py
-```
+> alternatives_questions.json
 
-Script permettant de séparer le contexte et la question de l'input_text, procéder à une analyse du corpus JSON permettant de déterminer le nombre de questions, de labels, d'intentions uniques et totales.
-Il procède également au nettoyage du corpus et à sa lemmatisation afin de déterminer les lemmes présents dans les questions, leurs nombres, leurs fréquences d'apparitions, le nombre de mot en moyenne par question, la représentation du "Part of Speech" et un classement des 5 lemmes les plus représentés.
+Corpus intégralement composé de questions alternatives (61) afin de rééquilibrer le dataset.
 
-Il permet également après analyse du corpus, de fournir des graphiques ces mêmes analyses et si selon la représentation des labels, un déséquilibre est détecté, permet de charger un second corpus (.JSON) qui sera fusionné au premier afin d'augmenter le corpus.
+> final_corpus.json
 
-Enfin, il donne les statistiques finales du corpus (après fusion).
+Fusion des deux corpus ci-dessus créant notre corpus final, utilisé pour l'entrainement.
 
------
+----
 
-```
-alt_question_generator.py
-```
-Script permettant, à partir de l'API d'Open AI (et une clé), de générer un certain nombre de questions de type alternatives (déterminé par l'utilisateur) afin de constituer un second corpus au format JSON (que l'on fusionnera par la suite avec le premier corpus afin d'obtenir notre corpus dans sa forme finale).
+*Partie Résultats :*
 
------
+> 81-81-81
 
-PS : Les trois scripts mentionnés ci-dessus sont dotés d'une interface Qt afin de faciliter leur utilisation auprès du plus grand nombre.
+Dossier entièrement dédié aux résultats de l'entrainement pour nos classes divisés en 81/81/81 (81 questions totales, 81 questions partielles et 81 questions alternatives).
 
------
+Dossier contenant les graphiques (matrices de confusions,histogrammes), rapports de classifications de chaque classifieur utilisé, un table csv contenant les résultats de la précision et de la macro F1 pour chaque modèle et le modèle le plus performant.
 
-## A venir:
+> 150-81-81
 
-- Un script séparant le corpus en deux entités, une dédié à l'entrainement du modèle, le second pour le test du modèle. Il apportera également les différentes analyses nécessaires à l'analyse de la performance du modèle (graphiques et résumé textuels).
+Dossier entièrement dédié aux résultats de l'entrainement pour nos classes divisés en 150/81/81 (150 questions totales, 81 questions partielles et 81 questions alternatives).
 
-- Un fichier "requirements.txt" (pour les modules nécessaires à l'exécution des scripts)
+Dossier contenant les graphiques (matrices de confusions,histogrammes), rapports de classifications de chaque classifieur utilisé, un table csv contenant les résultats de la précision et de la macro F1 pour chaque modèle et le modèle le plus performant.
 
+> stats
 
-
-
-
+Dossier contenant les graphiques et le résumé textuel des statistiques de fréquences d'intentions, fréquences de labels et le décompte du POS. Cela, en deux versions, l'une avant la fusion des deux corpus et l'autre après.

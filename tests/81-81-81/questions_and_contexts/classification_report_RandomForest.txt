@@ -1,0 +1,29 @@
+              precision    recall  f1-score   support
+
+ alternative       1.00      0.69      0.81        16
+   partielle       0.58      0.69      0.63        16
+      totale       0.53      0.59      0.56        17
+
+    accuracy                           0.65        49
+   macro avg       0.70      0.65      0.67        49
+weighted avg       0.70      0.65      0.66        49
+
+=== Détails par classe pour RandomForest ===
+    Classe: alternative
+    Précision: 1.0000
+    Rappel: 0.6875
+    F1: 0.8148
+    Support: 16
+
+    Classe: partielle
+    Précision: 0.5789
+    Rappel: 0.6875
+    F1: 0.6286
+    Support: 16
+
+    Classe: totale
+    Précision: 0.5263
+    Rappel: 0.5882
+    F1: 0.5556
+    Support: 17
+
