@@ -1,37 +1,37 @@
-Nombre total de questions (après fusion) : 319
+Nombre total de questions : 319
 
-Répartitions des labels :
+Répartition des labels :
  - totale: 218
  - partielle: 81
  - alternative: 20
 
 Intentions :
-  - non-question: 124
-  - question canonique: 195
+ - non-question: 124
+ - question canonique: 195
 
 Nombre d'intentions différentes : 2
 
 Statistiques linguistiques :
-Nombre moyen de mots par question : 7.13
-Top 5 des lemmes les plus fréquents :
-  - euh: 61
-  - non: 45
-  - -ce: 24
-  - ouai: 17
-  - Orléans: 17
+Mots moyens/question : 7.13
+Top 5 lemmes :
+ - euh: 61
+ - non: 45
+ - -ce: 24
+ - Orléans: 17
+ - ouai: 17
 
-Répartition POS (part-of-speech) :
-  - ADP: 240
-  - PROPN: 84
-  - CCONJ: 110
-  - ADJ: 136
-  - PRON: 461
-  - AUX: 125
-  - DET: 234
-  - NOUN: 329
-  - ADV: 275
-  - VERB: 235
-  - SCONJ: 37
-  - INTJ: 1
-  - NUM: 5
-  - X: 3
+Répartition POS :
+ - ADV: 275
+ - CCONJ: 110
+ - ADP: 240
+ - PROPN: 84
+ - ADJ: 136
+ - PRON: 461
+ - VERB: 235
+ - AUX: 125
+ - NOUN: 329
+ - DET: 234
+ - SCONJ: 37
+ - INTJ: 1
+ - NUM: 5
+ - X: 3

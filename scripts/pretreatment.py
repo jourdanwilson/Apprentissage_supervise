@@ -5,19 +5,26 @@ import re
 import spacy
 import matplotlib.pyplot as plt
 from collections import Counter
-from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QFileDialog, QMessageBox
-from PySide6.QtGui import QFont
+from PySide6.QtWidgets import (
+    QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QFileDialog, QMessageBox,
+    QTabWidget, QGroupBox, QStatusBar, QTextEdit
+)
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
 
 # Modèle SpaCy pour le français
 try:
     nlp = spacy.load("fr_core_news_md")
 except:
-    raise RuntimeError("Le modèle SpaCy 'fr_core_news_md' n'est pas installé. Veuillez l'installer en exécutant 'python -m spacy download fr_core_news_md' dans votre terminal.")
+    raise RuntimeError(
+        "Le modèle SpaCy 'fr_core_news_md' n'est pas installé. "
+        "Veuillez l'installer en exécutant 'python -m spacy download fr_core_news_md' dans votre terminal."
+    )
 
-# Fonction pour nettoyer, séparer le contexte et la question
+# Fonctions de traitement
 def split_context_and_question(input_text: str):
-    
     parts = re.split(r"Question:", input_text, maxsplit=1)
+
     if len(parts) == 2:
         context = re.sub(r"(Locuteur \d+:)", "", parts[0])
         question = re.sub(r"(Locuteur \d+:)", "", parts[1])
@@ -25,31 +32,31 @@ def split_context_and_question(input_text: str):
         context = ""
         question = re.sub(r"(Locuteur \d+:)", "", input_text)
 
-    context = re.sub(r"#spk[\w-]*", "", context)
-    question = re.sub(r"#spk[\w-]*", "", question)
+    context = re.sub(r"#spk[\w-]*", "", context).strip()
+    question = re.sub(r"#spk[\w-]*", "", question).strip()
 
     context = re.sub(r"\s+", " ", context).strip()
     question = re.sub(r"\s+", " ", question).strip()
-    
+
     return context, question
 
-# Analyse du corpus JSON   
+# Analyse du corpus
 def analyze_corpus(data):
     total_questions = len(data)
-    label_counts = Counter(entry["label"] for entry in data if "label" in entry)
-    intention_counts = Counter(entry["intention"] for entry in data if "intention" in entry)
+    label_counts = Counter(entry.get("label") for entry in data if "label" in entry)
+    intention_counts = Counter(entry.get("intention") for entry in data if "intention" in entry)
     unique_intentions = len(intention_counts)
+
     return total_questions, label_counts, intention_counts, unique_intentions
 
+# Vérification de la fréquence des labels
 def freq_labels_ok(label_counts):
     if not label_counts:
         return True
     majority_count = max(label_counts.values())
-    for label, count in label_counts.items():
-        if count < majority_count / 2:
-            return False
-    return True
+    return all(count >= majority_count / 2 for count in label_counts.values())
 
+# Normalisation des IDs
 def normalize_ids(data):
     cleaned_data = []
     used_ids = set()
@@ -57,30 +64,21 @@ def normalize_ids(data):
 
     for entry in data:
         raw_id = entry.get("id")
-
         try:
             new_id = int(raw_id)
         except:
             new_id = None
-
         if new_id is None or new_id in used_ids:
             while next_id in used_ids:
                 next_id += 1
             new_id = next_id
             next_id += 1
-
         entry["id"] = new_id
         used_ids.add(new_id)
         cleaned_data.append(entry)
-    
     return cleaned_data
 
-# Fusion de deux corpus JSON
-def fusion_corpus(data1, data2):
-    combined = data1 + data2
-    return normalize_ids(combined)
-
-# Nettoyage et lemmatisation des questions
+# Nettoyage et lemmatisation
 def clean_and_lemmatize(data):
     lemmas_count = []
     word_per_question = []
@@ -88,41 +86,33 @@ def clean_and_lemmatize(data):
 
     for entry in data:
         question = entry.get("question", "")
-
         doc = nlp(question)
-
-        lemmas_question = [token.lemma_ for token in doc if not token.is_punct and not token.is_space and not token.is_stop]
-        tokens_question = [token.text for token in doc if not token.is_punct and not token.is_space]
+        lemmas_question = [t.lemma_ for t in doc if not t.is_punct and not t.is_space and not t.is_stop]
+        tokens_question = [t.text for t in doc if not t.is_punct and not t.is_space]
         lemmas_count.extend(lemmas_question)
         word_per_question.append(len(tokens_question))
 
-        for token in doc:
-            if not token.is_punct and not token.is_space:
-                pos_counter[token.pos_] += 1
-
+        for t in doc:
+            if not t.is_punct and not t.is_space:
+                pos_counter[t.pos_] += 1
         entry["lemmas"] = lemmas_question
         entry["nb_tokens"] = len(tokens_question)
-
     top_5_lemmas = Counter(lemmas_count).most_common(5)
-    avg_words_per_question = sum(word_per_question) / len(word_per_question) if word_per_question else 0
+    avg_words = sum(word_per_question)/len(word_per_question) if word_per_question else 0
+    return {"top_5_lemmas": top_5_lemmas, "pos_distribution": dict(pos_counter), "avg_words_per_question": avg_words}
 
-    return {
-        "top_5_lemmas": top_5_lemmas,
-        "pos_distribution": dict(pos_counter),
-        "avg_words_per_question": avg_words_per_question
-    }
+# Fusion des corpus
+def fusion_corpus(data1, data2):
+    return normalize_ids(data1 + data2)
 
-# Création de graphiques
+# Création des graphiques
 def plot_bar_chart(counter, title, xlabel, ylabel, filepath):
-    items = list(counter.items())
-    if not items:
+    if not counter:
         return
-    items.sort(key=lambda x: x[1], reverse=True)
+    
+    items = sorted(counter.items(), key=lambda x:x[1], reverse=True)
     labels, values = zip(*items)
-
-    labels = [str(label) for label in labels]
-
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10,6))
     plt.bar(labels, values, color='skyblue')
     plt.title(title)
     plt.xlabel(xlabel)
@@ -132,56 +122,92 @@ def plot_bar_chart(counter, title, xlabel, ylabel, filepath):
     plt.savefig(filepath)
     plt.close()
 
+# Application principale
 class StatsApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Analyse de Corpus JSON")
-        self.setGeometry(300, 300, 600, 400)
-        
-        self.layout = QVBoxLayout()
-        self.setLayout(self.layout)
-        
-        self.label_title = QLabel("Statistiques de corpus JSON")
-        self.label_title.setFont(QFont("Arial", 16, QFont.Bold))
-        self.layout.addWidget(self.label_title)
+        self.setGeometry(200, 200, 900, 600)
 
-        self.stats_label = QLabel("Aucune donnée chargée.")
-        self.layout.addWidget(self.stats_label)
-        
-        self.load_button = QPushButton("Charger un fichier JSON")
-        self.load_button.clicked.connect(self.load_first_json)
-        self.layout.addWidget(self.load_button)
+        # Barre de statut
+        self.status_bar = QStatusBar()
 
+        # Onglets
+        self.tabs = QTabWidget()
+        self.tab_load = QWidget()
+        self.tab_stats = QWidget()
+        self.tab_graphs = QWidget()
+        self.tabs.addTab(self.tab_load, "Importation")
+        self.tabs.addTab(self.tab_stats, "Statistiques")
+        self.tabs.addTab(self.tab_graphs, "Graphiques")
+
+        # Layout principal
+        main_layout = QVBoxLayout()
+        main_layout.addWidget(self.tabs)
+        main_layout.addWidget(self.status_bar)
+        self.setLayout(main_layout)
+
+        # Initialisation des onglets
+        self.init_tab_load()
+        self.init_tab_stats()
+        self.init_tab_graphs()
+
+        # Données
         self.data1 = None
         self.data2 = None
         self.final_data = None
 
+    # Onglet d'Importation
+    def init_tab_load(self):
+        layout = QVBoxLayout()
+        self.tab_load.setLayout(layout)
+
+        group = QGroupBox("Chargement du corpus JSON")
+        g_layout = QVBoxLayout()
+        group.setLayout(g_layout)
+
+        self.load_button = QPushButton("Charger un fichier JSON")
+        self.load_button.clicked.connect(self.load_first_json)
+        g_layout.addWidget(self.load_button)
+
+        self.file_info = QLabel("Aucun fichier chargé.")
+        g_layout.addWidget(self.file_info)
+
         self.reset_button = QPushButton("Réinitialiser")
         self.reset_button.clicked.connect(self.reset_app)
-        self.layout.addWidget(self.reset_button)
+        g_layout.addWidget(self.reset_button)
 
-    # Affichage des statistiques (après premier chargement)
-    def show_stats(self, total_questions, label_counts, intention_counts, unique_intentions):
-        stats_text = (
-            f"Total de questions: {total_questions}\n"
-            "Répartition des labels:\n"
-        )
-        for label, count in label_counts.items():
-            stats_text += f"  - {label}: {count}\n"
+        layout.addWidget(group)
 
-        stats_text += "\nIntentions :\n"
-        for intention, count in intention_counts.items():
-            stats_text += f"  - {intention}: {count}\n"
+    # Onglet Statistiques
+    def init_tab_stats(self):
+        self.stats_text = QTextEdit()
+        self.stats_text.setReadOnly(True)
+        layout = QVBoxLayout()
+        layout.addWidget(self.stats_text)
+        self.tab_stats.setLayout(layout)
 
-        stats_text += f"\nNombre d'intentions uniques: {unique_intentions}\n"
-        self.stats_label.setText(stats_text)
-        
+    # Onglet Graphiques
+    def init_tab_graphs(self):
+        self.graphs_tabs = QTabWidget()
+        layout = QVBoxLayout()
+        layout.addWidget(self.graphs_tabs)
+        self.tab_graphs.setLayout(layout)
 
+    # Nettoyage du layout
+    def clear_graph_tabs(self):
+        while self.graphs_tabs.count() > 0:
+            widget = self.graphs_tabs.widget(0)
+            self.graphs_tabs.removeTab(0)
+            widget.deleteLater()
+
+    # Chargement du premier JSON
     def load_first_json(self):
-        file_path, _ = QFileDialog.getOpenFileName(self, "Ouvrir le premier fichier JSON", os.getcwd(), "Fichiers JSON (*.json)")
+        file_path, _ = QFileDialog.getOpenFileName(
+            self, "Ouvrir un fichier JSON", os.getcwd(), "Fichiers JSON (*.json)"
+        )
         if not file_path:
             return
-        
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -190,255 +216,181 @@ class StatsApp(QWidget):
         except Exception as e:
             QMessageBox.critical(self, "Erreur", f"Impossible de charger le fichier JSON:\n{e}")
             return
-        
+
         self.data1 = data
+        self.file_info.setText(f"Fichier chargé: {os.path.basename(file_path)} ({len(data)} entrées)")
+        self.status_bar.showMessage("Premier fichier JSON chargé.", 5000)
 
+        # Nettoyage automatique si input_text présent
         for entry in self.data1:
-            if "context" in entry:
-                entry["context"] = re.sub(r"#spk[\w-]*", "", entry["context"])
-            if "question" in entry:
-                entry["question"] = re.sub(r"#spk[\w-]*", "", entry["question"])
+            if "input_text" in entry:
+                context, question = split_context_and_question(entry["input_text"])
+                entry["context"] = context
+                entry["question"] = question
+                del entry["input_text"]
 
-        QMessageBox.information(self, "Succès", "Premier fichier JSON chargé avec succès.")
+        # Vérification des labels
+        _, label_counts, _, _ = analyze_corpus(self.data1)
+        if not freq_labels_ok(label_counts):
+            self.ask_second_json()
+        else:
+            self.final_data = normalize_ids(self.data1)
+            self.update_stats_and_graphs()
 
-        # Vérification de la nécessité de transformation
-        needs_transformation = any("input_text" in entry for entry in self.data1)
+    # Second chargement JSON si nécessaire
+    def ask_second_json(self):
+        reply = QMessageBox.question(
+            self, "Corpus incomplet",
+            "Certaines classes sont sous-représentées.\nVoulez-vous charger un second corpus pour compléter ?",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            file_path, _ = QFileDialog.getOpenFileName(
+                self, "Ouvrir le second fichier JSON", os.getcwd(), "Fichiers JSON (*.json)"
+            )
+            if not file_path:
+                self.final_data = normalize_ids(self.data1)
+                self.update_stats_and_graphs()
+                return
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data2 = json.load(f)
+                if isinstance(data2, dict):
+                    data2 = [data2]
+            except Exception as e:
+                QMessageBox.critical(self, "Erreur", f"Impossible de charger le fichier JSON:\n{e}")
+                self.final_data = normalize_ids(self.data1)
+                self.update_stats_and_graphs()
+                return
+            self.data2 = data2
 
-        if needs_transformation:
-            for entry in self.data1:
+            # Nettoyage d'input_text
+            for entry in self.data2:
                 if "input_text" in entry:
                     context, question = split_context_and_question(entry["input_text"])
                     entry["context"] = context
                     entry["question"] = question
                     del entry["input_text"]
 
-            # Sauvegarde du corpus contexte/question séparé si nécessaire.
-            save_path, _ = QFileDialog.getSaveFileName(
-                self,
-                "Enregistrer le corpus transformé (avec contexte/question)",
-                "",
-                "Fichier JSON (*.json)"
-            )
-            if save_path:
-                if not save_path.lower().endswith(".json"):
-                    save_path += ".json"
-
-                try:
-                    with open(save_path, "w", encoding="utf-8") as f:
-                        json.dump(self.data1, f, ensure_ascii=False, indent=2)
-                    QMessageBox.information(
-                        self,
-                        "Succès",
-                        f"Corpus transformé sauvegardé dans :\n{save_path}"
-                    )
-                except Exception as e:
-                    QMessageBox.critical(
-                        self,
-                        "Erreur",
-                        f"Impossible d'enregistrer le corpus transformé :\n{e}"
-                    )
-
-        export_original = QMessageBox.question(self, "Exporter également le corpus original nettoyé", "Voulez-vous également sauvegarder le corpus original nettoyé ?", QMessageBox.Yes | QMessageBox.No)
-        if export_original == QMessageBox.Yes:
-            cleaned_original = normalize_ids(self.data1)
-            for entry in cleaned_original:
-                if "context" in entry:
-                    entry["context"] = re.sub(r"#spk[\w-]*", "", entry["context"])
-                if "question" in entry:
-                    entry["question"] = re.sub(r"#spk[\w-]*", "", entry["question"])
-
-            save_path_orig, _ = QFileDialog.getSaveFileName(
-                self,
-                "Enregistrer le corpus original nettoyé",
-                "",
-                "Fichier JSON (*.json)"
-            )
-
-            if save_path_orig:
-                if not save_path_orig.lower().endswith(".json"):
-                    save_path_orig += ".json"
-
-                try:
-                    with open(save_path_orig, "w", encoding="utf-8") as f:
-                        json.dump(cleaned_original, f, ensure_ascii=False, indent=2)
-                    QMessageBox.information(
-                        self,
-                        "Succès",
-                        f"Corpus original nettoyé sauvegardé dans :\n{save_path_orig}"
-                    )
-                except Exception as e:
-                    QMessageBox.critical(
-                        self,
-                        "Erreur",
-                        f"Impossible d'enregistrer le corpus original nettoyé :\n{e}"
-                    )     
-        else:
-            QMessageBox.information(self, "Information", "Le corpus ne nécessite pas de transformation.")
-        
-        total_questions, label_counts, intention_counts, unique_intentions = analyze_corpus(data)
-        self.show_stats(total_questions, label_counts, intention_counts, unique_intentions)
-
-        
-        if not freq_labels_ok(label_counts):
-            reponse = QMessageBox.question(self, "Corpus incomplet", "Certaines classes sont sous-représentées.\n" "Voulez-vous charger un second corpus pour compléter ?", QMessageBox.Yes | QMessageBox.No)
-            if reponse == QMessageBox.Yes:
-                self.load_second_json()
-            else:
-                self.final_data = normalize_ids(self.data1)
-                self.analyze_and_last_show()
-
-        else:
-            self.final_data = normalize_ids(self.data1)
-            self.analyze_and_last_show()
-
-    def load_second_json(self):
-        file_path, _ = QFileDialog.getOpenFileName(self, "Choisir le second fichier JSON", "", "Fichiers JSON (*.json)")
-        if not file_path:
-            QMessageBox.information(self, "Information", "Pas de second corpus chargé.")
-            self.final_data = self.data1
-            self.analyze_and_last_show()
-            return
-        
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                data2 = json.load(f)
-                if isinstance(data2, dict):
-                    data2 = [data2]
-        except Exception as e:
-            QMessageBox.critical(self, "Erreur", f"Impossible de lire le fichier JSON:\n{e}")
-            self.final_data = self.data1
-            self.analyze_and_last_show()
-            return
-        
-        self.data2 = data2
-
-        total_q2, label_counts2, intention_counts2, unique_int2 = analyze_corpus(data2)
-        stats_text = (
-            f"Second corpus chargé:\nNombre total de questions : {total_q2}\n\n"
-            f"Répartitions des labels :\n"
-        )
-
-        for label, count in label_counts2.items():
-            stats_text += f"  - {label}: {count}\n"
-
-        stats_text += "\nIntentions :\n"
-        for intention, count in intention_counts2.items():
-            stats_text += f"  - {intention}: {count}\n"
-
-        stats_text += f"\nNombre d'intentions uniques: {unique_int2}\n"
-        
-        QMessageBox.information(self, "Statistiques du second corpus", stats_text)
-
-        reponse = QMessageBox.question(self, "Fusion de corpus", "Voulez-vous fusionner le premier et second corpus et l'enregistrer?", QMessageBox.Yes | QMessageBox.No)
-        if reponse == QMessageBox.Yes:
+            # Fusion des corpus
             self.final_data = fusion_corpus(self.data1, self.data2)
-
-            save_path, _ = QFileDialog.getSaveFileName(self, "Enregistrer le corpus fusionné", "", "Fichier JSON (*.json)")
+            save_path, _ = QFileDialog.getSaveFileName(
+                self, "Enregistrer le corpus fusionné", "", "Fichier JSON (*.json)"
+            )
             if save_path:
                 if not save_path.lower().endswith(".json"):
                     save_path += ".json"
-
-                try:
-                    for entry in self.final_data:
-                        if "context" in entry and "question" in entry:
-                            continue
-
-                        if "input_text" in entry:
-                            context, question = split_context_and_question(entry["input_text"])
-                            entry["context"] = context
-                            entry["question"] = question
-                            del entry["input_text"]
-
-                    with open(save_path, "w", encoding="utf-8") as f:
-                        json.dump(self.final_data, f, ensure_ascii=False, indent=2)
-                        QMessageBox.information(self, "Succès", f"Corpus fusionné enregistré dans : \n{save_path}")
-                except Exception as e:
-                    QMessageBox.critical(self, "Erreur",f"Erreur de sauvegarde :\n{e}")
-            self.analyze_and_last_show()
+                with open(save_path, 'w', encoding='utf-8') as f:
+                    json.dump(self.final_data, f, ensure_ascii=False, indent=2)
+                QMessageBox.information(self, "Succès", f"Corpus fusionné sauvegardé :\n{save_path}")
+            self.update_stats_and_graphs()
         else:
             self.final_data = normalize_ids(self.data1)
-            self.analyze_and_last_show()
+            self.update_stats_and_graphs()
 
-    # Affichage des statistiques finales (après fusion)
-    def analyze_and_last_show(self):
+    # Mise à jour des statistiques et graphiques
+    def update_stats_and_graphs(self):
         if not self.final_data:
-            QMessageBox.warning(self, "Aucun corpus", "Aucun corpus chargé pour l'analyse finale.")
             return
-        
-        for entry in self.final_data:
-            if "context" in entry:
-                entry["context"] = re.sub(r"#spk[\w-]*", "", entry["context"])
-            if "question" in entry:
-                entry["question"] = re.sub(r"#spk[\w-]*", "", entry["question"])
-        
-        stats_ling = clean_and_lemmatize(self.final_data)
         total_questions, label_counts, intention_counts, unique_intentions = analyze_corpus(self.final_data)
+        stats_ling = clean_and_lemmatize(self.final_data)
 
-        txt = (
-            f"Nombre total de questions (après fusion) : {total_questions}\n\n"
-            f"Répartitions des labels :\n"
-        )
-
-        for label, count in label_counts.items():
-            txt += f" - {label}: {count}\n"
-
+        # Texte
+        txt = f"Nombre total de questions : {total_questions}\n\n"
+        txt += "Répartition des labels :\n"
+        for l,c in label_counts.items():
+            txt += f" - {l}: {c}\n"
         txt += "\nIntentions :\n"
-        for intention, count in intention_counts.items():
-            txt += f"  - {intention}: {count}\n"
-
+        for i,c in intention_counts.items():
+            txt += f" - {i}: {c}\n"
         txt += f"\nNombre d'intentions différentes : {unique_intentions}\n"
+        txt += f"\nStatistiques linguistiques :\nMots moyens/question : {stats_ling['avg_words_per_question']:.2f}\n"
+        txt += "Top 5 lemmes :\n"
+        for lemma,freq in stats_ling["top_5_lemmas"]:
+            txt += f" - {lemma}: {freq}\n"
+        txt += "\nRépartition POS :\n"
+        for pos,count in stats_ling["pos_distribution"].items():
+            txt += f" - {pos}: {count}\n"
 
-        txt += "\nStatistiques linguistiques :\n"
-        txt += f"Nombre moyen de mots par question : {stats_ling['avg_words_per_question']:.2f}\n"
-        txt += "Top 5 des lemmes les plus fréquents :\n"
-        for lemma, freq in stats_ling["top_5_lemmas"]:
-            txt += f"  - {lemma}: {freq}\n"
+        self.stats_text.setText(txt)
 
-        txt += "\nRépartition POS (part-of-speech) :\n"
-        for pos, count in stats_ling["pos_distribution"].items():
-            txt += f"  - {pos}: {count}\n"
+        # Graphiques
+        self.clear_graph_tabs()
+        self.add_canvas_bar_chart(label_counts, "Labels")
+        self.add_canvas_bar_chart(intention_counts, "Intentions")
+        self.add_canvas_bar_chart(stats_ling["pos_distribution"], "POS")
+        
+        self.tabs.setCurrentWidget(self.tab_stats)
+        self.status_bar.showMessage("Analyse terminée.", 5000)
 
-        self.stats_label.setText(txt)
+        # Sauvegarde optionnelle
+        reply = QMessageBox.question(
+            self, "Sauvegarde",
+            "Voulez-vous sauvegarder les graphiques et le résumé textuel ?",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if reply == QMessageBox.Yes:
+            self.save_graphs_and_resume(label_counts, intention_counts, stats_ling)
 
-        reponse = QMessageBox.question(self, "Sauvegarde", "Voulez-vous sauvegarder les graphiques et le résumé textuel ?", QMessageBox.Yes | QMessageBox.No)
-        if reponse == QMessageBox.Yes:
-            self.save_graphs_resume(label_counts, intention_counts, stats_ling)
-
-    def save_graphs_resume(self, label_counts, intention_counts, stats_ling):
-        dossier = QFileDialog.getExistingDirectory(self, "Choisir le dossier pour la sauvegarde")
-        if not dossier:
-            QMessageBox.information(self, "Annulé", "Sauvegarde annulée.")
+    # Ajout d'un graphique dans le layout
+    def add_canvas_bar_chart(self, counter, title):
+        if not counter:
             return
         
-        try:
-            plot_bar_chart(label_counts, "Fréquence des types de questions", "Types de questions", "Nombre", os.path.join(dossier, "freq_labels.png"))
-            plot_bar_chart(intention_counts, "Fréquence des intentions", "Intentions", "Nombre", os.path.join(dossier, "freq_intentions.png"))
+        items = sorted(counter.items(), key=lambda x:x[1], reverse=True)
+        labels, values = zip(*items)
 
-            plot_bar_chart(stats_ling["pos_distribution"], "Répartition POS", "POS", "Nombre", os.path.join(dossier, "pos_counts.png"))
-        except Exception as e:
-            QMessageBox.warning(self, "Erreur graphique", f"Erreur lors de la création des graphiques:\n{e}")
+        fig, ax = plt.subplots(figsize=(10,6))
+        ax.bar(labels, values, color='skyblue')
+        ax.set_title(title)
+        ax.set_xticks(range(len(labels)), labels)
+        plt.setp(ax.get_xticklabels(), rotation=45, ha='right')
 
+        
+        ax.set_title(title)
+        ax.set_ylabel("Nombre")
+        fig.tight_layout()
+        
+        canvas = FigureCanvas(fig)
+
+        tab = QWidget()
+        layout = QVBoxLayout()
+        layout.addWidget(canvas)
+        tab.setLayout(layout)
+
+        self.graphs_tabs.addTab(tab, title)
+
+    # Sauvegarde des graphiques et du résumé
+    def save_graphs_and_resume(self, label_counts, intention_counts, stats_ling):
+        folder = QFileDialog.getExistingDirectory(self, "Choisir le dossier de sauvegarde")
+        if not folder:
+            return
         try:
-            with open(os.path.join(dossier, "resume_stats.txt"), "w", encoding="utf-8") as f:
-                f.write(self.stats_label.text())
+            plot_bar_chart(label_counts, "Fréquence des labels", "Labels", "Nombre", os.path.join(folder,"labels.png"))
+            plot_bar_chart(intention_counts, "Fréquence des intentions", "Intentions", "Nombre", os.path.join(folder,"intentions.png"))
+            plot_bar_chart(stats_ling["pos_distribution"], "Répartition POS", "POS", "Nombre", os.path.join(folder,"pos.png"))
+            with open(os.path.join(folder,"resume_stats.txt"), 'w', encoding='utf-8') as f:
+                f.write(self.stats_text.toPlainText())
             QMessageBox.information(self, "Succès", "Graphiques et résumé sauvegardés.")
         except Exception as e:
-            QMessageBox.warning(self, "Erreur sauvegarde", f"Erreur lors de la sauvegarde du résumé:\n{e}")
+            QMessageBox.warning(self, "Erreur", f"Erreur lors de la sauvegarde :\n{e}")
 
+    # Réinitialisation de l'application
     def reset_app(self):
         self.data1 = None
         self.data2 = None
         self.final_data = None
-        self.stats_label.setText("Aucune donnée chargée.")
-        QMessageBox.information(self, "Réinitialisation", "L'application a été réinitialisée.")
+        self.file_info.setText("Aucun fichier chargé.")
+        self.stats_text.clear()
+        self.clear_layout(self.graphs_layout)
+        self.status_bar.showMessage("Application réinitialisée.", 5000)
 
+# Fonction principale
 def main():
-        app = QApplication(sys.argv)
-        window = StatsApp()
-        window.show()
-        sys.exit(app.exec())
+    app = QApplication(sys.argv)
+    window = StatsApp()
+    window.show()
+    sys.exit(app.exec())
 
 if __name__ == "__main__":
     main()
-
-        
