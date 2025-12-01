@@ -6,7 +6,7 @@ Objectif : entraîner et évaluer un modèle qui prédit le type de question (to
 à partir de l'énoncé, et tester l'apport du contexte.
 
 ### Présentation du projet
-[Ouvrir la présentation sur Google Slides](https://docs.google.com/presentation/d/1ZitR01NDHrHG7EeRG4ZB3xVnhbhJ4r1JmhzoAIo7Ph0/edit?slide=id.g3a1fd602433_0_428#slide=id.g3a1fd602433_0_428)
+[Ouvrir la présentation]()
 
 ## Description
 
