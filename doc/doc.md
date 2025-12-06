@@ -19,17 +19,25 @@ Fusion des deux corpus ci-dessus créant notre corpus final, utilisé pour l'ent
 
 *Partie Résultats :*
 
+> Shallow Learning
+
+Dossier contenant les résultats de l'entrainement pour les modèles d'apprentissage de surface (ici, LinearSVC, Random Forest, Logistic Regression et Naive Bayes)
+
+> Deep Learning
+
+Dossier contenant les résultats de l'entrainement pour les modèles d'apprentissage profond (ici, CamemBERT)
+
 > 81-81-81
 
 Dossier entièrement dédié aux résultats de l'entrainement pour nos classes divisés en 81/81/81 (81 questions totales, 81 questions partielles et 81 questions alternatives).
 
-Dossier contenant les graphiques (matrices de confusions,histogrammes), rapports de classifications de chaque classifieur utilisé, un table csv contenant les résultats de la précision et de la macro F1 pour chaque modèle et le modèle le plus performant.
+Il contient les graphiques (matrices de confusions,histogrammes), rapports de classifications de chaque classifieur utilisé, un table csv contenant les résultats de la précision et de la macro F1 pour chaque modèle et le modèle le plus performant.
 
 > 150-81-81
 
 Dossier entièrement dédié aux résultats de l'entrainement pour nos classes divisés en 150/81/81 (150 questions totales, 81 questions partielles et 81 questions alternatives).
 
-Dossier contenant les graphiques (matrices de confusions,histogrammes), rapports de classifications de chaque classifieur utilisé, un table csv contenant les résultats de la précision et de la macro F1 pour chaque modèle et le modèle le plus performant.
+Il contient les graphiques (matrices de confusions,histogrammes), rapports de classifications de chaque classifieur utilisé, un table csv contenant les résultats de la précision et de la macro F1 pour chaque modèle et le modèle le plus performant.
 
 > stats
 

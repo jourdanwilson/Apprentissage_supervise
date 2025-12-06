@@ -1,0 +1,36 @@
+=== RÉSUMÉ DES PERFORMANCES ===
+Modèle: CamemBERT
+Précision (Accuracy): 0.8571
+F1 Macro: 0.8591
+
+==================================================
+
+              precision    recall  f1-score   support
+
+ alternative       1.00      0.81      0.90        16
+   partielle       0.78      0.88      0.82        16
+      totale       0.83      0.88      0.86        17
+
+    accuracy                           0.86        49
+   macro avg       0.87      0.86      0.86        49
+weighted avg       0.87      0.86      0.86        49
+
+=== Détails par classe pour CamemBERT ===
+    Classe: alternative
+    Précision: 1.0000
+    Rappel: 0.8125
+    F1: 0.8966
+    Support: 16
+
+    Classe: partielle
+    Précision: 0.7778
+    Rappel: 0.8750
+    F1: 0.8235
+    Support: 16
+
+    Classe: totale
+    Précision: 0.8333
+    Rappel: 0.8824
+    F1: 0.8571
+    Support: 17
+

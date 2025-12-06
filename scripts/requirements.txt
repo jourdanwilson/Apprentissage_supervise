@@ -7,3 +7,5 @@ pandas==2.2.3
 seaborn==0.13.2
 sklearn==1.6.1
 spacy==3.8.4
+sentencepiece==0.1.99
+accelerate>=0.26.0

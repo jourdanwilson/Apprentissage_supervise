@@ -52,7 +52,14 @@ L'utilisateur choisit le dossier de sauvegarde des graphiques et résumés textu
 
 -----
 
-PS : Les quatres scripts mentionnés ci-dessus sont dotés d'une interface Qt afin de faciliter leur utilisation auprès du plus grand nombre.
+```
+model_trainer_camembert.py
+```
+Même principe que le script précédent mais cette fois-ci dédié intégralement à l'apprentissage profond et au modèle CamemBERT. Ce script a globalement les mêmes caractéristiques que le précédent (sous-échantillonage personnalisé, choix du corpus, choix d'ajout ou d'exclusion du contexte, choix du dossier de sauvegarde, entrainement, affichage des résultats et sauvegarde des graphiques et le résumé textuel). Ce script ne propose pas de sauvegarder le modèle, pour soucis d'espace.
+
+-----
+
+PS : Les cinq scripts mentionnés ci-dessus sont dotés d'une interface Qt afin de faciliter leur utilisation auprès du plus grand nombre.
 
 
 
